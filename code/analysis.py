@@ -28,6 +28,8 @@ class DataExploration:
         print(self.df_sr.groupby(['Location Type']).count())
 
     def plot_service_data(self):
+
+        ##########################################################################################
         print("One dimensional analysis")
         # # Request over time
         # df = pd.read_csv(self.f_parsed_requests_per_month, delimiter=',')
@@ -46,29 +48,62 @@ class DataExploration:
         # df = pd.read_csv('data/RequestsPerBorough.csv', delimiter=',')
         # df.set_index('Borough')
         # df.plot.pie(y='requests', autopct='%.2f', labels=df['Borough'])
+        # plt.legend(loc='best')
         # plt.show()
 
-        # over year bar chart
-        df = pd.read_csv(self.f_parsed_requests_per_month, delimiter=',')
-        df_year = df.groupby('year').sum()
-        df_year.reset_index().plot.line(x=df_year.index, y='requests', title='Requests Over Years', marker='o')
-        plt.xlabel('year')
-        plt.show()
+        # # over year bar chart
+        # df = pd.read_csv(self.f_parsed_requests_per_month, delimiter=',')
+        # df_year = df.groupby('year').sum()
+        # df_year.reset_index().plot.line(x=df_year.index, y='requests', title='Requests Over Years', marker='o')
+        # plt.xlabel('year')
+        # plt.show()
+        #
+        # # over month bar chart
+        # df_month = df.groupby('month').sum()
+        # df_month.reset_index().plot.line(x=df_month.index, y='requests', title='Requests Over Months', marker='o')
+        # plt.xlabel('month')
+        # plt.show()
 
-        # over month bar chart
-        df_month = df.groupby('month').sum()
-        df_month.reset_index().plot.line(x=df_month.index, y='requests', title='Requests Over Months', marker='o')
-        plt.xlabel('month')
-        plt.show()
-
-        # TODO:2 D
+        ##########################################################################################
+        print("Two dimensional analysis")
         # over complaint type over year
         # over complaint type over months
 
+        # location/boar over time
         # location/boar over year
         # location in months
+        df = pd.read_csv('data/RequestsPerBoroughOverTime.csv', delimiter=',')
+        df['Year'], df['Month'] = df['Year'].astype(int), df['Month'].astype(int)
+        df.sort_values(['Year', 'Month'], axis=0, ascending=True, inplace=True)
+        # df['Time'] = df[['Year', 'Month']].apply(lambda x: ''.join(str(x)), axis=1)
+
+        # df_time = df.groupby(['Time', 'Borough']).sum().reset_index()
+        # df_time = df_time.pivot(index=df_time.index, columns='Time', values='requests')
+        # plt.legend(loc='best')
+        #
+        # # df_time.reset_index().plot.line(x=df_time.index, y='requests', title='Requests Over Time')
+        # plt.xlabel('Time')
+        # plt.show()
+
+        df_year = df.groupby(['Year', 'Borough']).sum().reset_index()
+        # df_year.reset_index().plot.line(x=df_year.index, y='requests', title='Requests Over Years')
+        print(df_year.head(5))
+
+        df_year = df_year.pivot(index='Year', columns='Borough', values='requests')
+        plt.legend(loc='best')
+
+        plt.xlabel('Year')
+        df_year.plot()
+        plt.show()
+
+        df_month = df.groupby(['Month', 'Borough']).sum()
+        df_month.reset_index().plot.line(x=df_month.index, y='requests', title='Requests Over Months')
+        plt.xlabel('Time')
+        plt.show()
 
         # TODO: 3D
+        ##########################################################################################
+        print("Two dimensional analysis")
         # complaint tyoe in location over time (gif)
 
     def plot_weather_data(self):
