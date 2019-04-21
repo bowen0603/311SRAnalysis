@@ -1,3 +1,5 @@
+__author__ = 'bobo'
+
 import numpy as np
 import pandas as pd
 
@@ -5,8 +7,9 @@ from pandas import read_csv
 from matplotlib import pyplot
 import matplotlib.pyplot as plt
 from pandas import DataFrame
+import seaborn as sns
 
-class DataExploration:
+class Analysis:
     def __init__(self):
         self.file_sr = 'data/311_Service_Requests_from_2010_to_Present.csv'
         self.file_weather = 'data/weather_NY_2010_2018Nov.csv'
@@ -135,126 +138,84 @@ class DataExploration:
         print(type(m))
         m
 
-    def geo_convert(self):
-        file = 'data/weatherPerMonthLatLon.csv'
-        # Latitude,Longitude,Year,Month,MeanTemp,WindSpeed,rain
-        from geopy.geocoders import Nominatim
-        geolocator = Nominatim()
-
-        fout = open('data/parsedWeatherPerMonthLatLon.csv', 'w')
-        d_coor_borough = {}
-        for line in open(file, 'r'):
-            # Latitude,Longitude,Year,Month,MeanTemp,WindSpeed,rain
-            data = line.strip().split(',')
-            coor = "{}, {}".format(data[0], data[1])
-            if coor in d_coor_borough:
-                borough = d_coor_borough[coor]
-            else:
-                loc = str(geolocator.reverse(coor))
-                borough = None
-                if 'Queens County' in loc:
-                    borough = 'QUEENS'
-                elif 'Bronx County' in loc:
-                    borough = 'BRONX'
-                elif 'Kings County' in loc:
-                    borough = 'BROOKLYN'
-                elif 'Richmond County' in loc:
-                    borough = 'STATEN ISLAND'
-                elif 'New York County' in loc:
-                    borough = 'MANHATTAN'
-                d_coor_borough[coor] = borough
-
-            if borough is not None:
-                print("{},{}".format(borough, line.strip()))
-                print("{},{}".format(borough, line.strip()), file=fout)
-
-
-
-
-
-        # borough = []
-        # loc = ['40.764141, -73.954430', '40.78993085, -73.9496098723']
-        # for l in loc:
-        #     sub = str(geolocator.reverse(l))
-        #     borough.append(sub.split(', ')[2])
-        # borough
-
     def plot_weather_data(self):
         # TODO
         # changes over time
         # correlation among each attributes
         pass
 
-    def create_time_series_data(self):
-        fin_raw_time_series_data = self.f_raw_requests_per_month
-        fout_parsed_time_series_data = self.f_parsed_requests_per_month
-
-        # d_date = {}
-        # min_year, max_year = 2020, 2000
-        # for line in open(fin_raw_time_series_data, 'r'):
-        #     data = line.strip().split(',')
-        #     year, month, requests = int(data[0]), int(data[1]), int(data[2])
-        #     # data = load(line.strip())
-        #     if year not in d_date:
-        #         d_date[year] = {month: requests}
-        #     else:
-        #         d_date[year][month] = requests
-        #     min_year, max_year = min(min_year, year), max(max_year, year)
-        #
-        # fout = open(fout_parsed_time_series_data, 'w')
-        # for year in range(min_year, max_year, 1):
-        #     for month in range(1, 13, 1):
-        #         if year in d_date and month in d_date[year]:
-        #             print("{},{},{}".format(year, month, d_date[year][month]))
-        #             print("{},{},{}".format(year, month, d_date[year][month]), file=fout)
-        #             # print("{}-{},{}".format(year, month, d_date[year][month]))
-        #             # print("{}-{},{}".format(year, month, d_date[year][month]), file=fout)
-
-        fin_raw_time_series_data = 'data/RequestsPerBoroughOverTime.csv'
-        fout_parsed_time_series_data = 'data/RequestsPerBoroughOverTimeParsed.csv'
-
-        d_date = {}
-        min_year, max_year = 2020, 2000
-        for line in open(fin_raw_time_series_data, 'r'):
-            data = line.strip().split(',')
-            year, month, borough, requests = int(data[0]), int(data[1]), data[2], int(data[3])
-            # data = load(line.strip())
-            if borough not in d_date:
-                d_date[borough] = {year: {month: requests}}
-            else:
-                # d_date[borough][year][month] = requests
-                if year not in d_date[borough]:
-                    d_date[borough][year] = {month: requests}
-                else:
-                    d_date[borough][year][month] = requests
-            min_year, max_year = min(min_year, year), max(max_year, year)
-
-        fout = open(fout_parsed_time_series_data, 'w')
-        for borough in ['BRONX', 'QUEENS', 'MANHATTAN', 'BROOKLYN', 'STATEN ISLAND', 'Unspecified']:
-            for year in range(min_year, max_year, 1):
-                for month in range(1, 13, 1):
-                    if year in d_date[borough] and month in d_date[borough][year]:
-                        print("{}-{},{},{}".format(year, month, borough, d_date[borough][year][month]))
-                        print("{}-{},{},{}".format(year, month, borough, d_date[borough][year][month]), file=fout)
-                        # print("{}-{},{}".format(year, month, d_date[year][month]))
-                        # print("{}-{},{}".format(year, month, d_date[year][month]), file=fout)
-
-        # TODO: convert the daily file ...
-
     def stats(self):
         df = pd.read_csv('data/ResolutionDescriptionCounts.csv', delimiter=',')
         print(df.describe())
 
+    def corr_mtx(self, df, dropDuplicates=True):
+
+        # Compute the correlation matrix
+        # corr = df.corr()
+
+        # # Generate a mask for the upper triangle
+        # mask = np.zeros_like(corr, dtype=np.bool)
+        # mask[np.triu_indices_from(mask)] = True
+        #
+        # # Set up the matplotlib figure
+        # f, ax = plt.subplots(figsize=(11, 9))
+        #
+        # # Generate a custom diverging colormap
+        # cmap = sns.diverging_palette(220, 10, as_cmap=True)
+        #
+        # # Draw the heatmap with the mask and correct aspect ratio
+        # sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
+        #             square=True, linewidths=.5, cbar_kws={"shrink": .5})
+
+        # Your dataset is already a correlation matrix.
+        # If you have a dateset where you need to include the calculation
+        # of a correlation matrix, just uncomment the line below:
+        df = df.corr()
+
+        # Exclude duplicate correlations by masking uper right values
+        if dropDuplicates:
+            mask = np.zeros_like(df, dtype=np.bool)
+            mask[np.triu_indices_from(mask)] = True
+
+        # Set background color / chart style
+        sns.set_style(style = 'white')
+
+        # Set up  matplotlib figure
+        f, ax = plt.subplots(figsize=(11, 9))
+
+        # Add diverging colormap from red to blue
+        cmap = sns.diverging_palette(250, 10, as_cmap=True)
+
+        # Draw correlation plot with or without duplicates
+        if dropDuplicates:
+            sns.heatmap(df, mask=mask, cmap=cmap,
+                    square=True,
+                    linewidth=.5, cbar_kws={"shrink": .5}, ax=ax)
+        else:
+            sns.heatmap(df, cmap=cmap,
+                    square=True,
+                    linewidth=.5, cbar_kws={"shrink": .5}, ax=ax)
+        plt.show()
+
+    def correlation_analysis(self):
+        df_raw = pd.read_csv('data/RegressionData.csv', delimiter=',')
+        print(df_raw.head(5))
+        idx_cols = ['requests', 'f1', 'f2', 'f3', 'f4']
+        df = df_raw[idx_cols]
+        print(df.head(5))
+        self.corr_mtx(df, False)
+
+
 
 def main():
-    self = DataExploration()
+    self = Analysis()
     # self.read_data()
     # self.create_time_series_data()
     # self.time_series_analysis()
     # self.plot_service_data()
     # self.gioheatmap()
-    self.geo_convert()
     # self.stats()
+    self.correlation_analysis()
 
 
 if __name__ == '__main__':
