@@ -1,0 +1,4335 @@
+CreatedDateYear,CreatedDateMonth,Borough,ComplaintType,requests
+2010,01,BROOKLYN,Noise - Residential,2794
+2010,01,BRONX,Street Condition,996
+2010,01,QUEENS,General Construction/Plumbing,1114
+2010,01,BROOKLYN,Street Light Condition,2468
+2010,01,MANHATTAN,Water System,653
+2010,01,STATEN ISLAND,Water System,574
+2010,01,STATEN ISLAND,Traffic Signal Condition,150
+2010,01,BRONX,Water System,444
+2010,01,MANHATTAN,General Construction/Plumbing,1026
+2010,01,BRONX,Blocked Driveway,595
+2010,01,STATEN ISLAND,Blocked Driveway,153
+2010,01,STATEN ISLAND,Street Light Condition,784
+2010,01,BRONX,Street Light Condition,1568
+2010,01,Unspecified,Street Light Condition,184
+2010,01,BROOKLYN,Street Condition,2718
+2010,01,QUEENS,Street Light Condition,3175
+2010,01,BROOKLYN,Traffic Signal Condition,1447
+2010,01,QUEENS,Street Condition,2443
+2010,01,MANHATTAN,Street Condition,1761
+2010,01,MANHATTAN,Blocked Driveway,132
+2010,01,QUEENS,Traffic Signal Condition,1330
+2010,01,MANHATTAN,Noise - Residential,2289
+2010,01,QUEENS,Noise - Residential,1637
+2010,01,STATEN ISLAND,General Construction/Plumbing,188
+2010,01,STATEN ISLAND,Noise - Residential,201
+2010,01,BROOKLYN,Blocked Driveway,1498
+2010,01,BRONX,Noise - Residential,2996
+2010,01,Unspecified,Traffic Signal Condition,31
+2010,01,BRONX,Traffic Signal Condition,739
+2010,01,BROOKLYN,Water System,1303
+2010,01,STATEN ISLAND,Street Condition,1261
+2010,01,MANHATTAN,Street Light Condition,849
+2010,01,BRONX,General Construction/Plumbing,403
+2010,01,QUEENS,Blocked Driveway,1545
+2010,01,QUEENS,Water System,1827
+2010,01,BROOKLYN,General Construction/Plumbing,1307
+2010,01,MANHATTAN,Traffic Signal Condition,1334
+2010,02,BRONX,Water System,243
+2010,02,QUEENS,Water System,1009
+2010,02,MANHATTAN,Blocked Driveway,150
+2010,02,BRONX,Street Condition,1428
+2010,02,BROOKLYN,General Construction/Plumbing,1244
+2010,02,BROOKLYN,Street Condition,2618
+2010,02,MANHATTAN,Traffic Signal Condition,1130
+2010,02,BRONX,Street Light Condition,1408
+2010,02,STATEN ISLAND,Street Condition,1432
+2010,02,QUEENS,Noise - Residential,1528
+2010,02,BROOKLYN,Street Light Condition,2233
+2010,02,MANHATTAN,Water System,606
+2010,02,BRONX,Traffic Signal Condition,786
+2010,02,BROOKLYN,Blocked Driveway,1671
+2010,02,MANHATTAN,General Construction/Plumbing,812
+2010,02,MANHATTAN,Noise - Residential,2244
+2010,02,BROOKLYN,Traffic Signal Condition,1265
+2010,02,STATEN ISLAND,Street Light Condition,577
+2010,02,BRONX,Noise - Residential,2801
+2010,02,STATEN ISLAND,Noise - Residential,190
+2010,02,STATEN ISLAND,Blocked Driveway,191
+2010,02,Unspecified,Street Light Condition,118
+2010,02,Unspecified,Traffic Signal Condition,47
+2010,02,STATEN ISLAND,Water System,368
+2010,02,QUEENS,Traffic Signal Condition,1422
+2010,02,MANHATTAN,Street Light Condition,1101
+2010,02,STATEN ISLAND,Traffic Signal Condition,169
+2010,02,BRONX,General Construction/Plumbing,342
+2010,02,QUEENS,Blocked Driveway,1802
+2010,02,BROOKLYN,Water System,635
+2010,02,QUEENS,Street Light Condition,2683
+2010,02,BROOKLYN,Noise - Residential,2671
+2010,02,STATEN ISLAND,General Construction/Plumbing,159
+2010,02,QUEENS,General Construction/Plumbing,932
+2010,02,QUEENS,Street Condition,2479
+2010,02,BRONX,Blocked Driveway,657
+2010,02,Unspecified,Water System,1
+2010,02,MANHATTAN,Street Condition,1585
+2010,03,QUEENS,Water System,1598
+2010,03,QUEENS,Noise - Residential,1462
+2010,03,BROOKLYN,Street Light Condition,3346
+2010,03,STATEN ISLAND,Traffic Signal Condition,392
+2010,03,BROOKLYN,Traffic Signal Condition,2013
+2010,03,BROOKLYN,Street Condition,5282
+2010,03,STATEN ISLAND,Water System,408
+2010,03,STATEN ISLAND,Street Condition,3057
+2010,03,QUEENS,General Construction/Plumbing,1284
+2010,03,BRONX,Street Condition,2291
+2010,03,MANHATTAN,Noise - Residential,2277
+2010,03,BROOKLYN,General Construction/Plumbing,1685
+2010,03,MANHATTAN,General Construction/Plumbing,1258
+2010,03,STATEN ISLAND,Noise - Residential,242
+2010,03,MANHATTAN,Water System,609
+2010,03,QUEENS,Blocked Driveway,1657
+2010,03,QUEENS,Traffic Signal Condition,1772
+2010,03,STATEN ISLAND,General Construction/Plumbing,319
+2010,03,BRONX,General Construction/Plumbing,624
+2010,03,BRONX,Noise - Residential,2647
+2010,03,QUEENS,Street Light Condition,3935
+2010,03,BROOKLYN,Blocked Driveway,1436
+2010,03,BROOKLYN,Water System,848
+2010,03,MANHATTAN,Street Condition,2730
+2010,03,BRONX,Water System,372
+2010,03,QUEENS,Street Condition,6242
+2010,03,MANHATTAN,Traffic Signal Condition,1241
+2010,03,Unspecified,Street Light Condition,271
+2010,03,MANHATTAN,Street Light Condition,1046
+2010,03,BRONX,Blocked Driveway,580
+2010,03,BROOKLYN,Noise - Residential,2550
+2010,03,STATEN ISLAND,Blocked Driveway,139
+2010,03,MANHATTAN,Blocked Driveway,123
+2010,03,Unspecified,Traffic Signal Condition,62
+2010,03,STATEN ISLAND,Street Light Condition,858
+2010,03,BRONX,Traffic Signal Condition,1182
+2010,03,BRONX,Street Light Condition,2044
+2010,04,BRONX,Blocked Driveway,599
+2010,04,MANHATTAN,Noise - Residential,2544
+2010,04,BRONX,Street Light Condition,2461
+2010,04,BRONX,Street Condition,1041
+2010,04,STATEN ISLAND,Noise - Residential,278
+2010,04,QUEENS,Blocked Driveway,1448
+2010,04,QUEENS,Street Light Condition,3693
+2010,04,BROOKLYN,Street Light Condition,3037
+2010,04,BRONX,Water System,420
+2010,04,QUEENS,Traffic Signal Condition,1158
+2010,04,QUEENS,Water System,1624
+2010,04,Unspecified,Traffic Signal Condition,46
+2010,04,BROOKLYN,Water System,1033
+2010,04,BROOKLYN,Noise - Residential,3008
+2010,04,BROOKLYN,General Construction/Plumbing,1665
+2010,04,QUEENS,General Construction/Plumbing,1279
+2010,04,BROOKLYN,Traffic Signal Condition,1322
+2010,04,QUEENS,Noise - Residential,1734
+2010,04,BROOKLYN,Street Condition,3135
+2010,04,QUEENS,Street Condition,3559
+2010,04,BRONX,General Construction/Plumbing,486
+2010,04,Unspecified,Water System,2
+2010,04,STATEN ISLAND,General Construction/Plumbing,314
+2010,04,MANHATTAN,Street Light Condition,1460
+2010,04,MANHATTAN,Traffic Signal Condition,949
+2010,04,STATEN ISLAND,Water System,414
+2010,04,BROOKLYN,Blocked Driveway,1380
+2010,04,Unspecified,Street Light Condition,193
+2010,04,MANHATTAN,Street Condition,2422
+2010,04,STATEN ISLAND,Street Condition,1480
+2010,04,STATEN ISLAND,Street Light Condition,608
+2010,04,BRONX,Noise - Residential,2818
+2010,04,MANHATTAN,Water System,590
+2010,04,STATEN ISLAND,Blocked Driveway,133
+2010,04,MANHATTAN,General Construction/Plumbing,1156
+2010,04,MANHATTAN,Blocked Driveway,137
+2010,04,BRONX,Traffic Signal Condition,565
+2010,04,STATEN ISLAND,Traffic Signal Condition,140
+2010,05,BROOKLYN,Noise - Residential,3531
+2010,05,BRONX,Traffic Signal Condition,567
+2010,05,MANHATTAN,Street Condition,1857
+2010,05,STATEN ISLAND,Blocked Driveway,140
+2010,05,STATEN ISLAND,Water System,563
+2010,05,QUEENS,General Construction/Plumbing,1318
+2010,05,BRONX,Noise - Residential,2818
+2010,05,BROOKLYN,Street Light Condition,2610
+2010,05,MANHATTAN,Noise - Residential,2323
+2010,05,QUEENS,Street Light Condition,3492
+2010,05,STATEN ISLAND,Traffic Signal Condition,111
+2010,05,MANHATTAN,Street Light Condition,1179
+2010,05,BRONX,General Construction/Plumbing,494
+2010,05,BRONX,Street Light Condition,1595
+2010,05,MANHATTAN,Water System,868
+2010,05,BRONX,Blocked Driveway,611
+2010,05,STATEN ISLAND,Street Condition,1014
+2010,05,BROOKLYN,Water System,1073
+2010,05,BRONX,Water System,823
+2010,05,Unspecified,Traffic Signal Condition,46
+2010,05,STATEN ISLAND,Noise - Residential,345
+2010,05,MANHATTAN,Blocked Driveway,138
+2010,05,QUEENS,Noise - Residential,2370
+2010,05,QUEENS,Street Condition,2274
+2010,05,STATEN ISLAND,Street Light Condition,621
+2010,05,BROOKLYN,General Construction/Plumbing,1357
+2010,05,Unspecified,Street Light Condition,134
+2010,05,QUEENS,Water System,1178
+2010,05,BRONX,Street Condition,899
+2010,05,BROOKLYN,Street Condition,2271
+2010,05,MANHATTAN,General Construction/Plumbing,1124
+2010,05,BROOKLYN,Traffic Signal Condition,1275
+2010,05,BROOKLYN,Blocked Driveway,1512
+2010,05,STATEN ISLAND,General Construction/Plumbing,308
+2010,05,QUEENS,Traffic Signal Condition,1025
+2010,05,QUEENS,Blocked Driveway,1622
+2010,05,MANHATTAN,Traffic Signal Condition,1200
+2010,06,BROOKLYN,General Construction/Plumbing,1667
+2010,06,QUEENS,Water System,1938
+2010,06,BROOKLYN,Blocked Driveway,1520
+2010,06,MANHATTAN,Blocked Driveway,132
+2010,06,QUEENS,Street Light Condition,3372
+2010,06,STATEN ISLAND,Street Light Condition,709
+2010,06,STATEN ISLAND,Noise - Residential,281
+2010,06,BRONX,Street Light Condition,2325
+2010,06,BRONX,Traffic Signal Condition,512
+2010,06,MANHATTAN,Noise - Residential,1515
+2010,06,STATEN ISLAND,Water System,389
+2010,06,Unspecified,Street Light Condition,138
+2010,06,STATEN ISLAND,Traffic Signal Condition,97
+2010,06,BRONX,Noise - Residential,1888
+2010,06,BROOKLYN,Street Condition,1812
+2010,06,QUEENS,Street Condition,2336
+2010,06,MANHATTAN,Street Condition,1329
+2010,06,STATEN ISLAND,Street Condition,751
+2010,06,BRONX,Water System,2464
+2010,06,BRONX,Blocked Driveway,594
+2010,06,MANHATTAN,Traffic Signal Condition,1134
+2010,06,BRONX,Street Condition,1289
+2010,06,MANHATTAN,General Construction/Plumbing,1014
+2010,06,STATEN ISLAND,General Construction/Plumbing,295
+2010,06,QUEENS,Traffic Signal Condition,1043
+2010,06,STATEN ISLAND,Blocked Driveway,132
+2010,06,Unspecified,Water System,23
+2010,06,BRONX,General Construction/Plumbing,482
+2010,06,MANHATTAN,Street Light Condition,1196
+2010,06,QUEENS,Blocked Driveway,1579
+2010,06,Unspecified,Traffic Signal Condition,19
+2010,06,BROOKLYN,Traffic Signal Condition,994
+2010,06,QUEENS,General Construction/Plumbing,1194
+2010,06,QUEENS,Noise - Residential,1869
+2010,06,BROOKLYN,Street Light Condition,2769
+2010,06,BROOKLYN,Noise - Residential,2761
+2010,06,MANHATTAN,Water System,2252
+2010,06,BROOKLYN,Water System,1943
+2010,07,Unspecified,Traffic Signal Condition,40
+2010,07,STATEN ISLAND,General Construction/Plumbing,248
+2010,07,BRONX,Noise - Residential,2087
+2010,07,STATEN ISLAND,Blocked Driveway,139
+2010,07,BROOKLYN,Street Light Condition,2516
+2010,07,QUEENS,Water System,2049
+2010,07,Unspecified,Water System,53
+2010,07,BRONX,Street Light Condition,2147
+2010,07,BRONX,Street Condition,676
+2010,07,STATEN ISLAND,Noise - Residential,286
+2010,07,BROOKLYN,Water System,2594
+2010,07,STATEN ISLAND,Street Light Condition,522
+2010,07,QUEENS,General Construction/Plumbing,1267
+2010,07,MANHATTAN,Noise - Residential,1336
+2010,07,BROOKLYN,Traffic Signal Condition,915
+2010,07,BRONX,Water System,2556
+2010,07,MANHATTAN,Water System,2125
+2010,07,BRONX,General Construction/Plumbing,492
+2010,07,MANHATTAN,Blocked Driveway,136
+2010,07,MANHATTAN,Street Condition,1470
+2010,07,BROOKLYN,Blocked Driveway,1406
+2010,07,QUEENS,Street Condition,1580
+2010,07,MANHATTAN,Traffic Signal Condition,1026
+2010,07,MANHATTAN,General Construction/Plumbing,986
+2010,07,MANHATTAN,Street Light Condition,1190
+2010,07,QUEENS,Traffic Signal Condition,1059
+2010,07,BROOKLYN,General Construction/Plumbing,1510
+2010,07,BROOKLYN,Noise - Residential,2620
+2010,07,QUEENS,Blocked Driveway,1504
+2010,07,BRONX,Traffic Signal Condition,466
+2010,07,STATEN ISLAND,Water System,397
+2010,07,Unspecified,Street Light Condition,115
+2010,07,STATEN ISLAND,Street Condition,703
+2010,07,BROOKLYN,Street Condition,1862
+2010,07,QUEENS,Street Light Condition,2782
+2010,07,BRONX,Blocked Driveway,599
+2010,07,QUEENS,Noise - Residential,1942
+2010,07,STATEN ISLAND,Traffic Signal Condition,135
+2010,08,QUEENS,Street Light Condition,3194
+2010,08,QUEENS,Water System,1684
+2010,08,STATEN ISLAND,Street Condition,613
+2010,08,BRONX,Street Light Condition,1871
+2010,08,STATEN ISLAND,Water System,593
+2010,08,BRONX,Water System,1557
+2010,08,STATEN ISLAND,Traffic Signal Condition,103
+2010,08,Unspecified,Water System,5
+2010,08,QUEENS,Noise - Residential,2277
+2010,08,QUEENS,General Construction/Plumbing,1482
+2010,08,BROOKLYN,Street Light Condition,2357
+2010,08,BRONX,Blocked Driveway,537
+2010,08,BRONX,General Construction/Plumbing,536
+2010,08,BROOKLYN,General Construction/Plumbing,1705
+2010,08,QUEENS,Street Condition,1568
+2010,08,Unspecified,Traffic Signal Condition,27
+2010,08,BROOKLYN,Water System,1846
+2010,08,STATEN ISLAND,Noise - Residential,365
+2010,08,MANHATTAN,Traffic Signal Condition,973
+2010,08,MANHATTAN,Blocked Driveway,141
+2010,08,MANHATTAN,General Construction/Plumbing,1101
+2010,08,Unspecified,Street Light Condition,133
+2010,08,MANHATTAN,Street Condition,1360
+2010,08,BROOKLYN,Blocked Driveway,1397
+2010,08,QUEENS,Blocked Driveway,1574
+2010,08,QUEENS,Traffic Signal Condition,957
+2010,08,MANHATTAN,Street Light Condition,1050
+2010,08,BROOKLYN,Noise - Residential,3084
+2010,08,STATEN ISLAND,Street Light Condition,649
+2010,08,BRONX,Street Condition,930
+2010,08,MANHATTAN,Water System,1217
+2010,08,MANHATTAN,Noise - Residential,1460
+2010,08,BRONX,Traffic Signal Condition,454
+2010,08,STATEN ISLAND,General Construction/Plumbing,256
+2010,08,BRONX,Noise - Residential,2424
+2010,08,BROOKLYN,Street Condition,1844
+2010,08,BROOKLYN,Traffic Signal Condition,1006
+2010,08,STATEN ISLAND,Blocked Driveway,131
+2010,09,QUEENS,Blocked Driveway,1834
+2010,09,BROOKLYN,General Construction/Plumbing,1596
+2010,09,QUEENS,Street Light Condition,3386
+2010,09,Unspecified,Traffic Signal Condition,75
+2010,09,STATEN ISLAND,Blocked Driveway,137
+2010,09,MANHATTAN,Noise - Residential,1716
+2010,09,QUEENS,Street Condition,1398
+2010,09,STATEN ISLAND,Street Condition,505
+2010,09,STATEN ISLAND,Street Light Condition,480
+2010,09,BRONX,Water System,869
+2010,09,MANHATTAN,Water System,899
+2010,09,BROOKLYN,Water System,1094
+2010,09,MANHATTAN,Traffic Signal Condition,1047
+2010,09,STATEN ISLAND,Noise - Residential,327
+2010,09,STATEN ISLAND,Water System,261
+2010,09,BRONX,General Construction/Plumbing,514
+2010,09,BRONX,Noise - Residential,2652
+2010,09,QUEENS,Traffic Signal Condition,1054
+2010,09,QUEENS,General Construction/Plumbing,1286
+2010,09,STATEN ISLAND,Traffic Signal Condition,128
+2010,09,BROOKLYN,Street Light Condition,2711
+2010,09,MANHATTAN,General Construction/Plumbing,1060
+2010,09,MANHATTAN,Street Light Condition,1329
+2010,09,Unspecified,Street Light Condition,212
+2010,09,BROOKLYN,Noise - Residential,3141
+2010,09,Unspecified,Water System,2
+2010,09,MANHATTAN,Blocked Driveway,170
+2010,09,STATEN ISLAND,General Construction/Plumbing,249
+2010,09,MANHATTAN,Street Condition,1817
+2010,09,BROOKLYN,Traffic Signal Condition,1125
+2010,09,BRONX,Traffic Signal Condition,472
+2010,09,BROOKLYN,Blocked Driveway,1528
+2010,09,BRONX,Street Light Condition,1924
+2010,09,QUEENS,Noise - Residential,2331
+2010,09,QUEENS,Water System,1291
+2010,09,BROOKLYN,Street Condition,1572
+2010,09,BRONX,Street Condition,738
+2010,09,BRONX,Blocked Driveway,581
+2010,10,STATEN ISLAND,Street Condition,636
+2010,10,BROOKLYN,Noise - Residential,2908
+2010,10,STATEN ISLAND,Blocked Driveway,158
+2010,10,BROOKLYN,Street Light Condition,2939
+2010,10,MANHATTAN,Traffic Signal Condition,1247
+2010,10,QUEENS,Blocked Driveway,1978
+2010,10,QUEENS,Water System,1427
+2010,10,MANHATTAN,Water System,658
+2010,10,STATEN ISLAND,Traffic Signal Condition,110
+2010,10,STATEN ISLAND,Street Light Condition,549
+2010,10,BROOKLYN,General Construction/Plumbing,1415
+2010,10,MANHATTAN,General Construction/Plumbing,890
+2010,10,BRONX,General Construction/Plumbing,469
+2010,10,BRONX,Street Condition,610
+2010,10,Unspecified,Street Light Condition,75
+2010,10,BROOKLYN,Water System,717
+2010,10,BRONX,Blocked Driveway,662
+2010,10,Unspecified,Traffic Signal Condition,17
+2010,10,BROOKLYN,Traffic Signal Condition,1222
+2010,10,Unspecified,Water System,6
+2010,10,MANHATTAN,Noise - Residential,2676
+2010,10,STATEN ISLAND,General Construction/Plumbing,241
+2010,10,QUEENS,Street Condition,1295
+2010,10,STATEN ISLAND,Noise - Residential,272
+2010,10,QUEENS,Street Light Condition,3391
+2010,10,MANHATTAN,Street Light Condition,1377
+2010,10,QUEENS,Noise - Residential,1955
+2010,10,MANHATTAN,Blocked Driveway,177
+2010,10,BRONX,Noise - Residential,2912
+2010,10,QUEENS,Traffic Signal Condition,1022
+2010,10,BRONX,Street Light Condition,2011
+2010,10,MANHATTAN,Street Condition,1819
+2010,10,STATEN ISLAND,Water System,402
+2010,10,BROOKLYN,Blocked Driveway,1755
+2010,10,QUEENS,General Construction/Plumbing,1167
+2010,10,BRONX,Traffic Signal Condition,662
+2010,10,BRONX,Water System,367
+2010,10,BROOKLYN,Street Condition,1804
+2010,11,QUEENS,Noise - Residential,1628
+2010,11,BRONX,General Construction/Plumbing,494
+2010,11,BRONX,Blocked Driveway,671
+2010,11,STATEN ISLAND,Traffic Signal Condition,138
+2010,11,BROOKLYN,Water System,887
+2010,11,BROOKLYN,Street Condition,1740
+2010,11,MANHATTAN,Street Light Condition,1105
+2010,11,STATEN ISLAND,General Construction/Plumbing,191
+2010,11,MANHATTAN,Water System,636
+2010,11,QUEENS,Blocked Driveway,1824
+2010,11,STATEN ISLAND,Water System,465
+2010,11,BRONX,Street Condition,511
+2010,11,Unspecified,Street Light Condition,171
+2010,11,Unspecified,Water System,2
+2010,11,MANHATTAN,Street Condition,1445
+2010,11,QUEENS,Street Condition,1234
+2010,11,QUEENS,Street Light Condition,2909
+2010,11,QUEENS,Traffic Signal Condition,1024
+2010,11,MANHATTAN,General Construction/Plumbing,563
+2010,11,BROOKLYN,Traffic Signal Condition,1179
+2010,11,MANHATTAN,Noise - Residential,2344
+2010,11,BRONX,Street Light Condition,1570
+2010,11,BROOKLYN,Noise - Residential,2557
+2010,11,Unspecified,Traffic Signal Condition,11
+2010,11,BROOKLYN,Blocked Driveway,1717
+2010,11,MANHATTAN,Traffic Signal Condition,1096
+2010,11,MANHATTAN,Blocked Driveway,141
+2010,11,BRONX,Traffic Signal Condition,411
+2010,11,QUEENS,General Construction/Plumbing,894
+2010,11,STATEN ISLAND,Street Light Condition,469
+2010,11,STATEN ISLAND,Noise - Residential,204
+2010,11,BRONX,Noise - Residential,2820
+2010,11,BROOKLYN,Street Light Condition,2479
+2010,11,STATEN ISLAND,Blocked Driveway,141
+2010,11,BROOKLYN,General Construction/Plumbing,1375
+2010,11,QUEENS,Water System,1380
+2010,11,STATEN ISLAND,Street Condition,501
+2010,11,BRONX,Water System,386
+2010,12,QUEENS,Street Condition,1061
+2010,12,BRONX,Traffic Signal Condition,654
+2010,12,BROOKLYN,Street Condition,1745
+2010,12,STATEN ISLAND,Street Light Condition,411
+2010,12,MANHATTAN,Water System,540
+2010,12,STATEN ISLAND,Street Condition,506
+2010,12,MANHATTAN,Noise - Residential,2107
+2010,12,QUEENS,Street Light Condition,2639
+2010,12,Unspecified,Traffic Signal Condition,37
+2010,12,MANHATTAN,Street Light Condition,1299
+2010,12,QUEENS,Blocked Driveway,2076
+2010,12,BROOKLYN,Street Light Condition,2367
+2010,12,BROOKLYN,General Construction/Plumbing,1061
+2010,12,MANHATTAN,General Construction/Plumbing,477
+2010,12,Unspecified,Water System,1
+2010,12,STATEN ISLAND,Noise - Residential,175
+2010,12,BRONX,General Construction/Plumbing,336
+2010,12,STATEN ISLAND,Water System,461
+2010,12,BRONX,Noise - Residential,2439
+2010,12,STATEN ISLAND,General Construction/Plumbing,100
+2010,12,BRONX,Street Light Condition,1738
+2010,12,QUEENS,Noise - Residential,1451
+2010,12,BRONX,Blocked Driveway,741
+2010,12,BROOKLYN,Blocked Driveway,1770
+2010,12,QUEENS,General Construction/Plumbing,538
+2010,12,MANHATTAN,Street Condition,1273
+2010,12,STATEN ISLAND,Blocked Driveway,191
+2010,12,BRONX,Street Condition,513
+2010,12,BROOKLYN,Traffic Signal Condition,1754
+2010,12,BROOKLYN,Noise - Residential,2443
+2010,12,MANHATTAN,Blocked Driveway,142
+2010,12,QUEENS,Water System,1556
+2010,12,Unspecified,Street Light Condition,159
+2010,12,QUEENS,Traffic Signal Condition,1485
+2010,12,STATEN ISLAND,Traffic Signal Condition,238
+2010,12,BROOKLYN,Water System,936
+2010,12,MANHATTAN,Traffic Signal Condition,1689
+2010,12,BRONX,Water System,405
+2011,01,MANHATTAN,Noise - Residential,2338
+2011,01,MANHATTAN,Blocked Driveway,188
+2011,01,STATEN ISLAND,Noise - Residential,172
+2011,01,BROOKLYN,Traffic Signal Condition,1674
+2011,01,STATEN ISLAND,Street Light Condition,403
+2011,01,STATEN ISLAND,Traffic Signal Condition,289
+2011,01,Unspecified,Street Light Condition,116
+2011,01,MANHATTAN,Street Condition,1542
+2011,01,BROOKLYN,Water System,849
+2011,01,QUEENS,Street Light Condition,2422
+2011,01,QUEENS,Blocked Driveway,2733
+2011,01,MANHATTAN,Street Light Condition,1158
+2011,01,MANHATTAN,Water System,588
+2011,01,BROOKLYN,Street Light Condition,2161
+2011,01,QUEENS,General Construction/Plumbing,588
+2011,01,BRONX,Street Condition,749
+2011,01,BROOKLYN,Noise - Residential,2707
+2011,01,BRONX,General Construction/Plumbing,335
+2011,01,MANHATTAN,General Construction/Plumbing,439
+2011,01,BROOKLYN,Street Condition,2347
+2011,01,BRONX,Water System,384
+2011,01,STATEN ISLAND,Blocked Driveway,317
+2011,01,QUEENS,Noise - Residential,1492
+2011,01,BRONX,Blocked Driveway,969
+2011,01,BRONX,Noise - Residential,2746
+2011,01,QUEENS,Street Condition,1765
+2011,01,BRONX,Traffic Signal Condition,748
+2011,01,Unspecified,Traffic Signal Condition,40
+2011,01,STATEN ISLAND,General Construction/Plumbing,109
+2011,01,BROOKLYN,General Construction/Plumbing,925
+2011,01,STATEN ISLAND,Street Condition,868
+2011,01,BROOKLYN,Blocked Driveway,2554
+2011,01,Unspecified,Water System,1
+2011,01,STATEN ISLAND,Water System,414
+2011,01,BRONX,Street Light Condition,1740
+2011,01,QUEENS,Traffic Signal Condition,1544
+2011,01,QUEENS,Water System,1582
+2011,01,MANHATTAN,Traffic Signal Condition,1498
+2011,02,STATEN ISLAND,Traffic Signal Condition,155
+2011,02,QUEENS,Blocked Driveway,2141
+2011,02,STATEN ISLAND,Street Condition,2415
+2011,02,BRONX,Water System,420
+2011,02,Unspecified,Traffic Signal Condition,36
+2011,02,BROOKLYN,Traffic Signal Condition,1336
+2011,02,BRONX,Street Light Condition,1577
+2011,02,STATEN ISLAND,Blocked Driveway,174
+2011,02,MANHATTAN,Street Condition,3694
+2011,02,QUEENS,Noise - Residential,1302
+2011,02,BROOKLYN,Street Light Condition,2164
+2011,02,QUEENS,Traffic Signal Condition,1256
+2011,02,MANHATTAN,General Construction/Plumbing,442
+2011,02,BROOKLYN,Water System,981
+2011,02,Unspecified,Street Light Condition,96
+2011,02,BRONX,General Construction/Plumbing,320
+2011,02,BROOKLYN,Street Condition,3933
+2011,02,MANHATTAN,Blocked Driveway,130
+2011,02,BRONX,Street Condition,1475
+2011,02,MANHATTAN,Water System,576
+2011,02,QUEENS,General Construction/Plumbing,549
+2011,02,BROOKLYN,General Construction/Plumbing,1115
+2011,02,BRONX,Noise - Residential,2459
+2011,02,MANHATTAN,Traffic Signal Condition,1148
+2011,02,QUEENS,Street Light Condition,2500
+2011,02,STATEN ISLAND,Noise - Residential,148
+2011,02,MANHATTAN,Noise - Residential,2272
+2011,02,BROOKLYN,Blocked Driveway,1948
+2011,02,QUEENS,Water System,1350
+2011,02,STATEN ISLAND,Water System,339
+2011,02,BROOKLYN,Noise - Residential,2472
+2011,02,STATEN ISLAND,General Construction/Plumbing,122
+2011,02,BRONX,Blocked Driveway,807
+2011,02,QUEENS,Street Condition,4313
+2011,02,STATEN ISLAND,Street Light Condition,572
+2011,02,BRONX,Traffic Signal Condition,827
+2011,02,MANHATTAN,Street Light Condition,1062
+2011,03,MANHATTAN,General Construction/Plumbing,599
+2011,03,MANHATTAN,Traffic Signal Condition,993
+2011,03,MANHATTAN,Street Condition,3200
+2011,03,QUEENS,Street Condition,4604
+2011,03,BROOKLYN,Street Condition,3771
+2011,03,STATEN ISLAND,Street Condition,2220
+2011,03,Unspecified,Street Light Condition,168
+2011,03,QUEENS,Noise - Residential,1589
+2011,03,BRONX,Water System,516
+2011,03,BRONX,Street Light Condition,1770
+2011,03,MANHATTAN,Street Light Condition,1372
+2011,03,QUEENS,Blocked Driveway,1738
+2011,03,QUEENS,General Construction/Plumbing,785
+2011,03,BRONX,Noise - Residential,2567
+2011,03,QUEENS,Traffic Signal Condition,1217
+2011,03,STATEN ISLAND,General Construction/Plumbing,170
+2011,03,STATEN ISLAND,Blocked Driveway,117
+2011,03,STATEN ISLAND,Traffic Signal Condition,238
+2011,03,STATEN ISLAND,Water System,446
+2011,03,BROOKLYN,Water System,945
+2011,03,BROOKLYN,Blocked Driveway,1666
+2011,03,QUEENS,Water System,1295
+2011,03,STATEN ISLAND,Noise - Residential,212
+2011,03,BRONX,Street Condition,1934
+2011,03,MANHATTAN,Blocked Driveway,153
+2011,03,MANHATTAN,Noise - Residential,2311
+2011,03,QUEENS,Street Light Condition,3237
+2011,03,STATEN ISLAND,Street Light Condition,594
+2011,03,BROOKLYN,Traffic Signal Condition,1342
+2011,03,MANHATTAN,Water System,631
+2011,03,BRONX,General Construction/Plumbing,588
+2011,03,Unspecified,Street Condition,1
+2011,03,BRONX,Traffic Signal Condition,689
+2011,03,BROOKLYN,General Construction/Plumbing,1335
+2011,03,BROOKLYN,Noise - Residential,2596
+2011,03,BRONX,Blocked Driveway,667
+2011,03,BROOKLYN,Street Light Condition,2634
+2011,03,Unspecified,Traffic Signal Condition,49
+2011,04,STATEN ISLAND,Street Condition,1360
+2011,04,BRONX,Street Light Condition,1609
+2011,04,BROOKLYN,General Construction/Plumbing,1784
+2011,04,MANHATTAN,Traffic Signal Condition,949
+2011,04,BRONX,Traffic Signal Condition,471
+2011,04,MANHATTAN,Noise - Residential,2331
+2011,04,QUEENS,Street Light Condition,2776
+2011,04,BRONX,Water System,377
+2011,04,MANHATTAN,Blocked Driveway,126
+2011,04,BRONX,Blocked Driveway,581
+2011,04,BROOKLYN,Street Light Condition,2337
+2011,04,QUEENS,Water System,1104
+2011,04,STATEN ISLAND,Noise - Residential,179
+2011,04,BROOKLYN,Street Condition,2784
+2011,04,QUEENS,Traffic Signal Condition,1044
+2011,04,STATEN ISLAND,Street Light Condition,575
+2011,04,BROOKLYN,Water System,856
+2011,04,BRONX,Street Condition,1427
+2011,04,STATEN ISLAND,General Construction/Plumbing,170
+2011,04,STATEN ISLAND,Traffic Signal Condition,135
+2011,04,Unspecified,Traffic Signal Condition,94
+2011,04,QUEENS,Street Condition,2850
+2011,04,BROOKLYN,Blocked Driveway,1430
+2011,04,Unspecified,Street Light Condition,78
+2011,04,MANHATTAN,Water System,600
+2011,04,BRONX,Noise - Residential,2552
+2011,04,BRONX,General Construction/Plumbing,582
+2011,04,QUEENS,General Construction/Plumbing,944
+2011,04,BROOKLYN,Traffic Signal Condition,946
+2011,04,QUEENS,Noise - Residential,1521
+2011,04,MANHATTAN,General Construction/Plumbing,488
+2011,04,STATEN ISLAND,Water System,459
+2011,04,STATEN ISLAND,Blocked Driveway,120
+2011,04,MANHATTAN,Street Light Condition,1198
+2011,04,QUEENS,Blocked Driveway,1568
+2011,04,MANHATTAN,Street Condition,2552
+2011,04,BROOKLYN,Noise - Residential,2825
+2011,05,MANHATTAN,Street Light Condition,1340
+2011,05,STATEN ISLAND,Blocked Driveway,129
+2011,05,Unspecified,Water System,1
+2011,05,BRONX,Water System,591
+2011,05,BROOKLYN,General Construction/Plumbing,1440
+2011,05,QUEENS,Blocked Driveway,1574
+2011,05,STATEN ISLAND,Traffic Signal Condition,206
+2011,05,STATEN ISLAND,Water System,344
+2011,05,QUEENS,Water System,1054
+2011,05,STATEN ISLAND,Street Condition,1118
+2011,05,BROOKLYN,Street Light Condition,2281
+2011,05,BRONX,Blocked Driveway,614
+2011,05,BRONX,Street Light Condition,2123
+2011,05,MANHATTAN,Traffic Signal Condition,924
+2011,05,Unspecified,Traffic Signal Condition,58
+2011,05,BRONX,Noise - Residential,2501
+2011,05,BRONX,Street Condition,1084
+2011,05,QUEENS,Traffic Signal Condition,946
+2011,05,QUEENS,Noise - Residential,2195
+2011,05,BROOKLYN,Water System,934
+2011,05,MANHATTAN,Street Condition,2072
+2011,05,MANHATTAN,General Construction/Plumbing,485
+2011,05,MANHATTAN,Blocked Driveway,164
+2011,05,MANHATTAN,Noise - Residential,2168
+2011,05,BRONX,Traffic Signal Condition,449
+2011,05,BROOKLYN,Noise - Residential,3359
+2011,05,BRONX,General Construction/Plumbing,360
+2011,05,BROOKLYN,Street Condition,2716
+2011,05,STATEN ISLAND,General Construction/Plumbing,220
+2011,05,QUEENS,General Construction/Plumbing,1051
+2011,05,STATEN ISLAND,Street Light Condition,471
+2011,05,STATEN ISLAND,Noise - Residential,320
+2011,05,Unspecified,Street Light Condition,149
+2011,05,BROOKLYN,Traffic Signal Condition,974
+2011,05,BROOKLYN,Blocked Driveway,1507
+2011,05,QUEENS,Street Light Condition,2511
+2011,05,MANHATTAN,Water System,796
+2011,05,QUEENS,Street Condition,2914
+2011,06,MANHATTAN,General Construction/Plumbing,486
+2011,06,BROOKLYN,Noise - Residential,2939
+2011,06,BRONX,Blocked Driveway,600
+2011,06,STATEN ISLAND,Street Condition,897
+2011,06,BRONX,Noise - Residential,2089
+2011,06,QUEENS,General Construction/Plumbing,954
+2011,06,Unspecified,Water System,1
+2011,06,STATEN ISLAND,Water System,364
+2011,06,Unspecified,Street Light Condition,178
+2011,06,QUEENS,Street Light Condition,2547
+2011,06,STATEN ISLAND,Blocked Driveway,131
+2011,06,STATEN ISLAND,Street Light Condition,487
+2011,06,Unspecified,Traffic Signal Condition,43
+2011,06,MANHATTAN,Noise - Residential,1607
+2011,06,STATEN ISLAND,General Construction/Plumbing,243
+2011,06,BROOKLYN,Street Condition,2044
+2011,06,BRONX,Street Condition,869
+2011,06,BROOKLYN,Water System,1428
+2011,06,QUEENS,Noise - Residential,2091
+2011,06,QUEENS,Traffic Signal Condition,643
+2011,06,QUEENS,Street Condition,2169
+2011,06,MANHATTAN,Street Light Condition,1405
+2011,06,STATEN ISLAND,Noise - Residential,310
+2011,06,BRONX,Traffic Signal Condition,388
+2011,06,BROOKLYN,General Construction/Plumbing,1564
+2011,06,QUEENS,Water System,1630
+2011,06,MANHATTAN,Blocked Driveway,105
+2011,06,BRONX,Water System,1460
+2011,06,STATEN ISLAND,Traffic Signal Condition,161
+2011,06,BROOKLYN,Blocked Driveway,1470
+2011,06,BROOKLYN,Street Light Condition,2249
+2011,06,MANHATTAN,Street Condition,1452
+2011,06,BROOKLYN,Traffic Signal Condition,762
+2011,06,BRONX,Street Light Condition,1962
+2011,06,MANHATTAN,Traffic Signal Condition,880
+2011,06,BRONX,General Construction/Plumbing,474
+2011,06,QUEENS,Blocked Driveway,1639
+2011,06,MANHATTAN,Water System,1157
+2011,07,Unspecified,Traffic Signal Condition,48
+2011,07,STATEN ISLAND,Street Light Condition,462
+2011,07,QUEENS,Noise - Residential,2100
+2011,07,BRONX,Blocked Driveway,593
+2011,07,BROOKLYN,Street Condition,1819
+2011,07,BROOKLYN,Street Light Condition,2055
+2011,07,MANHATTAN,Street Light Condition,908
+2011,07,BRONX,Noise - Residential,1985
+2011,07,BROOKLYN,Noise - Residential,3020
+2011,07,QUEENS,General Construction/Plumbing,852
+2011,07,MANHATTAN,Traffic Signal Condition,823
+2011,07,QUEENS,Street Light Condition,2226
+2011,07,QUEENS,Street Condition,1868
+2011,07,STATEN ISLAND,Traffic Signal Condition,188
+2011,07,BRONX,Street Light Condition,1726
+2011,07,BROOKLYN,Traffic Signal Condition,809
+2011,07,STATEN ISLAND,General Construction/Plumbing,174
+2011,07,BRONX,Traffic Signal Condition,374
+2011,07,MANHATTAN,Street Condition,1224
+2011,07,Unspecified,Street Light Condition,139
+2011,07,STATEN ISLAND,Blocked Driveway,129
+2011,07,STATEN ISLAND,Water System,286
+2011,07,QUEENS,Water System,1748
+2011,07,MANHATTAN,Blocked Driveway,100
+2011,07,BROOKLYN,Water System,2362
+2011,07,BROOKLYN,Blocked Driveway,1352
+2011,07,BRONX,General Construction/Plumbing,480
+2011,07,STATEN ISLAND,Noise - Residential,321
+2011,07,STATEN ISLAND,Street Condition,660
+2011,07,QUEENS,Blocked Driveway,1515
+2011,07,BRONX,Water System,2427
+2011,07,BROOKLYN,General Construction/Plumbing,1399
+2011,07,MANHATTAN,General Construction/Plumbing,454
+2011,07,Unspecified,Water System,60
+2011,07,QUEENS,Traffic Signal Condition,981
+2011,07,MANHATTAN,Water System,2165
+2011,07,MANHATTAN,Noise - Residential,1337
+2011,07,BRONX,Street Condition,666
+2011,08,MANHATTAN,Street Light Condition,1176
+2011,08,MANHATTAN,Blocked Driveway,95
+2011,08,QUEENS,Water System,1302
+2011,08,BRONX,Noise - Residential,1958
+2011,08,MANHATTAN,Water System,862
+2011,08,MANHATTAN,Street Condition,1224
+2011,08,BRONX,Blocked Driveway,518
+2011,08,Unspecified,Traffic Signal Condition,45
+2011,08,QUEENS,General Construction/Plumbing,822
+2011,08,STATEN ISLAND,Traffic Signal Condition,265
+2011,08,BRONX,Water System,1072
+2011,08,QUEENS,Street Condition,1952
+2011,08,BRONX,General Construction/Plumbing,495
+2011,08,BRONX,Street Condition,700
+2011,08,BROOKLYN,Noise - Residential,2592
+2011,08,STATEN ISLAND,General Construction/Plumbing,235
+2011,08,STATEN ISLAND,Noise - Residential,283
+2011,08,Unspecified,Street Light Condition,162
+2011,08,BROOKLYN,Street Condition,2003
+2011,08,BROOKLYN,Traffic Signal Condition,1243
+2011,08,BRONX,Traffic Signal Condition,449
+2011,08,MANHATTAN,Noise - Residential,1273
+2011,08,QUEENS,Street Light Condition,3247
+2011,08,MANHATTAN,Traffic Signal Condition,834
+2011,08,BROOKLYN,Street Light Condition,2364
+2011,08,STATEN ISLAND,Water System,416
+2011,08,BRONX,Street Light Condition,1854
+2011,08,STATEN ISLAND,Street Light Condition,661
+2011,08,Unspecified,Water System,44
+2011,08,QUEENS,Noise - Residential,1701
+2011,08,MANHATTAN,General Construction/Plumbing,650
+2011,08,BROOKLYN,Blocked Driveway,1222
+2011,08,QUEENS,Traffic Signal Condition,1350
+2011,08,BROOKLYN,General Construction/Plumbing,1693
+2011,08,STATEN ISLAND,Blocked Driveway,129
+2011,08,STATEN ISLAND,Street Condition,682
+2011,08,BROOKLYN,Water System,1412
+2011,08,QUEENS,Blocked Driveway,1476
+2011,09,MANHATTAN,Blocked Driveway,108
+2011,09,QUEENS,Street Light Condition,2850
+2011,09,QUEENS,Traffic Signal Condition,1010
+2011,09,MANHATTAN,Street Light Condition,1322
+2011,09,BRONX,Street Light Condition,1932
+2011,09,MANHATTAN,Water System,563
+2011,09,BROOKLYN,Blocked Driveway,1595
+2011,09,BROOKLYN,Street Light Condition,2282
+2011,09,STATEN ISLAND,Blocked Driveway,171
+2011,09,QUEENS,Noise - Residential,2159
+2011,09,BROOKLYN,Noise - Residential,3232
+2011,09,STATEN ISLAND,Traffic Signal Condition,195
+2011,09,MANHATTAN,General Construction/Plumbing,480
+2011,09,QUEENS,General Construction/Plumbing,673
+2011,09,STATEN ISLAND,Street Condition,793
+2011,09,BRONX,Noise - Residential,2274
+2011,09,MANHATTAN,Street Condition,1041
+2011,09,STATEN ISLAND,Street Light Condition,491
+2011,09,BROOKLYN,Street Condition,1928
+2011,09,QUEENS,Street Condition,1661
+2011,09,BROOKLYN,Water System,1088
+2011,09,BROOKLYN,Traffic Signal Condition,1001
+2011,09,Unspecified,Traffic Signal Condition,28
+2011,09,Unspecified,Street Light Condition,178
+2011,09,BRONX,Water System,327
+2011,09,QUEENS,Water System,1347
+2011,09,MANHATTAN,Noise - Residential,1721
+2011,09,BRONX,Traffic Signal Condition,456
+2011,09,BRONX,General Construction/Plumbing,393
+2011,09,STATEN ISLAND,General Construction/Plumbing,173
+2011,09,BROOKLYN,General Construction/Plumbing,1173
+2011,09,MANHATTAN,Traffic Signal Condition,883
+2011,09,BRONX,Blocked Driveway,554
+2011,09,STATEN ISLAND,Noise - Residential,299
+2011,09,STATEN ISLAND,Water System,410
+2011,09,Unspecified,Water System,2
+2011,09,BRONX,Street Condition,927
+2011,09,QUEENS,Blocked Driveway,1609
+2011,10,BRONX,Street Light Condition,1503
+2011,10,QUEENS,Noise - Residential,1811
+2011,10,QUEENS,Street Condition,1499
+2011,10,Unspecified,Street Light Condition,112
+2011,10,BRONX,Noise - Residential,2443
+2011,10,MANHATTAN,Blocked Driveway,156
+2011,10,STATEN ISLAND,Street Light Condition,446
+2011,10,QUEENS,Traffic Signal Condition,946
+2011,10,STATEN ISLAND,Street Condition,680
+2011,10,MANHATTAN,Street Light Condition,1247
+2011,10,BRONX,Traffic Signal Condition,449
+2011,10,BRONX,Blocked Driveway,623
+2011,10,STATEN ISLAND,Noise - Residential,233
+2011,10,BROOKLYN,Street Light Condition,2178
+2011,10,QUEENS,Street Light Condition,2328
+2011,10,BROOKLYN,Blocked Driveway,1588
+2011,10,BRONX,Street Condition,749
+2011,10,BROOKLYN,Water System,759
+2011,10,BROOKLYN,Noise - Residential,2846
+2011,10,MANHATTAN,Street Condition,1233
+2011,10,Unspecified,Water System,1
+2011,10,STATEN ISLAND,Blocked Driveway,150
+2011,10,MANHATTAN,Noise - Residential,2262
+2011,10,MANHATTAN,General Construction/Plumbing,492
+2011,10,STATEN ISLAND,Traffic Signal Condition,173
+2011,10,BRONX,General Construction/Plumbing,395
+2011,10,Unspecified,Traffic Signal Condition,31
+2011,10,QUEENS,General Construction/Plumbing,807
+2011,10,MANHATTAN,Traffic Signal Condition,1058
+2011,10,BROOKLYN,Traffic Signal Condition,1016
+2011,10,STATEN ISLAND,Water System,380
+2011,10,BROOKLYN,General Construction/Plumbing,1275
+2011,10,QUEENS,Blocked Driveway,1676
+2011,10,QUEENS,Water System,1262
+2011,10,STATEN ISLAND,General Construction/Plumbing,185
+2011,10,BRONX,Water System,365
+2011,10,MANHATTAN,Water System,433
+2011,10,BROOKLYN,Street Condition,1746
+2011,11,QUEENS,Noise - Residential,1458
+2011,11,BROOKLYN,General Construction/Plumbing,1215
+2011,11,BRONX,Water System,367
+2011,11,MANHATTAN,Traffic Signal Condition,1124
+2011,11,BRONX,Noise - Residential,2596
+2011,11,MANHATTAN,General Construction/Plumbing,509
+2011,11,QUEENS,Traffic Signal Condition,882
+2011,11,QUEENS,Street Light Condition,2208
+2011,11,MANHATTAN,Water System,530
+2011,11,QUEENS,Street Condition,1155
+2011,11,QUEENS,Water System,1813
+2011,11,BROOKLYN,Street Light Condition,2002
+2011,11,BRONX,General Construction/Plumbing,309
+2011,11,BROOKLYN,Street Condition,1604
+2011,11,BROOKLYN,Blocked Driveway,1723
+2011,11,MANHATTAN,Noise - Residential,2225
+2011,11,STATEN ISLAND,Street Light Condition,400
+2011,11,STATEN ISLAND,Street Condition,498
+2011,11,MANHATTAN,Street Light Condition,1006
+2011,11,BRONX,Street Light Condition,1612
+2011,11,BROOKLYN,Noise - Residential,2582
+2011,11,STATEN ISLAND,Traffic Signal Condition,124
+2011,11,Unspecified,Water System,16
+2011,11,MANHATTAN,Blocked Driveway,163
+2011,11,STATEN ISLAND,Noise - Residential,188
+2011,11,BROOKLYN,Water System,771
+2011,11,QUEENS,Blocked Driveway,1866
+2011,11,QUEENS,General Construction/Plumbing,661
+2011,11,Unspecified,Traffic Signal Condition,33
+2011,11,STATEN ISLAND,General Construction/Plumbing,153
+2011,11,MANHATTAN,Street Condition,1303
+2011,11,BRONX,Street Condition,666
+2011,11,STATEN ISLAND,Blocked Driveway,136
+2011,11,Unspecified,Street Light Condition,93
+2011,11,BROOKLYN,Traffic Signal Condition,1064
+2011,11,BRONX,Blocked Driveway,684
+2011,11,BRONX,Traffic Signal Condition,427
+2011,11,STATEN ISLAND,Water System,483
+2011,12,STATEN ISLAND,General Construction/Plumbing,139
+2011,12,BROOKLYN,Noise - Residential,2839
+2011,12,BRONX,Noise - Residential,2851
+2011,12,MANHATTAN,Street Condition,1202
+2011,12,QUEENS,Street Light Condition,2375
+2011,12,QUEENS,Noise - Residential,1746
+2011,12,Unspecified,Traffic Signal Condition,31
+2011,12,QUEENS,General Construction/Plumbing,764
+2011,12,STATEN ISLAND,Street Condition,631
+2011,12,STATEN ISLAND,Blocked Driveway,138
+2011,12,BRONX,Street Condition,884
+2011,12,MANHATTAN,Blocked Driveway,126
+2011,12,MANHATTAN,General Construction/Plumbing,444
+2011,12,MANHATTAN,Noise - Residential,2483
+2011,12,QUEENS,Blocked Driveway,1886
+2011,12,STATEN ISLAND,Street Light Condition,407
+2011,12,BROOKLYN,General Construction/Plumbing,1188
+2011,12,MANHATTAN,Street Light Condition,1315
+2011,12,QUEENS,Water System,952
+2011,12,STATEN ISLAND,Noise - Residential,215
+2011,12,BROOKLYN,Water System,722
+2011,12,MANHATTAN,Water System,406
+2011,12,BRONX,Water System,315
+2011,12,BRONX,General Construction/Plumbing,309
+2011,12,MANHATTAN,Traffic Signal Condition,1106
+2011,12,QUEENS,Traffic Signal Condition,906
+2011,12,BROOKLYN,Street Condition,1167
+2011,12,QUEENS,Street Condition,1257
+2011,12,BRONX,Street Light Condition,1759
+2011,12,STATEN ISLAND,Traffic Signal Condition,115
+2011,12,BROOKLYN,Street Light Condition,2170
+2011,12,BROOKLYN,Blocked Driveway,1760
+2011,12,STATEN ISLAND,Water System,484
+2011,12,BRONX,Traffic Signal Condition,358
+2011,12,Unspecified,Water System,16
+2011,12,BRONX,Blocked Driveway,672
+2011,12,BROOKLYN,Traffic Signal Condition,1188
+2011,12,Unspecified,Street Light Condition,95
+2012,01,MANHATTAN,Blocked Driveway,134
+2012,01,STATEN ISLAND,Water System,378
+2012,01,BRONX,Blocked Driveway,620
+2012,01,BROOKLYN,Noise - Residential,2797
+2012,01,QUEENS,Street Condition,1555
+2012,01,STATEN ISLAND,Street Condition,1089
+2012,01,BRONX,Traffic Signal Condition,478
+2012,01,Unspecified,Street Light Condition,133
+2012,01,MANHATTAN,Street Light Condition,1359
+2012,01,MANHATTAN,General Construction/Plumbing,435
+2012,01,STATEN ISLAND,Street Light Condition,369
+2012,01,BRONX,Noise - Residential,2888
+2012,01,QUEENS,General Construction/Plumbing,674
+2012,01,BROOKLYN,Street Light Condition,1909
+2012,01,MANHATTAN,Noise - Residential,2369
+2012,01,BROOKLYN,Traffic Signal Condition,1342
+2012,01,BRONX,General Construction/Plumbing,307
+2012,01,Unspecified,Traffic Signal Condition,46
+2012,01,QUEENS,Street Light Condition,2211
+2012,01,BROOKLYN,Water System,1039
+2012,01,BROOKLYN,Blocked Driveway,1622
+2012,01,BRONX,Street Light Condition,1428
+2012,01,Unspecified,Water System,16
+2012,01,QUEENS,Noise - Residential,1599
+2012,01,QUEENS,Blocked Driveway,1654
+2012,01,MANHATTAN,Traffic Signal Condition,1297
+2012,01,QUEENS,Traffic Signal Condition,1217
+2012,01,STATEN ISLAND,Noise - Residential,236
+2012,01,STATEN ISLAND,Blocked Driveway,123
+2012,01,QUEENS,Water System,1115
+2012,01,MANHATTAN,Street Condition,1104
+2012,01,BROOKLYN,Street Condition,1372
+2012,01,STATEN ISLAND,General Construction/Plumbing,133
+2012,01,MANHATTAN,Water System,462
+2012,01,STATEN ISLAND,Traffic Signal Condition,186
+2012,01,BROOKLYN,General Construction/Plumbing,1039
+2012,01,BRONX,Street Condition,1086
+2012,01,BRONX,Water System,384
+2012,02,BRONX,Street Light Condition,1862
+2012,02,BRONX,Water System,262
+2012,02,MANHATTAN,Street Light Condition,1150
+2012,02,QUEENS,General Construction/Plumbing,640
+2012,02,MANHATTAN,Blocked Driveway,111
+2012,02,MANHATTAN,Water System,440
+2012,02,STATEN ISLAND,Blocked Driveway,109
+2012,02,QUEENS,Blocked Driveway,1498
+2012,02,QUEENS,Street Light Condition,2137
+2012,02,BROOKLYN,Street Condition,1171
+2012,02,BROOKLYN,Noise - Residential,2685
+2012,02,BROOKLYN,General Construction/Plumbing,952
+2012,02,BROOKLYN,Water System,694
+2012,02,BRONX,General Construction/Plumbing,279
+2012,02,BRONX,Blocked Driveway,519
+2012,02,MANHATTAN,Noise - Residential,2217
+2012,02,BRONX,Street Condition,1087
+2012,02,STATEN ISLAND,Street Light Condition,385
+2012,02,STATEN ISLAND,General Construction/Plumbing,153
+2012,02,BROOKLYN,Street Light Condition,2009
+2012,02,BROOKLYN,Traffic Signal Condition,920
+2012,02,Unspecified,Water System,13
+2012,02,QUEENS,Water System,1139
+2012,02,BRONX,Traffic Signal Condition,370
+2012,02,QUEENS,Street Condition,1219
+2012,02,STATEN ISLAND,Street Condition,754
+2012,02,MANHATTAN,Street Condition,1104
+2012,02,STATEN ISLAND,Noise - Residential,188
+2012,02,MANHATTAN,Traffic Signal Condition,729
+2012,02,BRONX,Noise - Residential,2556
+2012,02,MANHATTAN,General Construction/Plumbing,406
+2012,02,STATEN ISLAND,Traffic Signal Condition,104
+2012,02,QUEENS,Noise - Residential,1443
+2012,02,QUEENS,Traffic Signal Condition,849
+2012,02,Unspecified,Street Light Condition,103
+2012,02,BROOKLYN,Blocked Driveway,1397
+2012,02,STATEN ISLAND,Water System,374
+2012,02,Unspecified,Traffic Signal Condition,31
+2012,03,QUEENS,Water System,1091
+2012,03,BROOKLYN,Blocked Driveway,1638
+2012,03,BRONX,Noise - Residential,2839
+2012,03,QUEENS,General Construction/Plumbing,776
+2012,03,STATEN ISLAND,Blocked Driveway,157
+2012,03,STATEN ISLAND,Water System,459
+2012,03,MANHATTAN,General Construction/Plumbing,606
+2012,03,BRONX,Street Light Condition,1801
+2012,03,STATEN ISLAND,Noise - Residential,239
+2012,03,BRONX,General Construction/Plumbing,389
+2012,03,MANHATTAN,Noise - Residential,2519
+2012,03,Unspecified,Traffic Signal Condition,26
+2012,03,BROOKLYN,Street Light Condition,2281
+2012,03,BRONX,Blocked Driveway,640
+2012,03,STATEN ISLAND,Street Condition,861
+2012,03,QUEENS,Street Condition,1879
+2012,03,QUEENS,Noise - Residential,1565
+2012,03,STATEN ISLAND,Traffic Signal Condition,126
+2012,03,Unspecified,Street Light Condition,150
+2012,03,Unspecified,Water System,15
+2012,03,MANHATTAN,Street Light Condition,1344
+2012,03,MANHATTAN,Water System,529
+2012,03,QUEENS,Traffic Signal Condition,992
+2012,03,MANHATTAN,Blocked Driveway,141
+2012,03,MANHATTAN,Traffic Signal Condition,829
+2012,03,STATEN ISLAND,General Construction/Plumbing,175
+2012,03,BRONX,Street Condition,889
+2012,03,BROOKLYN,Noise - Residential,2981
+2012,03,BROOKLYN,Water System,890
+2012,03,STATEN ISLAND,Street Light Condition,465
+2012,03,BRONX,Traffic Signal Condition,433
+2012,03,QUEENS,Blocked Driveway,1669
+2012,03,BROOKLYN,General Construction/Plumbing,1326
+2012,03,BROOKLYN,Street Condition,1699
+2012,03,BRONX,Water System,286
+2012,03,QUEENS,Street Light Condition,2394
+2012,03,BROOKLYN,Traffic Signal Condition,911
+2012,03,MANHATTAN,Street Condition,1299
+2012,04,STATEN ISLAND,Street Condition,544
+2012,04,BRONX,Noise - Residential,2673
+2012,04,BRONX,Blocked Driveway,611
+2012,04,Unspecified,Street Light Condition,101
+2012,04,STATEN ISLAND,Traffic Signal Condition,110
+2012,04,MANHATTAN,Traffic Signal Condition,774
+2012,04,BROOKLYN,Street Light Condition,2151
+2012,04,QUEENS,Street Condition,1515
+2012,04,BROOKLYN,Noise - Residential,3045
+2012,04,MANHATTAN,Noise - Residential,2257
+2012,04,BROOKLYN,Water System,732
+2012,04,MANHATTAN,General Construction/Plumbing,504
+2012,04,MANHATTAN,Water System,499
+2012,04,STATEN ISLAND,Water System,442
+2012,04,MANHATTAN,Blocked Driveway,116
+2012,04,STATEN ISLAND,Blocked Driveway,116
+2012,04,Unspecified,Water System,14
+2012,04,MANHATTAN,Street Condition,1130
+2012,04,STATEN ISLAND,Street Light Condition,357
+2012,04,BROOKLYN,Street Condition,1322
+2012,04,MANHATTAN,Street Light Condition,1026
+2012,04,QUEENS,General Construction/Plumbing,713
+2012,04,Unspecified,Traffic Signal Condition,23
+2012,04,STATEN ISLAND,Noise - Residential,315
+2012,04,QUEENS,Street Light Condition,2298
+2012,04,BRONX,Street Condition,768
+2012,04,BRONX,Traffic Signal Condition,446
+2012,04,BROOKLYN,General Construction/Plumbing,1215
+2012,04,BRONX,General Construction/Plumbing,369
+2012,04,QUEENS,Noise - Residential,1946
+2012,04,BROOKLYN,Blocked Driveway,1576
+2012,04,BROOKLYN,Traffic Signal Condition,879
+2012,04,BRONX,Street Light Condition,1561
+2012,04,QUEENS,Blocked Driveway,1560
+2012,04,STATEN ISLAND,General Construction/Plumbing,186
+2012,04,QUEENS,Water System,877
+2012,04,BRONX,Water System,268
+2012,04,QUEENS,Traffic Signal Condition,876
+2012,05,MANHATTAN,Street Light Condition,1367
+2012,05,QUEENS,Traffic Signal Condition,950
+2012,05,MANHATTAN,Noise - Residential,2248
+2012,05,BROOKLYN,Street Condition,1704
+2012,05,BROOKLYN,Water System,1088
+2012,05,BROOKLYN,Noise - Residential,3571
+2012,05,BROOKLYN,Blocked Driveway,1598
+2012,05,BRONX,General Construction/Plumbing,328
+2012,05,BRONX,Traffic Signal Condition,479
+2012,05,STATEN ISLAND,Noise - Residential,380
+2012,05,QUEENS,Street Condition,1608
+2012,05,MANHATTAN,Blocked Driveway,121
+2012,05,STATEN ISLAND,Water System,707
+2012,05,STATEN ISLAND,Street Light Condition,519
+2012,05,MANHATTAN,Water System,613
+2012,05,STATEN ISLAND,General Construction/Plumbing,180
+2012,05,Unspecified,Water System,14
+2012,05,QUEENS,Street Light Condition,2428
+2012,05,BROOKLYN,General Construction/Plumbing,1558
+2012,05,QUEENS,Noise - Residential,2454
+2012,05,BRONX,Street Light Condition,1871
+2012,05,BROOKLYN,Traffic Signal Condition,858
+2012,05,MANHATTAN,General Construction/Plumbing,617
+2012,05,BRONX,Blocked Driveway,628
+2012,05,BRONX,Street Condition,803
+2012,05,STATEN ISLAND,Traffic Signal Condition,145
+2012,05,QUEENS,General Construction/Plumbing,605
+2012,05,Unspecified,Traffic Signal Condition,29
+2012,05,BRONX,Noise - Residential,2649
+2012,05,MANHATTAN,Street Condition,1130
+2012,05,QUEENS,Blocked Driveway,1773
+2012,05,STATEN ISLAND,Street Condition,700
+2012,05,STATEN ISLAND,Blocked Driveway,127
+2012,05,BROOKLYN,Street Light Condition,2193
+2012,05,QUEENS,Water System,1136
+2012,05,BRONX,Water System,936
+2012,05,MANHATTAN,Traffic Signal Condition,797
+2012,05,Unspecified,Street Light Condition,104
+2012,06,BROOKLYN,Street Light Condition,2090
+2012,06,MANHATTAN,Water System,866
+2012,06,BRONX,Traffic Signal Condition,410
+2012,06,Unspecified,Street Light Condition,108
+2012,06,STATEN ISLAND,General Construction/Plumbing,186
+2012,06,STATEN ISLAND,Noise - Residential,406
+2012,06,STATEN ISLAND,Street Light Condition,564
+2012,06,MANHATTAN,General Construction/Plumbing,516
+2012,06,Unspecified,Traffic Signal Condition,36
+2012,06,STATEN ISLAND,Street Condition,623
+2012,06,BROOKLYN,General Construction/Plumbing,1240
+2012,06,QUEENS,Street Condition,1713
+2012,06,MANHATTAN,Street Condition,1202
+2012,06,BROOKLYN,Noise - Residential,3417
+2012,06,MANHATTAN,Noise - Residential,1659
+2012,06,STATEN ISLAND,Traffic Signal Condition,159
+2012,06,BRONX,Noise - Residential,2330
+2012,06,QUEENS,Blocked Driveway,1730
+2012,06,QUEENS,Noise - Residential,2537
+2012,06,QUEENS,Street Light Condition,2372
+2012,06,STATEN ISLAND,Blocked Driveway,153
+2012,06,BRONX,General Construction/Plumbing,434
+2012,06,BROOKLYN,Street Condition,1726
+2012,06,BROOKLYN,Traffic Signal Condition,811
+2012,06,QUEENS,Water System,1296
+2012,06,STATEN ISLAND,Water System,376
+2012,06,MANHATTAN,Traffic Signal Condition,940
+2012,06,BRONX,Water System,1637
+2012,06,MANHATTAN,Blocked Driveway,104
+2012,06,BRONX,Blocked Driveway,618
+2012,06,BRONX,Street Condition,786
+2012,06,QUEENS,General Construction/Plumbing,698
+2012,06,BROOKLYN,Blocked Driveway,1684
+2012,06,BROOKLYN,Water System,1440
+2012,06,Unspecified,Water System,70
+2012,06,QUEENS,Traffic Signal Condition,954
+2012,06,MANHATTAN,Street Light Condition,1249
+2012,06,BRONX,Street Light Condition,1963
+2012,07,BRONX,Street Light Condition,1675
+2012,07,QUEENS,General Construction/Plumbing,593
+2012,07,MANHATTAN,Street Condition,1112
+2012,07,BROOKLYN,Street Light Condition,1887
+2012,07,MANHATTAN,Noise - Residential,1343
+2012,07,STATEN ISLAND,Noise - Residential,400
+2012,07,QUEENS,Traffic Signal Condition,877
+2012,07,BRONX,Blocked Driveway,663
+2012,07,BRONX,Traffic Signal Condition,351
+2012,07,STATEN ISLAND,Street Condition,638
+2012,07,BROOKLYN,Street Condition,1538
+2012,07,MANHATTAN,Street Light Condition,837
+2012,07,STATEN ISLAND,Water System,364
+2012,07,Unspecified,Street Light Condition,111
+2012,07,MANHATTAN,General Construction/Plumbing,550
+2012,07,Unspecified,General Construction/Plumbing,1
+2012,07,Unspecified,Street Condition,1
+2012,07,MANHATTAN,Water System,1706
+2012,07,QUEENS,Blocked Driveway,1750
+2012,07,BRONX,Street Condition,586
+2012,07,STATEN ISLAND,Blocked Driveway,146
+2012,07,STATEN ISLAND,Traffic Signal Condition,119
+2012,07,STATEN ISLAND,General Construction/Plumbing,204
+2012,07,BROOKLYN,Water System,2714
+2012,07,BROOKLYN,General Construction/Plumbing,1394
+2012,07,MANHATTAN,Blocked Driveway,100
+2012,07,BRONX,General Construction/Plumbing,388
+2012,07,QUEENS,Water System,2048
+2012,07,BROOKLYN,Blocked Driveway,1511
+2012,07,BROOKLYN,Noise - Residential,3292
+2012,07,QUEENS,Street Condition,1724
+2012,07,Unspecified,Water System,108
+2012,07,BROOKLYN,Traffic Signal Condition,728
+2012,07,BRONX,Noise - Residential,2165
+2012,07,MANHATTAN,Traffic Signal Condition,742
+2012,07,BRONX,Water System,3078
+2012,07,STATEN ISLAND,Street Light Condition,504
+2012,07,QUEENS,Noise - Residential,2590
+2012,07,Unspecified,Traffic Signal Condition,30
+2012,07,QUEENS,Street Light Condition,2272
+2012,08,QUEENS,General Construction/Plumbing,735
+2012,08,MANHATTAN,Water System,1023
+2012,08,Unspecified,Street Light Condition,103
+2012,08,STATEN ISLAND,Traffic Signal Condition,170
+2012,08,BROOKLYN,Street Condition,1680
+2012,08,QUEENS,Blocked Driveway,1760
+2012,08,BRONX,Traffic Signal Condition,336
+2012,08,BRONX,Street Light Condition,1321
+2012,08,BROOKLYN,Water System,1269
+2012,08,MANHATTAN,Blocked Driveway,109
+2012,08,MANHATTAN,Noise - Residential,1662
+2012,08,BROOKLYN,Street Light Condition,1937
+2012,08,STATEN ISLAND,Street Condition,568
+2012,08,STATEN ISLAND,Water System,303
+2012,08,BRONX,General Construction/Plumbing,383
+2012,08,MANHATTAN,Street Light Condition,1156
+2012,08,MANHATTAN,Traffic Signal Condition,760
+2012,08,BROOKLYN,General Construction/Plumbing,1499
+2012,08,BRONX,Blocked Driveway,534
+2012,08,Unspecified,Traffic Signal Condition,35
+2012,08,MANHATTAN,Street Condition,1007
+2012,08,STATEN ISLAND,Blocked Driveway,138
+2012,08,BRONX,Noise - Residential,2501
+2012,08,BRONX,Street Condition,528
+2012,08,STATEN ISLAND,General Construction/Plumbing,172
+2012,08,QUEENS,Noise - Residential,2665
+2012,08,QUEENS,Traffic Signal Condition,932
+2012,08,BROOKLYN,Blocked Driveway,1453
+2012,08,STATEN ISLAND,Noise - Residential,388
+2012,08,QUEENS,Street Condition,1647
+2012,08,QUEENS,Water System,1240
+2012,08,STATEN ISLAND,Street Light Condition,598
+2012,08,BROOKLYN,Traffic Signal Condition,760
+2012,08,BROOKLYN,Noise - Residential,3653
+2012,08,MANHATTAN,General Construction/Plumbing,641
+2012,08,QUEENS,Street Light Condition,2626
+2012,08,BRONX,Water System,1186
+2012,09,QUEENS,General Construction/Plumbing,793
+2012,09,QUEENS,Street Light Condition,2217
+2012,09,BROOKLYN,Blocked Driveway,1819
+2012,09,QUEENS,Traffic Signal Condition,906
+2012,09,MANHATTAN,Noise - Residential,2440
+2012,09,BRONX,Water System,358
+2012,09,BRONX,Noise - Residential,2786
+2012,09,STATEN ISLAND,Water System,417
+2012,09,Unspecified,Traffic Signal Condition,38
+2012,09,STATEN ISLAND,Street Condition,544
+2012,09,MANHATTAN,Street Condition,944
+2012,09,QUEENS,Street Condition,1552
+2012,09,BRONX,Street Light Condition,1511
+2012,09,STATEN ISLAND,Street Light Condition,469
+2012,09,BRONX,General Construction/Plumbing,369
+2012,09,MANHATTAN,Traffic Signal Condition,1062
+2012,09,BROOKLYN,Water System,729
+2012,09,STATEN ISLAND,Traffic Signal Condition,110
+2012,09,MANHATTAN,Blocked Driveway,162
+2012,09,STATEN ISLAND,Blocked Driveway,143
+2012,09,BROOKLYN,Street Light Condition,1832
+2012,09,MANHATTAN,Street Light Condition,946
+2012,09,BROOKLYN,Street Condition,1193
+2012,09,MANHATTAN,General Construction/Plumbing,469
+2012,09,BRONX,Traffic Signal Condition,628
+2012,09,BROOKLYN,Traffic Signal Condition,859
+2012,09,Unspecified,Street Light Condition,114
+2012,09,BROOKLYN,General Construction/Plumbing,1150
+2012,09,STATEN ISLAND,General Construction/Plumbing,133
+2012,09,MANHATTAN,Water System,503
+2012,09,BRONX,Blocked Driveway,607
+2012,09,QUEENS,Blocked Driveway,1982
+2012,09,QUEENS,Noise - Residential,3202
+2012,09,BROOKLYN,Noise - Residential,4560
+2012,09,STATEN ISLAND,Noise - Residential,427
+2012,09,BRONX,Street Condition,467
+2012,09,QUEENS,Water System,1175
+2012,10,MANHATTAN,General Construction/Plumbing,652
+2012,10,QUEENS,Traffic Signal Condition,1393
+2012,10,MANHATTAN,Water System,459
+2012,10,MANHATTAN,Street Condition,1035
+2012,10,MANHATTAN,Noise - Residential,2846
+2012,10,BRONX,Traffic Signal Condition,692
+2012,10,STATEN ISLAND,Traffic Signal Condition,226
+2012,10,STATEN ISLAND,Water System,375
+2012,10,QUEENS,Water System,838
+2012,10,BROOKLYN,Blocked Driveway,1639
+2012,10,QUEENS,Street Condition,1468
+2012,10,BROOKLYN,Noise - Residential,3277
+2012,10,Unspecified,Noise - Residential,4
+2012,10,STATEN ISLAND,General Construction/Plumbing,178
+2012,10,QUEENS,Street Light Condition,2503
+2012,10,Unspecified,Street Light Condition,159
+2012,10,BRONX,Street Condition,453
+2012,10,BROOKLYN,General Construction/Plumbing,1265
+2012,10,QUEENS,General Construction/Plumbing,781
+2012,10,BRONX,Water System,358
+2012,10,MANHATTAN,Blocked Driveway,148
+2012,10,BRONX,Noise - Residential,2659
+2012,10,STATEN ISLAND,Blocked Driveway,132
+2012,10,BRONX,General Construction/Plumbing,286
+2012,10,MANHATTAN,Street Light Condition,1120
+2012,10,Unspecified,Traffic Signal Condition,42
+2012,10,BRONX,Street Light Condition,1661
+2012,10,STATEN ISLAND,Street Condition,524
+2012,10,STATEN ISLAND,Street Light Condition,408
+2012,10,BROOKLYN,Traffic Signal Condition,1519
+2012,10,BROOKLYN,Street Light Condition,2167
+2012,10,STATEN ISLAND,Noise - Residential,333
+2012,10,MANHATTAN,Traffic Signal Condition,1191
+2012,10,BROOKLYN,Street Condition,1023
+2012,10,BROOKLYN,Water System,906
+2012,10,QUEENS,Noise - Residential,2125
+2012,10,BRONX,Blocked Driveway,566
+2012,10,QUEENS,Blocked Driveway,1753
+2012,11,STATEN ISLAND,Noise - Residential,198
+2012,11,QUEENS,Street Light Condition,2634
+2012,11,BROOKLYN,Traffic Signal Condition,2237
+2012,11,BRONX,Street Condition,492
+2012,11,MANHATTAN,Water System,492
+2012,11,BRONX,Traffic Signal Condition,698
+2012,11,QUEENS,Blocked Driveway,1746
+2012,11,QUEENS,General Construction/Plumbing,1092
+2012,11,BRONX,General Construction/Plumbing,303
+2012,11,Unspecified,Noise - Residential,2
+2012,11,BROOKLYN,Blocked Driveway,1619
+2012,11,STATEN ISLAND,Street Light Condition,636
+2012,11,QUEENS,Traffic Signal Condition,1937
+2012,11,QUEENS,Water System,831
+2012,11,BRONX,Street Light Condition,1541
+2012,11,BROOKLYN,Noise - Residential,2550
+2012,11,BRONX,Water System,266
+2012,11,MANHATTAN,Blocked Driveway,139
+2012,11,BROOKLYN,Water System,699
+2012,11,STATEN ISLAND,General Construction/Plumbing,143
+2012,11,STATEN ISLAND,Water System,424
+2012,11,STATEN ISLAND,Blocked Driveway,124
+2012,11,QUEENS,Street Condition,1044
+2012,11,BRONX,Blocked Driveway,580
+2012,11,BRONX,Noise - Residential,2645
+2012,11,STATEN ISLAND,Traffic Signal Condition,339
+2012,11,STATEN ISLAND,Street Condition,223
+2012,11,BROOKLYN,Street Light Condition,2227
+2012,11,BROOKLYN,General Construction/Plumbing,1006
+2012,11,MANHATTAN,Noise - Residential,2499
+2012,11,MANHATTAN,Traffic Signal Condition,1667
+2012,11,BROOKLYN,Street Condition,1098
+2012,11,QUEENS,Noise - Residential,1402
+2012,11,Unspecified,Street Light Condition,71
+2012,11,MANHATTAN,Street Light Condition,1005
+2012,11,MANHATTAN,General Construction/Plumbing,381
+2012,11,MANHATTAN,Street Condition,792
+2012,11,Unspecified,Traffic Signal Condition,59
+2012,12,QUEENS,General Construction/Plumbing,491
+2012,12,BRONX,Blocked Driveway,693
+2012,12,STATEN ISLAND,Noise - Residential,235
+2012,12,BROOKLYN,Water System,697
+2012,12,BRONX,Water System,166
+2012,12,QUEENS,Blocked Driveway,2025
+2012,12,BROOKLYN,Blocked Driveway,1839
+2012,12,QUEENS,Street Light Condition,2686
+2012,12,STATEN ISLAND,Water System,369
+2012,12,BRONX,General Construction/Plumbing,290
+2012,12,MANHATTAN,Street Condition,1111
+2012,12,BRONX,Traffic Signal Condition,618
+2012,12,BRONX,Noise - Residential,3300
+2012,12,Unspecified,Noise - Residential,3
+2012,12,STATEN ISLAND,Blocked Driveway,161
+2012,12,MANHATTAN,Traffic Signal Condition,1335
+2012,12,STATEN ISLAND,Street Condition,420
+2012,12,Unspecified,Street Light Condition,87
+2012,12,STATEN ISLAND,General Construction/Plumbing,171
+2012,12,BRONX,Street Condition,553
+2012,12,STATEN ISLAND,Traffic Signal Condition,197
+2012,12,QUEENS,Traffic Signal Condition,1392
+2012,12,BROOKLYN,Street Light Condition,2149
+2012,12,QUEENS,Noise - Residential,1841
+2012,12,QUEENS,Street Condition,1323
+2012,12,MANHATTAN,Water System,480
+2012,12,MANHATTAN,General Construction/Plumbing,456
+2012,12,QUEENS,Water System,1029
+2012,12,MANHATTAN,Street Light Condition,935
+2012,12,BROOKLYN,Traffic Signal Condition,2201
+2012,12,Unspecified,Traffic Signal Condition,30
+2012,12,MANHATTAN,Blocked Driveway,184
+2012,12,STATEN ISLAND,Street Light Condition,642
+2012,12,MANHATTAN,Noise - Residential,3377
+2012,12,BRONX,Street Light Condition,1422
+2012,12,BROOKLYN,Street Condition,1355
+2012,12,BROOKLYN,Noise - Residential,3219
+2012,12,BROOKLYN,General Construction/Plumbing,862
+2013,01,STATEN ISLAND,Water System,996
+2013,01,BROOKLYN,General Construction/Plumbing,997
+2013,01,STATEN ISLAND,General Construction/Plumbing,143
+2013,01,BROOKLYN,Blocked Driveway,1706
+2013,01,QUEENS,Blocked Driveway,1831
+2013,01,Unspecified,Noise - Residential,2
+2013,01,Unspecified,Street Light Condition,92
+2013,01,QUEENS,General Construction/Plumbing,423
+2013,01,MANHATTAN,Street Condition,1360
+2013,01,MANHATTAN,Noise - Residential,3142
+2013,01,MANHATTAN,Traffic Signal Condition,1091
+2013,01,BRONX,Street Condition,708
+2013,01,BROOKLYN,Noise - Residential,3225
+2013,01,BROOKLYN,Traffic Signal Condition,1813
+2013,01,MANHATTAN,Blocked Driveway,147
+2013,01,STATEN ISLAND,Street Light Condition,565
+2013,01,BROOKLYN,Street Condition,1671
+2013,01,BRONX,Blocked Driveway,635
+2013,01,QUEENS,Street Condition,2216
+2013,01,STATEN ISLAND,Noise - Residential,201
+2013,01,BRONX,Traffic Signal Condition,512
+2013,01,MANHATTAN,Water System,635
+2013,01,BRONX,Noise - Residential,3088
+2013,01,STATEN ISLAND,Blocked Driveway,115
+2013,01,BRONX,General Construction/Plumbing,316
+2013,01,Unspecified,Traffic Signal Condition,57
+2013,01,MANHATTAN,General Construction/Plumbing,520
+2013,01,BROOKLYN,Street Light Condition,2558
+2013,01,BROOKLYN,Water System,1396
+2013,01,STATEN ISLAND,Traffic Signal Condition,313
+2013,01,QUEENS,Traffic Signal Condition,1205
+2013,01,QUEENS,Street Light Condition,2590
+2013,01,QUEENS,Noise - Residential,1826
+2013,01,BRONX,Water System,582
+2013,01,QUEENS,Water System,2030
+2013,01,BRONX,Street Light Condition,1053
+2013,01,STATEN ISLAND,Street Condition,639
+2013,01,MANHATTAN,Street Light Condition,1055
+2013,02,MANHATTAN,Traffic Signal Condition,716
+2013,02,BROOKLYN,Water System,1070
+2013,02,STATEN ISLAND,Noise - Residential,210
+2013,02,BRONX,General Construction/Plumbing,243
+2013,02,Unspecified,Traffic Signal Condition,28
+2013,02,STATEN ISLAND,Street Light Condition,491
+2013,02,STATEN ISLAND,General Construction/Plumbing,129
+2013,02,BROOKLYN,Street Condition,1977
+2013,02,BRONX,Noise - Residential,2944
+2013,02,BROOKLYN,Street Light Condition,2020
+2013,02,BROOKLYN,General Construction/Plumbing,843
+2013,02,STATEN ISLAND,Water System,325
+2013,02,MANHATTAN,Street Condition,1398
+2013,02,BROOKLYN,Noise - Residential,2943
+2013,02,BROOKLYN,Traffic Signal Condition,1824
+2013,02,QUEENS,Water System,971
+2013,02,BRONX,Traffic Signal Condition,513
+2013,02,BRONX,Street Condition,932
+2013,02,Unspecified,Street Light Condition,108
+2013,02,QUEENS,Street Condition,2913
+2013,02,MANHATTAN,General Construction/Plumbing,479
+2013,02,BROOKLYN,Blocked Driveway,1519
+2013,02,QUEENS,Street Light Condition,2255
+2013,02,STATEN ISLAND,Blocked Driveway,132
+2013,02,MANHATTAN,Water System,820
+2013,02,BRONX,Street Light Condition,1364
+2013,02,QUEENS,General Construction/Plumbing,428
+2013,02,MANHATTAN,Noise - Residential,2924
+2013,02,QUEENS,Blocked Driveway,1747
+2013,02,BRONX,Blocked Driveway,681
+2013,02,QUEENS,Noise - Residential,1500
+2013,02,MANHATTAN,Blocked Driveway,134
+2013,02,STATEN ISLAND,Street Condition,809
+2013,02,MANHATTAN,Street Light Condition,1052
+2013,02,Unspecified,Noise - Residential,1
+2013,02,BRONX,Water System,356
+2013,02,STATEN ISLAND,Traffic Signal Condition,216
+2013,02,QUEENS,Traffic Signal Condition,1129
+2013,03,BROOKLYN,Street Light Condition,2101
+2013,03,BRONX,Street Light Condition,1406
+2013,03,QUEENS,General Construction/Plumbing,492
+2013,03,BRONX,Traffic Signal Condition,469
+2013,03,BROOKLYN,Water System,864
+2013,03,QUEENS,Traffic Signal Condition,930
+2013,03,MANHATTAN,Blocked Driveway,129
+2013,03,BROOKLYN,Street Condition,2736
+2013,03,MANHATTAN,Traffic Signal Condition,919
+2013,03,MANHATTAN,Water System,537
+2013,03,STATEN ISLAND,General Construction/Plumbing,96
+2013,03,QUEENS,Blocked Driveway,1887
+2013,03,MANHATTAN,Noise - Residential,3498
+2013,03,BRONX,Water System,235
+2013,03,MANHATTAN,General Construction/Plumbing,578
+2013,03,BROOKLYN,Traffic Signal Condition,1399
+2013,03,STATEN ISLAND,Street Light Condition,488
+2013,03,BROOKLYN,General Construction/Plumbing,1089
+2013,03,STATEN ISLAND,Street Condition,1085
+2013,03,STATEN ISLAND,Water System,421
+2013,03,QUEENS,Street Light Condition,2428
+2013,03,BRONX,General Construction/Plumbing,266
+2013,03,QUEENS,Street Condition,2465
+2013,03,BRONX,Noise - Residential,3563
+2013,03,BRONX,Street Condition,911
+2013,03,Unspecified,Noise - Residential,2
+2013,03,Unspecified,Traffic Signal Condition,29
+2013,03,STATEN ISLAND,Blocked Driveway,149
+2013,03,QUEENS,Noise - Residential,1815
+2013,03,BRONX,Blocked Driveway,702
+2013,03,QUEENS,Water System,766
+2013,03,MANHATTAN,Street Condition,1664
+2013,03,BROOKLYN,Noise - Residential,3539
+2013,03,Unspecified,Street Light Condition,122
+2013,03,STATEN ISLAND,Traffic Signal Condition,134
+2013,03,BROOKLYN,Blocked Driveway,1654
+2013,03,STATEN ISLAND,Noise - Residential,269
+2013,03,MANHATTAN,Street Light Condition,949
+2013,04,QUEENS,Blocked Driveway,1761
+2013,04,BRONX,Traffic Signal Condition,378
+2013,04,BROOKLYN,Noise - Residential,3544
+2013,04,QUEENS,Noise - Residential,1789
+2013,04,QUEENS,Water System,1015
+2013,04,STATEN ISLAND,General Construction/Plumbing,169
+2013,04,BRONX,Street Condition,568
+2013,04,BROOKLYN,Street Condition,2026
+2013,04,STATEN ISLAND,Blocked Driveway,131
+2013,04,MANHATTAN,Noise - Residential,3179
+2013,04,BRONX,General Construction/Plumbing,321
+2013,04,QUEENS,General Construction/Plumbing,619
+2013,04,STATEN ISLAND,Noise - Residential,271
+2013,04,BRONX,Blocked Driveway,650
+2013,04,STATEN ISLAND,Street Condition,959
+2013,04,BROOKLYN,Water System,1071
+2013,04,BRONX,Noise - Residential,3093
+2013,04,BROOKLYN,Traffic Signal Condition,1116
+2013,04,Unspecified,Traffic Signal Condition,25
+2013,04,QUEENS,Traffic Signal Condition,739
+2013,04,MANHATTAN,Street Light Condition,1121
+2013,04,MANHATTAN,Blocked Driveway,155
+2013,04,BROOKLYN,Blocked Driveway,1601
+2013,04,STATEN ISLAND,Water System,630
+2013,04,BROOKLYN,Street Light Condition,2330
+2013,04,STATEN ISLAND,Street Light Condition,512
+2013,04,MANHATTAN,General Construction/Plumbing,565
+2013,04,STATEN ISLAND,Traffic Signal Condition,139
+2013,04,Unspecified,Street Light Condition,128
+2013,04,MANHATTAN,Traffic Signal Condition,663
+2013,04,Unspecified,Noise - Residential,3
+2013,04,BRONX,Water System,352
+2013,04,MANHATTAN,Water System,516
+2013,04,BRONX,Street Light Condition,1682
+2013,04,QUEENS,Street Condition,1795
+2013,04,MANHATTAN,Street Condition,1434
+2013,04,QUEENS,Street Light Condition,2736
+2013,04,BROOKLYN,General Construction/Plumbing,1320
+2013,05,BROOKLYN,General Construction/Plumbing,1444
+2013,05,BRONX,Blocked Driveway,678
+2013,05,Unspecified,Traffic Signal Condition,25
+2013,05,STATEN ISLAND,Street Light Condition,461
+2013,05,BRONX,Street Light Condition,1862
+2013,05,MANHATTAN,Street Light Condition,1189
+2013,05,MANHATTAN,Water System,593
+2013,05,STATEN ISLAND,Traffic Signal Condition,157
+2013,05,BROOKLYN,Blocked Driveway,1763
+2013,05,QUEENS,Traffic Signal Condition,766
+2013,05,Unspecified,Street Light Condition,90
+2013,05,STATEN ISLAND,Street Condition,776
+2013,05,BROOKLYN,Street Light Condition,2388
+2013,05,STATEN ISLAND,Water System,404
+2013,05,QUEENS,Street Light Condition,2190
+2013,05,BROOKLYN,Street Condition,1881
+2013,05,Unspecified,Noise - Residential,4
+2013,05,MANHATTAN,Noise - Residential,3604
+2013,05,QUEENS,Noise - Residential,2876
+2013,05,BRONX,Water System,531
+2013,05,MANHATTAN,General Construction/Plumbing,582
+2013,05,QUEENS,Water System,1049
+2013,05,STATEN ISLAND,Noise - Residential,452
+2013,05,BROOKLYN,Traffic Signal Condition,1155
+2013,05,QUEENS,Street Condition,1980
+2013,05,BROOKLYN,Noise - Residential,4525
+2013,05,BRONX,Noise - Residential,3401
+2013,05,MANHATTAN,Street Condition,1326
+2013,05,BRONX,Traffic Signal Condition,392
+2013,05,QUEENS,General Construction/Plumbing,692
+2013,05,BROOKLYN,Water System,1159
+2013,05,STATEN ISLAND,Blocked Driveway,139
+2013,05,STATEN ISLAND,General Construction/Plumbing,157
+2013,05,MANHATTAN,Traffic Signal Condition,636
+2013,05,BRONX,Street Condition,540
+2013,05,BRONX,General Construction/Plumbing,362
+2013,05,MANHATTAN,Blocked Driveway,156
+2013,05,QUEENS,Blocked Driveway,1851
+2013,06,STATEN ISLAND,Noise - Residential,560
+2013,06,STATEN ISLAND,Water System,442
+2013,06,BROOKLYN,General Construction/Plumbing,1305
+2013,06,STATEN ISLAND,Street Condition,972
+2013,06,STATEN ISLAND,General Construction/Plumbing,139
+2013,06,BRONX,Water System,1432
+2013,06,BROOKLYN,Noise - Residential,4892
+2013,06,QUEENS,Street Condition,2109
+2013,06,BRONX,Street Light Condition,1623
+2013,06,QUEENS,Water System,1098
+2013,06,BRONX,General Construction/Plumbing,391
+2013,06,BROOKLYN,Street Light Condition,2185
+2013,06,MANHATTAN,Blocked Driveway,173
+2013,06,BRONX,Noise - Residential,2792
+2013,06,Unspecified,Street Light Condition,60
+2013,06,STATEN ISLAND,Street Light Condition,386
+2013,06,STATEN ISLAND,Blocked Driveway,134
+2013,06,QUEENS,Noise - Residential,3183
+2013,06,Unspecified,Noise - Residential,3
+2013,06,BROOKLYN,Traffic Signal Condition,1275
+2013,06,MANHATTAN,Street Light Condition,888
+2013,06,Unspecified,Traffic Signal Condition,23
+2013,06,MANHATTAN,Traffic Signal Condition,665
+2013,06,QUEENS,General Construction/Plumbing,611
+2013,06,BROOKLYN,Water System,1389
+2013,06,BROOKLYN,Street Condition,2028
+2013,06,QUEENS,Street Light Condition,2097
+2013,06,BRONX,Blocked Driveway,686
+2013,06,MANHATTAN,Noise - Residential,2627
+2013,06,QUEENS,Traffic Signal Condition,804
+2013,06,MANHATTAN,Street Condition,1214
+2013,06,BROOKLYN,Blocked Driveway,1873
+2013,06,MANHATTAN,General Construction/Plumbing,559
+2013,06,STATEN ISLAND,Traffic Signal Condition,146
+2013,06,BRONX,Traffic Signal Condition,408
+2013,06,QUEENS,Blocked Driveway,1981
+2013,06,BRONX,Street Condition,655
+2013,06,MANHATTAN,Water System,903
+2013,07,MANHATTAN,Street Condition,1290
+2013,07,Unspecified,Street Light Condition,104
+2013,07,BROOKLYN,Street Condition,1394
+2013,07,BRONX,Blocked Driveway,675
+2013,07,MANHATTAN,Blocked Driveway,139
+2013,07,MANHATTAN,General Construction/Plumbing,545
+2013,07,BRONX,Street Light Condition,1392
+2013,07,MANHATTAN,Noise - Residential,1763
+2013,07,BROOKLYN,Street Light Condition,1943
+2013,07,BROOKLYN,Traffic Signal Condition,1204
+2013,07,QUEENS,Water System,1471
+2013,07,QUEENS,Traffic Signal Condition,725
+2013,07,BRONX,General Construction/Plumbing,442
+2013,07,BROOKLYN,General Construction/Plumbing,1406
+2013,07,Unspecified,Noise - Residential,2
+2013,07,BRONX,Water System,2388
+2013,07,Unspecified,Traffic Signal Condition,30
+2013,07,BROOKLYN,Blocked Driveway,1574
+2013,07,STATEN ISLAND,Street Condition,775
+2013,07,QUEENS,Noise - Residential,2547
+2013,07,STATEN ISLAND,General Construction/Plumbing,180
+2013,07,STATEN ISLAND,Street Light Condition,415
+2013,07,STATEN ISLAND,Water System,754
+2013,07,MANHATTAN,Traffic Signal Condition,668
+2013,07,STATEN ISLAND,Traffic Signal Condition,163
+2013,07,QUEENS,General Construction/Plumbing,688
+2013,07,BRONX,Noise - Residential,2466
+2013,07,QUEENS,Blocked Driveway,1947
+2013,07,MANHATTAN,Water System,1797
+2013,07,QUEENS,Street Light Condition,2163
+2013,07,BROOKLYN,Noise - Residential,3776
+2013,07,STATEN ISLAND,Blocked Driveway,138
+2013,07,BRONX,Traffic Signal Condition,410
+2013,07,MANHATTAN,Street Light Condition,960
+2013,07,BROOKLYN,Water System,2196
+2013,07,STATEN ISLAND,Noise - Residential,466
+2013,07,QUEENS,Street Condition,1761
+2013,07,BRONX,Street Condition,995
+2013,08,QUEENS,Street Condition,1579
+2013,08,BRONX,Traffic Signal Condition,345
+2013,08,QUEENS,General Construction/Plumbing,560
+2013,08,STATEN ISLAND,Street Light Condition,448
+2013,08,MANHATTAN,Street Condition,946
+2013,08,STATEN ISLAND,General Construction/Plumbing,183
+2013,08,BRONX,Street Light Condition,1544
+2013,08,BROOKLYN,Street Light Condition,2166
+2013,08,MANHATTAN,Blocked Driveway,143
+2013,08,STATEN ISLAND,Traffic Signal Condition,105
+2013,08,QUEENS,Noise - Residential,3455
+2013,08,MANHATTAN,Noise - Residential,2416
+2013,08,BRONX,Water System,522
+2013,08,STATEN ISLAND,Water System,303
+2013,08,BRONX,Blocked Driveway,597
+2013,08,BROOKLYN,Noise - Residential,4802
+2013,08,Unspecified,Traffic Signal Condition,15
+2013,08,QUEENS,Blocked Driveway,1909
+2013,08,BROOKLYN,Traffic Signal Condition,1184
+2013,08,QUEENS,Street Light Condition,2181
+2013,08,MANHATTAN,Street Light Condition,914
+2013,08,STATEN ISLAND,Blocked Driveway,148
+2013,08,BRONX,Noise - Residential,3134
+2013,08,BROOKLYN,Street Condition,1320
+2013,08,BRONX,General Construction/Plumbing,356
+2013,08,BROOKLYN,Blocked Driveway,1605
+2013,08,Unspecified,Street Light Condition,68
+2013,08,QUEENS,Traffic Signal Condition,667
+2013,08,STATEN ISLAND,Noise - Residential,567
+2013,08,MANHATTAN,General Construction/Plumbing,445
+2013,08,MANHATTAN,Water System,585
+2013,08,BRONX,Street Condition,350
+2013,08,BROOKLYN,Water System,912
+2013,08,MANHATTAN,Traffic Signal Condition,699
+2013,08,BROOKLYN,General Construction/Plumbing,1359
+2013,08,Unspecified,Noise - Residential,9
+2013,08,QUEENS,Water System,728
+2013,08,STATEN ISLAND,Street Condition,546
+2013,09,STATEN ISLAND,Noise - Residential,412
+2013,09,QUEENS,Water System,773
+2013,09,BRONX,Street Condition,440
+2013,09,QUEENS,Traffic Signal Condition,616
+2013,09,Unspecified,Street Light Condition,98
+2013,09,MANHATTAN,Blocked Driveway,180
+2013,09,BRONX,Traffic Signal Condition,457
+2013,09,BRONX,Blocked Driveway,660
+2013,09,BRONX,Street Light Condition,1537
+2013,09,MANHATTAN,General Construction/Plumbing,552
+2013,09,MANHATTAN,Street Condition,1018
+2013,09,BROOKLYN,Street Light Condition,2079
+2013,09,BROOKLYN,Street Condition,1189
+2013,09,BROOKLYN,Traffic Signal Condition,1111
+2013,09,QUEENS,Street Light Condition,2344
+2013,09,STATEN ISLAND,Blocked Driveway,130
+2013,09,STATEN ISLAND,Traffic Signal Condition,107
+2013,09,MANHATTAN,Street Light Condition,957
+2013,09,STATEN ISLAND,Street Light Condition,487
+2013,09,QUEENS,General Construction/Plumbing,655
+2013,09,STATEN ISLAND,General Construction/Plumbing,142
+2013,09,STATEN ISLAND,Street Condition,508
+2013,09,QUEENS,Noise - Residential,2992
+2013,09,STATEN ISLAND,Water System,356
+2013,09,Unspecified,Traffic Signal Condition,29
+2013,09,MANHATTAN,Noise - Residential,2827
+2013,09,BROOKLYN,Blocked Driveway,1867
+2013,09,QUEENS,Blocked Driveway,2044
+2013,09,MANHATTAN,Water System,558
+2013,09,BROOKLYN,Water System,638
+2013,09,MANHATTAN,Traffic Signal Condition,669
+2013,09,QUEENS,Street Condition,1233
+2013,09,BROOKLYN,General Construction/Plumbing,1234
+2013,09,BROOKLYN,Noise - Residential,4368
+2013,09,BRONX,Noise - Residential,2921
+2013,09,BRONX,Water System,416
+2013,09,Unspecified,Noise - Residential,1
+2013,09,BRONX,General Construction/Plumbing,303
+2013,10,BROOKLYN,Water System,712
+2013,10,BRONX,Noise - Residential,2783
+2013,10,QUEENS,Blocked Driveway,2238
+2013,10,BRONX,General Construction/Plumbing,353
+2013,10,STATEN ISLAND,Noise - Residential,322
+2013,10,STATEN ISLAND,Street Condition,549
+2013,10,BRONX,Blocked Driveway,759
+2013,10,BROOKLYN,Blocked Driveway,2111
+2013,10,STATEN ISLAND,Blocked Driveway,134
+2013,10,QUEENS,Water System,774
+2013,10,QUEENS,Traffic Signal Condition,623
+2013,10,BROOKLYN,Traffic Signal Condition,1368
+2013,10,MANHATTAN,General Construction/Plumbing,531
+2013,10,BRONX,Street Light Condition,1941
+2013,10,STATEN ISLAND,General Construction/Plumbing,130
+2013,10,Unspecified,Street Light Condition,128
+2013,10,MANHATTAN,Traffic Signal Condition,1136
+2013,10,BROOKLYN,Street Light Condition,2362
+2013,10,STATEN ISLAND,Traffic Signal Condition,126
+2013,10,STATEN ISLAND,Water System,453
+2013,10,QUEENS,Noise - Residential,2235
+2013,10,Unspecified,Traffic Signal Condition,13
+2013,10,MANHATTAN,Street Condition,990
+2013,10,MANHATTAN,Blocked Driveway,194
+2013,10,BROOKLYN,Noise - Residential,3338
+2013,10,Unspecified,Noise - Residential,5
+2013,10,QUEENS,Street Light Condition,2526
+2013,10,STATEN ISLAND,Street Light Condition,533
+2013,10,BRONX,Traffic Signal Condition,396
+2013,10,QUEENS,General Construction/Plumbing,696
+2013,10,BROOKLYN,Street Condition,1168
+2013,10,BROOKLYN,General Construction/Plumbing,1452
+2013,10,BRONX,Water System,352
+2013,10,MANHATTAN,Noise - Residential,3319
+2013,10,BRONX,Street Condition,446
+2013,10,QUEENS,Street Condition,923
+2013,10,MANHATTAN,Street Light Condition,962
+2013,10,MANHATTAN,Water System,1244
+2013,11,STATEN ISLAND,Noise - Residential,311
+2013,11,BROOKLYN,Traffic Signal Condition,1869
+2013,11,STATEN ISLAND,Water System,270
+2013,11,MANHATTAN,Noise - Residential,3411
+2013,11,Unspecified,Street Light Condition,110
+2013,11,BROOKLYN,Street Light Condition,2106
+2013,11,QUEENS,Street Light Condition,2575
+2013,11,QUEENS,General Construction/Plumbing,577
+2013,11,MANHATTAN,General Construction/Plumbing,481
+2013,11,BRONX,General Construction/Plumbing,227
+2013,11,STATEN ISLAND,Blocked Driveway,157
+2013,11,BRONX,Noise - Residential,3304
+2013,11,BRONX,Water System,268
+2013,11,BROOKLYN,Blocked Driveway,2075
+2013,11,QUEENS,Street Condition,669
+2013,11,QUEENS,Water System,767
+2013,11,STATEN ISLAND,Street Light Condition,408
+2013,11,BRONX,Blocked Driveway,783
+2013,11,BRONX,Street Condition,328
+2013,11,MANHATTAN,Street Light Condition,949
+2013,11,QUEENS,Blocked Driveway,2241
+2013,11,BROOKLYN,General Construction/Plumbing,1066
+2013,11,BROOKLYN,Noise - Residential,3411
+2013,11,BRONX,Street Light Condition,1366
+2013,11,STATEN ISLAND,Traffic Signal Condition,130
+2013,11,QUEENS,Noise - Residential,1934
+2013,11,STATEN ISLAND,General Construction/Plumbing,106
+2013,11,Unspecified,Noise - Residential,5
+2013,11,STATEN ISLAND,Street Condition,401
+2013,11,Unspecified,Traffic Signal Condition,28
+2013,11,MANHATTAN,Traffic Signal Condition,1093
+2013,11,QUEENS,Traffic Signal Condition,1013
+2013,11,BROOKLYN,Street Condition,838
+2013,11,MANHATTAN,Blocked Driveway,188
+2013,11,BRONX,Traffic Signal Condition,460
+2013,11,MANHATTAN,Street Condition,786
+2013,11,BROOKLYN,Water System,710
+2013,11,MANHATTAN,Water System,458
+2013,12,QUEENS,Street Light Condition,2584
+2013,12,Unspecified,Street Light Condition,94
+2013,12,BROOKLYN,Street Condition,1479
+2013,12,MANHATTAN,Blocked Driveway,184
+2013,12,MANHATTAN,Street Condition,817
+2013,12,STATEN ISLAND,Noise - Residential,283
+2013,12,STATEN ISLAND,Water System,244
+2013,12,QUEENS,Water System,861
+2013,12,QUEENS,Street Condition,1341
+2013,12,MANHATTAN,General Construction/Plumbing,404
+2013,12,STATEN ISLAND,Blocked Driveway,179
+2013,12,BRONX,Street Condition,631
+2013,12,Unspecified,Noise - Residential,3
+2013,12,MANHATTAN,Noise - Residential,3383
+2013,12,STATEN ISLAND,Street Condition,657
+2013,12,BROOKLYN,Noise - Residential,3354
+2013,12,MANHATTAN,Street Light Condition,955
+2013,12,BRONX,Blocked Driveway,924
+2013,12,STATEN ISLAND,Traffic Signal Condition,129
+2013,12,BROOKLYN,Water System,773
+2013,12,QUEENS,Noise - Residential,2039
+2013,12,BROOKLYN,Traffic Signal Condition,1982
+2013,12,QUEENS,Blocked Driveway,2374
+2013,12,BROOKLYN,Blocked Driveway,2149
+2013,12,BROOKLYN,Street Light Condition,2471
+2013,12,BRONX,Noise - Residential,3283
+2013,12,MANHATTAN,Traffic Signal Condition,738
+2013,12,BROOKLYN,General Construction/Plumbing,1001
+2013,12,Unspecified,Traffic Signal Condition,29
+2013,12,MANHATTAN,Water System,572
+2013,12,BRONX,Street Light Condition,1534
+2013,12,BRONX,Water System,345
+2013,12,STATEN ISLAND,General Construction/Plumbing,84
+2013,12,BRONX,General Construction/Plumbing,227
+2013,12,QUEENS,Traffic Signal Condition,1093
+2013,12,QUEENS,General Construction/Plumbing,1085
+2013,12,STATEN ISLAND,Street Light Condition,414
+2013,12,BRONX,Traffic Signal Condition,500
+2014,01,BRONX,Street Condition,1273
+2014,01,QUEENS,Blocked Driveway,2300
+2014,01,MANHATTAN,Street Condition,1337
+2014,01,MANHATTAN,Street Light Condition,846
+2014,01,MANHATTAN,General Construction/Plumbing,421
+2014,01,STATEN ISLAND,General Construction/Plumbing,135
+2014,01,BROOKLYN,General Construction/Plumbing,1020
+2014,01,BRONX,Street Light Condition,1387
+2014,01,STATEN ISLAND,Street Condition,1270
+2014,01,BROOKLYN,Blocked Driveway,2157
+2014,01,MANHATTAN,Traffic Signal Condition,768
+2014,01,STATEN ISLAND,Noise - Residential,255
+2014,01,BRONX,Water System,921
+2014,01,STATEN ISLAND,Water System,639
+2014,01,QUEENS,Street Condition,2844
+2014,01,QUEENS,General Construction/Plumbing,1042
+2014,01,MANHATTAN,Water System,935
+2014,01,Unspecified,Noise - Residential,7
+2014,01,BROOKLYN,Water System,1896
+2014,01,STATEN ISLAND,Street Light Condition,262
+2014,01,BROOKLYN,Street Light Condition,2016
+2014,01,BRONX,Noise - Residential,3305
+2014,01,STATEN ISLAND,Traffic Signal Condition,78
+2014,01,MANHATTAN,Blocked Driveway,196
+2014,01,QUEENS,Street Light Condition,2154
+2014,01,BRONX,Traffic Signal Condition,532
+2014,01,QUEENS,Traffic Signal Condition,1470
+2014,01,BROOKLYN,Street Condition,2610
+2014,01,STATEN ISLAND,Blocked Driveway,168
+2014,01,Unspecified,Traffic Signal Condition,118
+2014,01,BRONX,General Construction/Plumbing,232
+2014,01,BROOKLYN,Traffic Signal Condition,2626
+2014,01,MANHATTAN,Noise - Residential,3298
+2014,01,QUEENS,Water System,1871
+2014,01,BRONX,Blocked Driveway,855
+2014,01,QUEENS,Noise - Residential,1857
+2014,01,Unspecified,Street Light Condition,361
+2014,01,BROOKLYN,Noise - Residential,3487
+2014,02,QUEENS,Noise - Residential,1706
+2014,02,BROOKLYN,Blocked Driveway,2769
+2014,02,MANHATTAN,General Construction/Plumbing,461
+2014,02,BROOKLYN,Street Condition,4020
+2014,02,QUEENS,Traffic Signal Condition,1609
+2014,02,BRONX,Water System,510
+2014,02,BROOKLYN,Noise - Residential,3355
+2014,02,Unspecified,Noise - Residential,11
+2014,02,BRONX,Traffic Signal Condition,500
+2014,02,STATEN ISLAND,Blocked Driveway,322
+2014,02,Unspecified,Blocked Driveway,2
+2014,02,STATEN ISLAND,Noise - Residential,223
+2014,02,BROOKLYN,Street Light Condition,2125
+2014,02,MANHATTAN,Noise - Residential,3341
+2014,02,STATEN ISLAND,Street Light Condition,54
+2014,02,MANHATTAN,Traffic Signal Condition,751
+2014,02,BROOKLYN,Traffic Signal Condition,2186
+2014,02,MANHATTAN,Water System,584
+2014,02,Unspecified,Traffic Signal Condition,39
+2014,02,BRONX,Street Light Condition,1148
+2014,02,QUEENS,Water System,1179
+2014,02,QUEENS,Street Light Condition,2321
+2014,02,BRONX,Blocked Driveway,1556
+2014,02,MANHATTAN,Blocked Driveway,203
+2014,02,BROOKLYN,General Construction/Plumbing,955
+2014,02,MANHATTAN,Street Condition,2325
+2014,02,STATEN ISLAND,Traffic Signal Condition,112
+2014,02,QUEENS,Blocked Driveway,3341
+2014,02,QUEENS,Street Condition,4245
+2014,02,STATEN ISLAND,Water System,781
+2014,02,Unspecified,Street Light Condition,349
+2014,02,BRONX,Street Condition,1580
+2014,02,QUEENS,General Construction/Plumbing,881
+2014,02,BRONX,General Construction/Plumbing,209
+2014,02,MANHATTAN,Street Light Condition,864
+2014,02,STATEN ISLAND,General Construction/Plumbing,84
+2014,02,BRONX,Noise - Residential,3279
+2014,02,STATEN ISLAND,Street Condition,3038
+2014,02,BROOKLYN,Water System,1139
+2014,03,QUEENS,Noise - Residential,2046
+2014,03,QUEENS,Water System,1381
+2014,03,BROOKLYN,Water System,1191
+2014,03,STATEN ISLAND,Street Light Condition,368
+2014,03,Unspecified,Traffic Signal Condition,21
+2014,03,BRONX,Water System,497
+2014,03,Unspecified,Street Light Condition,61
+2014,03,STATEN ISLAND,General Construction/Plumbing,110
+2014,03,STATEN ISLAND,Water System,659
+2014,03,MANHATTAN,General Construction/Plumbing,566
+2014,03,STATEN ISLAND,Noise - Residential,284
+2014,03,MANHATTAN,Traffic Signal Condition,651
+2014,03,MANHATTAN,Noise - Residential,3677
+2014,03,BROOKLYN,Traffic Signal Condition,1439
+2014,03,BRONX,General Construction/Plumbing,347
+2014,03,BROOKLYN,Street Condition,3798
+2014,03,QUEENS,Blocked Driveway,2607
+2014,03,QUEENS,Street Condition,4704
+2014,03,STATEN ISLAND,Street Condition,2369
+2014,03,MANHATTAN,Water System,674
+2014,03,BROOKLYN,Blocked Driveway,2255
+2014,03,MANHATTAN,Street Condition,2001
+2014,03,BRONX,Street Condition,1620
+2014,03,STATEN ISLAND,Blocked Driveway,205
+2014,03,BRONX,Noise - Residential,3488
+2014,03,BRONX,Blocked Driveway,939
+2014,03,MANHATTAN,Blocked Driveway,173
+2014,03,BROOKLYN,General Construction/Plumbing,1333
+2014,03,QUEENS,Traffic Signal Condition,992
+2014,03,BRONX,Street Light Condition,1382
+2014,03,BRONX,Traffic Signal Condition,499
+2014,03,BROOKLYN,Street Light Condition,2434
+2014,03,STATEN ISLAND,Traffic Signal Condition,160
+2014,03,BROOKLYN,Noise - Residential,3842
+2014,03,QUEENS,General Construction/Plumbing,1496
+2014,03,QUEENS,Street Light Condition,2706
+2014,03,MANHATTAN,Street Light Condition,1047
+2014,03,Unspecified,Noise - Residential,6
+2014,04,BRONX,General Construction/Plumbing,386
+2014,04,BRONX,Water System,358
+2014,04,STATEN ISLAND,Noise - Residential,392
+2014,04,BRONX,Blocked Driveway,809
+2014,04,MANHATTAN,Street Condition,2120
+2014,04,MANHATTAN,Blocked Driveway,153
+2014,04,MANHATTAN,Traffic Signal Condition,628
+2014,04,BROOKLYN,Noise - Residential,3972
+2014,04,QUEENS,Water System,1198
+2014,04,BROOKLYN,Water System,1051
+2014,04,MANHATTAN,Water System,691
+2014,04,STATEN ISLAND,Water System,522
+2014,04,BRONX,Traffic Signal Condition,427
+2014,04,BROOKLYN,Street Light Condition,2443
+2014,04,QUEENS,Street Light Condition,2703
+2014,04,BROOKLYN,Street Condition,3130
+2014,04,BRONX,Street Condition,1609
+2014,04,Unspecified,Traffic Signal Condition,14
+2014,04,QUEENS,Street Condition,3334
+2014,04,BRONX,Street Light Condition,1479
+2014,04,STATEN ISLAND,Blocked Driveway,201
+2014,04,MANHATTAN,Noise - Residential,3528
+2014,04,Unspecified,Noise - Residential,2
+2014,04,MANHATTAN,Street Light Condition,957
+2014,04,Unspecified,Street Light Condition,51
+2014,04,BROOKLYN,General Construction/Plumbing,1508
+2014,04,QUEENS,General Construction/Plumbing,699
+2014,04,STATEN ISLAND,Traffic Signal Condition,113
+2014,04,STATEN ISLAND,General Construction/Plumbing,167
+2014,04,QUEENS,Noise - Residential,2413
+2014,04,QUEENS,Blocked Driveway,2190
+2014,04,MANHATTAN,General Construction/Plumbing,613
+2014,04,STATEN ISLAND,Street Light Condition,404
+2014,04,BRONX,Noise - Residential,3569
+2014,04,STATEN ISLAND,Street Condition,1976
+2014,04,BROOKLYN,Blocked Driveway,1992
+2014,04,QUEENS,Traffic Signal Condition,914
+2014,04,BROOKLYN,Traffic Signal Condition,1120
+2014,05,BROOKLYN,Blocked Driveway,2291
+2014,05,QUEENS,Noise - Residential,3991
+2014,05,BRONX,Water System,569
+2014,05,BROOKLYN,Traffic Signal Condition,1289
+2014,05,STATEN ISLAND,Street Condition,2045
+2014,05,Unspecified,Street Light Condition,94
+2014,05,MANHATTAN,Street Light Condition,1229
+2014,05,STATEN ISLAND,General Construction/Plumbing,173
+2014,05,STATEN ISLAND,Traffic Signal Condition,100
+2014,05,Unspecified,Traffic Signal Condition,20
+2014,05,Unspecified,Blocked Driveway,1
+2014,05,BRONX,Street Light Condition,1960
+2014,05,Unspecified,Noise - Residential,1
+2014,05,MANHATTAN,Blocked Driveway,184
+2014,05,QUEENS,Street Light Condition,2465
+2014,05,BROOKLYN,Street Condition,4396
+2014,05,QUEENS,Blocked Driveway,2438
+2014,05,BROOKLYN,Street Light Condition,2370
+2014,05,STATEN ISLAND,Noise - Residential,628
+2014,05,QUEENS,General Construction/Plumbing,705
+2014,05,BROOKLYN,Noise - Residential,5947
+2014,05,MANHATTAN,Noise - Residential,4228
+2014,05,BRONX,Blocked Driveway,918
+2014,05,STATEN ISLAND,Street Light Condition,375
+2014,05,QUEENS,Traffic Signal Condition,857
+2014,05,STATEN ISLAND,Water System,378
+2014,05,MANHATTAN,General Construction/Plumbing,635
+2014,05,BROOKLYN,Water System,1102
+2014,05,MANHATTAN,Street Condition,1877
+2014,05,BRONX,General Construction/Plumbing,356
+2014,05,BRONX,Noise - Residential,4240
+2014,05,MANHATTAN,Water System,680
+2014,05,BRONX,Street Condition,1170
+2014,05,BROOKLYN,General Construction/Plumbing,1547
+2014,05,STATEN ISLAND,Blocked Driveway,169
+2014,05,BRONX,Traffic Signal Condition,444
+2014,05,QUEENS,Water System,1177
+2014,05,MANHATTAN,Traffic Signal Condition,630
+2014,05,QUEENS,Street Condition,4230
+2014,06,MANHATTAN,Traffic Signal Condition,507
+2014,06,STATEN ISLAND,Street Light Condition,465
+2014,06,MANHATTAN,Street Light Condition,941
+2014,06,BROOKLYN,Blocked Driveway,2471
+2014,06,Unspecified,Noise - Residential,3
+2014,06,STATEN ISLAND,General Construction/Plumbing,209
+2014,06,QUEENS,Street Condition,3465
+2014,06,BRONX,Noise - Residential,4033
+2014,06,QUEENS,General Construction/Plumbing,732
+2014,06,BROOKLYN,Traffic Signal Condition,987
+2014,06,BROOKLYN,Street Condition,4068
+2014,06,QUEENS,Blocked Driveway,2760
+2014,06,STATEN ISLAND,Traffic Signal Condition,98
+2014,06,BRONX,Blocked Driveway,945
+2014,06,QUEENS,Traffic Signal Condition,717
+2014,06,QUEENS,Noise - Residential,4810
+2014,06,BROOKLYN,Water System,1439
+2014,06,QUEENS,Street Light Condition,2469
+2014,06,MANHATTAN,Blocked Driveway,178
+2014,06,QUEENS,Water System,1600
+2014,06,Unspecified,Street Light Condition,148
+2014,06,STATEN ISLAND,Blocked Driveway,189
+2014,06,MANHATTAN,Water System,1073
+2014,06,BRONX,Traffic Signal Condition,376
+2014,06,BROOKLYN,General Construction/Plumbing,1561
+2014,06,STATEN ISLAND,Noise - Residential,765
+2014,06,BRONX,Water System,1353
+2014,06,Unspecified,Traffic Signal Condition,22
+2014,06,MANHATTAN,Street Condition,1969
+2014,06,BRONX,Street Condition,1007
+2014,06,MANHATTAN,General Construction/Plumbing,657
+2014,06,STATEN ISLAND,Street Condition,1477
+2014,06,STATEN ISLAND,Water System,400
+2014,06,MANHATTAN,Noise - Residential,3565
+2014,06,BRONX,Street Light Condition,1757
+2014,06,BROOKLYN,Street Light Condition,2193
+2014,06,BRONX,General Construction/Plumbing,386
+2014,06,BROOKLYN,Noise - Residential,6469
+2014,07,QUEENS,Noise - Residential,4115
+2014,07,STATEN ISLAND,Noise - Residential,685
+2014,07,QUEENS,Street Condition,2283
+2014,07,BROOKLYN,General Construction/Plumbing,1711
+2014,07,BRONX,General Construction/Plumbing,487
+2014,07,Unspecified,Blocked Driveway,1
+2014,07,QUEENS,Water System,1617
+2014,07,BROOKLYN,Street Light Condition,2412
+2014,07,BROOKLYN,Noise - Residential,5740
+2014,07,STATEN ISLAND,Street Light Condition,512
+2014,07,Unspecified,Noise - Residential,2
+2014,07,BRONX,Street Light Condition,1573
+2014,07,STATEN ISLAND,Water System,359
+2014,07,BRONX,Noise - Residential,3410
+2014,07,MANHATTAN,Water System,1896
+2014,07,MANHATTAN,Blocked Driveway,147
+2014,07,QUEENS,Street Light Condition,2755
+2014,07,BRONX,Street Condition,684
+2014,07,QUEENS,General Construction/Plumbing,730
+2014,07,STATEN ISLAND,Blocked Driveway,181
+2014,07,Unspecified,Traffic Signal Condition,21
+2014,07,BROOKLYN,Street Condition,2371
+2014,07,BROOKLYN,Blocked Driveway,2042
+2014,07,BROOKLYN,Traffic Signal Condition,1258
+2014,07,Unspecified,Street Light Condition,72
+2014,07,BRONX,Blocked Driveway,1010
+2014,07,MANHATTAN,Street Light Condition,1069
+2014,07,MANHATTAN,Traffic Signal Condition,640
+2014,07,BROOKLYN,Water System,2045
+2014,07,STATEN ISLAND,Traffic Signal Condition,103
+2014,07,BRONX,Traffic Signal Condition,388
+2014,07,STATEN ISLAND,Street Condition,1151
+2014,07,STATEN ISLAND,General Construction/Plumbing,194
+2014,07,MANHATTAN,Street Condition,1312
+2014,07,BRONX,Water System,2168
+2014,07,QUEENS,Traffic Signal Condition,793
+2014,07,QUEENS,Blocked Driveway,2583
+2014,07,MANHATTAN,General Construction/Plumbing,641
+2014,07,MANHATTAN,Noise - Residential,2932
+2014,08,STATEN ISLAND,Traffic Signal Condition,81
+2014,08,BROOKLYN,Water System,1143
+2014,08,STATEN ISLAND,Noise - Residential,801
+2014,08,BROOKLYN,Blocked Driveway,2037
+2014,08,QUEENS,Water System,1253
+2014,08,STATEN ISLAND,Street Light Condition,524
+2014,08,BROOKLYN,Street Light Condition,2219
+2014,08,QUEENS,Street Light Condition,2471
+2014,08,QUEENS,Street Condition,1786
+2014,08,BRONX,Street Light Condition,1514
+2014,08,Unspecified,Traffic Signal Condition,14
+2014,08,MANHATTAN,Water System,944
+2014,08,MANHATTAN,Blocked Driveway,152
+2014,08,MANHATTAN,Noise - Residential,3514
+2014,08,Unspecified,Street Light Condition,121
+2014,08,BROOKLYN,General Construction/Plumbing,1480
+2014,08,Unspecified,Noise - Residential,6
+2014,08,BROOKLYN,Traffic Signal Condition,933
+2014,08,MANHATTAN,Traffic Signal Condition,599
+2014,08,QUEENS,Traffic Signal Condition,778
+2014,08,BRONX,Blocked Driveway,913
+2014,08,BROOKLYN,Street Condition,1537
+2014,08,BRONX,Water System,744
+2014,08,QUEENS,General Construction/Plumbing,678
+2014,08,BRONX,Street Condition,660
+2014,08,STATEN ISLAND,General Construction/Plumbing,151
+2014,08,BRONX,Traffic Signal Condition,458
+2014,08,STATEN ISLAND,Street Condition,672
+2014,08,MANHATTAN,Street Light Condition,972
+2014,08,MANHATTAN,General Construction/Plumbing,503
+2014,08,STATEN ISLAND,Water System,372
+2014,08,MANHATTAN,Street Condition,1268
+2014,08,STATEN ISLAND,Blocked Driveway,151
+2014,08,BRONX,General Construction/Plumbing,376
+2014,08,BROOKLYN,Noise - Residential,6972
+2014,08,BRONX,Noise - Residential,4079
+2014,08,QUEENS,Blocked Driveway,2556
+2014,08,QUEENS,Noise - Residential,5256
+2014,09,BROOKLYN,Traffic Signal Condition,993
+2014,09,BRONX,Water System,695
+2014,09,BRONX,Street Light Condition,1185
+2014,09,QUEENS,Traffic Signal Condition,601
+2014,09,MANHATTAN,Noise - Residential,3722
+2014,09,MANHATTAN,Water System,827
+2014,09,BROOKLYN,Street Condition,1514
+2014,09,QUEENS,Water System,1137
+2014,09,QUEENS,Street Condition,1955
+2014,09,BROOKLYN,Water System,833
+2014,09,BRONX,Noise - Residential,3395
+2014,09,MANHATTAN,Blocked Driveway,231
+2014,09,STATEN ISLAND,Traffic Signal Condition,111
+2014,09,QUEENS,General Construction/Plumbing,657
+2014,09,BROOKLYN,Noise - Residential,5354
+2014,09,MANHATTAN,Traffic Signal Condition,605
+2014,09,STATEN ISLAND,Street Condition,694
+2014,09,BROOKLYN,Street Light Condition,2481
+2014,09,BRONX,Traffic Signal Condition,476
+2014,09,BRONX,Street Condition,589
+2014,09,STATEN ISLAND,Street Light Condition,541
+2014,09,BROOKLYN,Blocked Driveway,2538
+2014,09,QUEENS,Blocked Driveway,2977
+2014,09,QUEENS,Noise - Residential,3886
+2014,09,BRONX,General Construction/Plumbing,319
+2014,09,STATEN ISLAND,Water System,373
+2014,09,QUEENS,Street Light Condition,2607
+2014,09,MANHATTAN,Street Light Condition,991
+2014,09,Unspecified,Noise - Residential,5
+2014,09,STATEN ISLAND,General Construction/Plumbing,153
+2014,09,BROOKLYN,General Construction/Plumbing,1482
+2014,09,BRONX,Blocked Driveway,1017
+2014,09,Unspecified,Street Light Condition,118
+2014,09,MANHATTAN,General Construction/Plumbing,692
+2014,09,STATEN ISLAND,Blocked Driveway,178
+2014,09,MANHATTAN,Street Condition,1224
+2014,09,STATEN ISLAND,Noise - Residential,499
+2014,09,Unspecified,Traffic Signal Condition,17
+2014,10,BROOKLYN,Traffic Signal Condition,1192
+2014,10,QUEENS,Blocked Driveway,3065
+2014,10,QUEENS,Noise - Residential,3107
+2014,10,STATEN ISLAND,Noise - Residential,497
+2014,10,QUEENS,General Construction/Plumbing,648
+2014,10,MANHATTAN,Street Light Condition,1110
+2014,10,Unspecified,Street Light Condition,170
+2014,10,BROOKLYN,General Construction/Plumbing,1357
+2014,10,STATEN ISLAND,Street Condition,665
+2014,10,MANHATTAN,Noise - Residential,4354
+2014,10,BRONX,Noise - Residential,3902
+2014,10,BRONX,Water System,403
+2014,10,BROOKLYN,Noise - Residential,4946
+2014,10,QUEENS,Street Light Condition,2661
+2014,10,MANHATTAN,Traffic Signal Condition,609
+2014,10,Unspecified,Noise - Residential,3
+2014,10,BROOKLYN,Water System,926
+2014,10,BROOKLYN,Street Condition,1650
+2014,10,STATEN ISLAND,Street Light Condition,531
+2014,10,STATEN ISLAND,Blocked Driveway,229
+2014,10,BRONX,Traffic Signal Condition,433
+2014,10,MANHATTAN,General Construction/Plumbing,549
+2014,10,BRONX,Street Condition,469
+2014,10,QUEENS,Water System,992
+2014,10,MANHATTAN,Water System,785
+2014,10,BRONX,Blocked Driveway,1031
+2014,10,STATEN ISLAND,General Construction/Plumbing,131
+2014,10,BRONX,Street Light Condition,1341
+2014,10,MANHATTAN,Blocked Driveway,226
+2014,10,STATEN ISLAND,Water System,852
+2014,10,STATEN ISLAND,Traffic Signal Condition,116
+2014,10,MANHATTAN,Street Condition,1196
+2014,10,BRONX,General Construction/Plumbing,302
+2014,10,QUEENS,Street Condition,1372
+2014,10,Unspecified,Traffic Signal Condition,29
+2014,10,QUEENS,Traffic Signal Condition,747
+2014,10,BROOKLYN,Blocked Driveway,2668
+2014,10,BROOKLYN,Street Light Condition,2435
+2014,11,STATEN ISLAND,Street Light Condition,417
+2014,11,BROOKLYN,Noise - Residential,4657
+2014,11,STATEN ISLAND,Blocked Driveway,186
+2014,11,QUEENS,General Construction/Plumbing,646
+2014,11,BRONX,Street Condition,449
+2014,11,BROOKLYN,Street Condition,1197
+2014,11,Unspecified,Street Light Condition,93
+2014,11,BRONX,Street Light Condition,1393
+2014,11,BRONX,General Construction/Plumbing,253
+2014,11,BROOKLYN,Street Light Condition,2053
+2014,11,QUEENS,Street Light Condition,2473
+2014,11,MANHATTAN,Noise - Residential,4472
+2014,11,Unspecified,Blocked Driveway,4
+2014,11,STATEN ISLAND,Traffic Signal Condition,81
+2014,11,STATEN ISLAND,General Construction/Plumbing,103
+2014,11,Unspecified,Noise - Residential,6
+2014,11,QUEENS,Traffic Signal Condition,811
+2014,11,BROOKLYN,Traffic Signal Condition,1359
+2014,11,QUEENS,Street Condition,1228
+2014,11,BROOKLYN,General Construction/Plumbing,1152
+2014,11,MANHATTAN,Water System,649
+2014,11,MANHATTAN,Traffic Signal Condition,616
+2014,11,STATEN ISLAND,Noise - Residential,300
+2014,11,QUEENS,Noise - Residential,2417
+2014,11,MANHATTAN,Street Condition,1057
+2014,11,MANHATTAN,Street Light Condition,996
+2014,11,BRONX,Blocked Driveway,1063
+2014,11,BRONX,Water System,375
+2014,11,BROOKLYN,Water System,812
+2014,11,Unspecified,Traffic Signal Condition,20
+2014,11,BRONX,Traffic Signal Condition,422
+2014,11,MANHATTAN,Blocked Driveway,241
+2014,11,BRONX,Noise - Residential,4015
+2014,11,STATEN ISLAND,Water System,505
+2014,11,MANHATTAN,General Construction/Plumbing,500
+2014,11,QUEENS,Blocked Driveway,3073
+2014,11,STATEN ISLAND,Street Condition,466
+2014,11,QUEENS,Water System,1189
+2014,11,BROOKLYN,Blocked Driveway,2882
+2014,12,Unspecified,Street Light Condition,123
+2014,12,BRONX,Noise - Residential,4071
+2014,12,STATEN ISLAND,Noise - Residential,386
+2014,12,MANHATTAN,Water System,518
+2014,12,QUEENS,Noise - Residential,2450
+2014,12,BROOKLYN,Blocked Driveway,2989
+2014,12,STATEN ISLAND,Blocked Driveway,227
+2014,12,STATEN ISLAND,Street Condition,681
+2014,12,MANHATTAN,Blocked Driveway,255
+2014,12,QUEENS,Blocked Driveway,3115
+2014,12,STATEN ISLAND,Water System,396
+2014,12,MANHATTAN,Street Light Condition,1055
+2014,12,BROOKLYN,General Construction/Plumbing,1085
+2014,12,STATEN ISLAND,Street Light Condition,558
+2014,12,BRONX,Street Condition,768
+2014,12,Unspecified,Blocked Driveway,9
+2014,12,MANHATTAN,Traffic Signal Condition,595
+2014,12,STATEN ISLAND,Traffic Signal Condition,121
+2014,12,QUEENS,Traffic Signal Condition,739
+2014,12,Unspecified,Traffic Signal Condition,21
+2014,12,QUEENS,Street Condition,2133
+2014,12,BRONX,Water System,291
+2014,12,BRONX,Traffic Signal Condition,440
+2014,12,BROOKLYN,Water System,953
+2014,12,BROOKLYN,Street Light Condition,2439
+2014,12,MANHATTAN,Street Condition,990
+2014,12,STATEN ISLAND,General Construction/Plumbing,116
+2014,12,MANHATTAN,General Construction/Plumbing,456
+2014,12,MANHATTAN,Noise - Residential,4190
+2014,12,BROOKLYN,Traffic Signal Condition,1455
+2014,12,BRONX,General Construction/Plumbing,268
+2014,12,QUEENS,General Construction/Plumbing,523
+2014,12,BROOKLYN,Noise - Residential,4363
+2014,12,QUEENS,Street Light Condition,2451
+2014,12,BROOKLYN,Street Condition,1842
+2014,12,QUEENS,Water System,1204
+2014,12,BRONX,Street Light Condition,1662
+2014,12,BRONX,Blocked Driveway,1234
+2014,12,Unspecified,Noise - Residential,15
+2015,01,BRONX,Traffic Signal Condition,418
+2015,01,MANHATTAN,Street Condition,1108
+2015,01,STATEN ISLAND,Street Condition,998
+2015,01,BRONX,Water System,600
+2015,01,STATEN ISLAND,Street Light Condition,414
+2015,01,QUEENS,Street Condition,2260
+2015,01,BROOKLYN,Traffic Signal Condition,1979
+2015,01,MANHATTAN,Noise - Residential,4152
+2015,01,STATEN ISLAND,Blocked Driveway,212
+2015,01,BRONX,General Construction/Plumbing,197
+2015,01,QUEENS,Blocked Driveway,2952
+2015,01,MANHATTAN,Blocked Driveway,196
+2015,01,QUEENS,Street Light Condition,2097
+2015,01,STATEN ISLAND,Noise - Residential,350
+2015,01,BRONX,Noise - Residential,4229
+2015,01,BROOKLYN,General Construction/Plumbing,1032
+2015,01,BROOKLYN,Blocked Driveway,2615
+2015,01,MANHATTAN,Street Light Condition,915
+2015,01,STATEN ISLAND,Traffic Signal Condition,137
+2015,01,MANHATTAN,Water System,1042
+2015,01,BRONX,Street Condition,666
+2015,01,BRONX,Blocked Driveway,1248
+2015,01,Unspecified,Street Light Condition,113
+2015,01,BROOKLYN,Noise - Residential,4365
+2015,01,MANHATTAN,General Construction/Plumbing,431
+2015,01,MANHATTAN,Traffic Signal Condition,652
+2015,01,QUEENS,General Construction/Plumbing,475
+2015,01,QUEENS,Traffic Signal Condition,1229
+2015,01,BROOKLYN,Street Light Condition,2250
+2015,01,BROOKLYN,Street Condition,2079
+2015,01,Unspecified,Blocked Driveway,10
+2015,01,Unspecified,Noise - Residential,21
+2015,01,STATEN ISLAND,General Construction/Plumbing,109
+2015,01,BROOKLYN,Water System,1607
+2015,01,QUEENS,Noise - Residential,2217
+2015,01,Unspecified,Traffic Signal Condition,24
+2015,01,STATEN ISLAND,Water System,548
+2015,01,BRONX,Street Light Condition,1228
+2015,01,QUEENS,Water System,1702
+2015,02,STATEN ISLAND,Street Condition,1555
+2015,02,Unspecified,Street Light Condition,106
+2015,02,QUEENS,General Construction/Plumbing,345
+2015,02,STATEN ISLAND,Street Light Condition,482
+2015,02,STATEN ISLAND,Noise - Residential,294
+2015,02,QUEENS,Street Condition,3201
+2015,02,BRONX,Water System,802
+2015,02,BROOKLYN,Water System,2103
+2015,02,MANHATTAN,Blocked Driveway,231
+2015,02,BROOKLYN,Street Light Condition,2115
+2015,02,QUEENS,Noise - Residential,2045
+2015,02,BROOKLYN,Noise - Residential,3691
+2015,02,BROOKLYN,Street Condition,2471
+2015,02,BRONX,Blocked Driveway,1571
+2015,02,BROOKLYN,Traffic Signal Condition,2041
+2015,02,Unspecified,Blocked Driveway,6
+2015,02,MANHATTAN,Water System,794
+2015,02,BRONX,General Construction/Plumbing,185
+2015,02,MANHATTAN,General Construction/Plumbing,433
+2015,02,BRONX,Street Light Condition,1392
+2015,02,STATEN ISLAND,General Construction/Plumbing,73
+2015,02,MANHATTAN,Noise - Residential,3538
+2015,02,BROOKLYN,General Construction/Plumbing,895
+2015,02,BRONX,Noise - Residential,3715
+2015,02,Unspecified,Traffic Signal Condition,36
+2015,02,BRONX,Street Condition,1062
+2015,02,MANHATTAN,Traffic Signal Condition,606
+2015,02,QUEENS,Street Light Condition,2146
+2015,02,STATEN ISLAND,Blocked Driveway,242
+2015,02,MANHATTAN,Street Condition,1430
+2015,02,STATEN ISLAND,Traffic Signal Condition,145
+2015,02,STATEN ISLAND,Water System,740
+2015,02,Unspecified,Noise - Residential,5
+2015,02,QUEENS,Traffic Signal Condition,1488
+2015,02,QUEENS,Water System,2633
+2015,02,BRONX,Traffic Signal Condition,384
+2015,02,QUEENS,Blocked Driveway,3500
+2015,02,BROOKLYN,Blocked Driveway,2729
+2015,02,MANHATTAN,Street Light Condition,1041
+2015,03,Unspecified,Traffic Signal Condition,26
+2015,03,MANHATTAN,General Construction/Plumbing,582
+2015,03,BRONX,General Construction/Plumbing,283
+2015,03,STATEN ISLAND,Noise - Residential,394
+2015,03,BROOKLYN,Street Condition,6840
+2015,03,BRONX,Street Light Condition,1394
+2015,03,Unspecified,Street Light Condition,121
+2015,03,MANHATTAN,Traffic Signal Condition,705
+2015,03,STATEN ISLAND,Street Condition,4279
+2015,03,MANHATTAN,Noise - Residential,4031
+2015,03,MANHATTAN,Street Light Condition,947
+2015,03,QUEENS,Street Condition,8359
+2015,03,BROOKLYN,Traffic Signal Condition,2205
+2015,03,STATEN ISLAND,General Construction/Plumbing,90
+2015,03,MANHATTAN,Blocked Driveway,226
+2015,03,STATEN ISLAND,Traffic Signal Condition,129
+2015,03,QUEENS,Street Light Condition,2903
+2015,03,BROOKLYN,Noise - Residential,4304
+2015,03,STATEN ISLAND,Blocked Driveway,265
+2015,03,QUEENS,Water System,1979
+2015,03,STATEN ISLAND,Water System,435
+2015,03,MANHATTAN,Street Condition,3001
+2015,03,BRONX,Water System,726
+2015,03,Unspecified,Noise - Residential,9
+2015,03,STATEN ISLAND,Street Light Condition,529
+2015,03,QUEENS,General Construction/Plumbing,496
+2015,03,MANHATTAN,Water System,917
+2015,03,BROOKLYN,Street Light Condition,2617
+2015,03,QUEENS,Blocked Driveway,3686
+2015,03,BROOKLYN,General Construction/Plumbing,1291
+2015,03,BRONX,Traffic Signal Condition,524
+2015,03,BRONX,Street Condition,2877
+2015,03,BRONX,Noise - Residential,3948
+2015,03,BROOKLYN,Blocked Driveway,3204
+2015,03,QUEENS,Noise - Residential,2260
+2015,03,QUEENS,Traffic Signal Condition,1828
+2015,03,Unspecified,Blocked Driveway,13
+2015,03,BRONX,Blocked Driveway,1625
+2015,03,BROOKLYN,Water System,1971
+2015,04,QUEENS,Water System,1547
+2015,04,QUEENS,Street Condition,5572
+2015,04,BROOKLYN,Street Light Condition,2791
+2015,04,STATEN ISLAND,Traffic Signal Condition,112
+2015,04,STATEN ISLAND,Water System,709
+2015,04,BROOKLYN,Water System,1379
+2015,04,QUEENS,Traffic Signal Condition,1060
+2015,04,MANHATTAN,General Construction/Plumbing,632
+2015,04,QUEENS,General Construction/Plumbing,656
+2015,04,BROOKLYN,Noise - Residential,4703
+2015,04,BROOKLYN,Blocked Driveway,2448
+2015,04,MANHATTAN,Street Condition,2339
+2015,04,Unspecified,Noise - Residential,14
+2015,04,MANHATTAN,Water System,907
+2015,04,BRONX,Street Light Condition,1531
+2015,04,BROOKLYN,Traffic Signal Condition,1225
+2015,04,Unspecified,Traffic Signal Condition,24
+2015,04,QUEENS,Noise - Residential,2781
+2015,04,Unspecified,Blocked Driveway,5
+2015,04,Unspecified,Street Light Condition,73
+2015,04,BROOKLYN,General Construction/Plumbing,1577
+2015,04,BRONX,Water System,655
+2015,04,BRONX,Street Condition,1773
+2015,04,STATEN ISLAND,General Construction/Plumbing,121
+2015,04,QUEENS,Street Light Condition,3013
+2015,04,BRONX,General Construction/Plumbing,379
+2015,04,STATEN ISLAND,Street Light Condition,463
+2015,04,BRONX,Noise - Residential,3810
+2015,04,BROOKLYN,Street Condition,4448
+2015,04,MANHATTAN,Traffic Signal Condition,505
+2015,04,QUEENS,Blocked Driveway,2881
+2015,04,MANHATTAN,Blocked Driveway,204
+2015,04,BRONX,Traffic Signal Condition,425
+2015,04,STATEN ISLAND,Noise - Residential,464
+2015,04,BRONX,Blocked Driveway,1136
+2015,04,MANHATTAN,Noise - Residential,4325
+2015,04,MANHATTAN,Street Light Condition,1149
+2015,04,STATEN ISLAND,Street Condition,2443
+2015,04,STATEN ISLAND,Blocked Driveway,184
+2015,05,STATEN ISLAND,Noise - Residential,797
+2015,05,BRONX,Street Light Condition,1516
+2015,05,STATEN ISLAND,General Construction/Plumbing,187
+2015,05,MANHATTAN,Water System,829
+2015,05,BROOKLYN,Water System,1421
+2015,05,STATEN ISLAND,Street Condition,1519
+2015,05,BRONX,Water System,872
+2015,05,MANHATTAN,Street Condition,1892
+2015,05,Unspecified,Noise - Residential,7
+2015,05,STATEN ISLAND,Street Light Condition,604
+2015,05,BRONX,General Construction/Plumbing,379
+2015,05,QUEENS,Street Light Condition,2544
+2015,05,BRONX,Blocked Driveway,1363
+2015,05,STATEN ISLAND,Traffic Signal Condition,110
+2015,05,MANHATTAN,General Construction/Plumbing,661
+2015,05,QUEENS,Street Condition,3586
+2015,05,QUEENS,Noise - Residential,4910
+2015,05,STATEN ISLAND,Water System,477
+2015,05,MANHATTAN,Noise - Residential,4722
+2015,05,BROOKLYN,Noise - Residential,7267
+2015,05,Unspecified,Traffic Signal Condition,20
+2015,05,QUEENS,Traffic Signal Condition,802
+2015,05,BROOKLYN,Street Light Condition,2764
+2015,05,BROOKLYN,General Construction/Plumbing,1804
+2015,05,BROOKLYN,Blocked Driveway,2960
+2015,05,BRONX,Noise - Residential,4863
+2015,05,Unspecified,Street Light Condition,97
+2015,05,MANHATTAN,Traffic Signal Condition,584
+2015,05,BROOKLYN,Traffic Signal Condition,855
+2015,05,QUEENS,Blocked Driveway,3296
+2015,05,Unspecified,Blocked Driveway,8
+2015,05,QUEENS,General Construction/Plumbing,787
+2015,05,QUEENS,Water System,1547
+2015,05,BRONX,Street Condition,1128
+2015,05,BROOKLYN,Street Condition,3117
+2015,05,STATEN ISLAND,Blocked Driveway,194
+2015,05,MANHATTAN,Street Light Condition,1090
+2015,05,BRONX,Traffic Signal Condition,401
+2015,05,MANHATTAN,Blocked Driveway,243
+2015,06,BROOKLYN,General Construction/Plumbing,1926
+2015,06,BROOKLYN,Street Condition,3647
+2015,06,QUEENS,Street Condition,3728
+2015,06,BRONX,Blocked Driveway,1444
+2015,06,STATEN ISLAND,Traffic Signal Condition,153
+2015,06,MANHATTAN,Street Condition,1931
+2015,06,QUEENS,Traffic Signal Condition,1122
+2015,06,QUEENS,Noise - Residential,4237
+2015,06,QUEENS,Blocked Driveway,3504
+2015,06,STATEN ISLAND,Street Condition,1317
+2015,06,BRONX,Street Light Condition,1681
+2015,06,Unspecified,Street Light Condition,111
+2015,06,STATEN ISLAND,Street Light Condition,611
+2015,06,BROOKLYN,Blocked Driveway,3168
+2015,06,MANHATTAN,Noise - Residential,3568
+2015,06,MANHATTAN,Traffic Signal Condition,654
+2015,06,Unspecified,Blocked Driveway,5
+2015,06,BROOKLYN,Street Light Condition,2628
+2015,06,QUEENS,General Construction/Plumbing,851
+2015,06,QUEENS,Street Light Condition,2698
+2015,06,BRONX,Noise - Residential,4056
+2015,06,MANHATTAN,General Construction/Plumbing,706
+2015,06,Unspecified,Noise - Residential,22
+2015,06,MANHATTAN,Street Light Condition,902
+2015,06,STATEN ISLAND,Noise - Residential,670
+2015,06,BRONX,Water System,1444
+2015,06,BROOKLYN,Traffic Signal Condition,1168
+2015,06,QUEENS,Water System,1561
+2015,06,MANHATTAN,Blocked Driveway,206
+2015,06,Unspecified,Traffic Signal Condition,27
+2015,06,BRONX,Street Condition,1035
+2015,06,BRONX,Traffic Signal Condition,448
+2015,06,STATEN ISLAND,Blocked Driveway,234
+2015,06,BRONX,General Construction/Plumbing,451
+2015,06,STATEN ISLAND,General Construction/Plumbing,262
+2015,06,STATEN ISLAND,Water System,437
+2015,06,BROOKLYN,Water System,1969
+2015,06,BROOKLYN,Noise - Residential,5886
+2015,06,MANHATTAN,Water System,1425
+2015,07,BRONX,Street Light Condition,1374
+2015,07,MANHATTAN,Traffic Signal Condition,596
+2015,07,QUEENS,General Construction/Plumbing,869
+2015,07,MANHATTAN,Street Condition,1601
+2015,07,BROOKLYN,Water System,2549
+2015,07,MANHATTAN,Street Light Condition,1092
+2015,07,QUEENS,Street Light Condition,2546
+2015,07,STATEN ISLAND,Noise - Residential,736
+2015,07,BROOKLYN,Traffic Signal Condition,1020
+2015,07,MANHATTAN,General Construction/Plumbing,727
+2015,07,BRONX,Street Condition,775
+2015,07,BRONX,General Construction/Plumbing,451
+2015,07,BRONX,Noise - Residential,3681
+2015,07,QUEENS,Water System,1962
+2015,07,STATEN ISLAND,Water System,388
+2015,07,STATEN ISLAND,Blocked Driveway,224
+2015,07,Unspecified,Noise - Residential,20
+2015,07,Unspecified,Blocked Driveway,7
+2015,07,QUEENS,Noise - Residential,4280
+2015,07,QUEENS,Blocked Driveway,3236
+2015,07,BROOKLYN,Street Light Condition,2446
+2015,07,STATEN ISLAND,Traffic Signal Condition,224
+2015,07,Unspecified,Traffic Signal Condition,70
+2015,07,BROOKLYN,Noise - Residential,5888
+2015,07,BRONX,Water System,2288
+2015,07,STATEN ISLAND,General Construction/Plumbing,171
+2015,07,STATEN ISLAND,Street Condition,1141
+2015,07,MANHATTAN,Noise - Residential,2856
+2015,07,MANHATTAN,Blocked Driveway,210
+2015,07,Unspecified,Street Light Condition,114
+2015,07,BRONX,Traffic Signal Condition,355
+2015,07,BRONX,Blocked Driveway,1260
+2015,07,BROOKLYN,General Construction/Plumbing,1962
+2015,07,MANHATTAN,Water System,1839
+2015,07,BROOKLYN,Blocked Driveway,2687
+2015,07,STATEN ISLAND,Street Light Condition,486
+2015,07,QUEENS,Traffic Signal Condition,878
+2015,07,BROOKLYN,Street Condition,2243
+2015,07,QUEENS,Street Condition,2671
+2015,08,QUEENS,Blocked Driveway,3403
+2015,08,MANHATTAN,Street Light Condition,881
+2015,08,MANHATTAN,Traffic Signal Condition,576
+2015,08,MANHATTAN,General Construction/Plumbing,762
+2015,08,QUEENS,Street Condition,2683
+2015,08,Unspecified,Street Light Condition,107
+2015,08,MANHATTAN,Street Condition,1295
+2015,08,BRONX,General Construction/Plumbing,399
+2015,08,MANHATTAN,Noise - Residential,3156
+2015,08,BROOKLYN,Blocked Driveway,2587
+2015,08,BROOKLYN,Water System,1873
+2015,08,QUEENS,Street Light Condition,2622
+2015,08,STATEN ISLAND,Noise - Residential,772
+2015,08,BROOKLYN,Street Condition,2713
+2015,08,Unspecified,Blocked Driveway,9
+2015,08,STATEN ISLAND,Street Condition,1087
+2015,08,STATEN ISLAND,Street Light Condition,458
+2015,08,QUEENS,Traffic Signal Condition,721
+2015,08,BRONX,Traffic Signal Condition,346
+2015,08,BRONX,Noise - Residential,4237
+2015,08,QUEENS,Water System,1389
+2015,08,BROOKLYN,Street Light Condition,2251
+2015,08,BROOKLYN,General Construction/Plumbing,1729
+2015,08,BROOKLYN,Noise - Residential,6274
+2015,08,STATEN ISLAND,Water System,361
+2015,08,BROOKLYN,Traffic Signal Condition,855
+2015,08,MANHATTAN,Blocked Driveway,189
+2015,08,BRONX,Street Condition,881
+2015,08,STATEN ISLAND,General Construction/Plumbing,152
+2015,08,STATEN ISLAND,Blocked Driveway,249
+2015,08,QUEENS,General Construction/Plumbing,825
+2015,08,Unspecified,Traffic Signal Condition,15
+2015,08,QUEENS,Noise - Residential,5038
+2015,08,BRONX,Blocked Driveway,1301
+2015,08,STATEN ISLAND,Traffic Signal Condition,138
+2015,08,BRONX,Water System,1310
+2015,08,BRONX,Street Light Condition,1595
+2015,08,Unspecified,Noise - Residential,25
+2015,08,MANHATTAN,Water System,1317
+2015,09,BROOKLYN,Blocked Driveway,3269
+2015,09,MANHATTAN,Water System,855
+2015,09,QUEENS,Noise - Residential,4455
+2015,09,MANHATTAN,Street Condition,1215
+2015,09,STATEN ISLAND,Street Light Condition,494
+2015,09,QUEENS,Street Light Condition,2641
+2015,09,BRONX,Blocked Driveway,1350
+2015,09,QUEENS,Blocked Driveway,3543
+2015,09,Unspecified,Blocked Driveway,7
+2015,09,BROOKLYN,Traffic Signal Condition,1090
+2015,09,MANHATTAN,Street Light Condition,1208
+2015,09,STATEN ISLAND,Noise - Residential,638
+2015,09,Unspecified,Noise - Residential,1
+2015,09,MANHATTAN,Traffic Signal Condition,1129
+2015,09,BRONX,General Construction/Plumbing,457
+2015,09,BRONX,Water System,973
+2015,09,QUEENS,Traffic Signal Condition,1004
+2015,09,Unspecified,Traffic Signal Condition,38
+2015,09,Unspecified,Street Light Condition,109
+2015,09,QUEENS,General Construction/Plumbing,819
+2015,09,MANHATTAN,General Construction/Plumbing,754
+2015,09,STATEN ISLAND,Water System,399
+2015,09,STATEN ISLAND,Blocked Driveway,244
+2015,09,QUEENS,Water System,1464
+2015,09,BROOKLYN,General Construction/Plumbing,1796
+2015,09,MANHATTAN,Blocked Driveway,258
+2015,09,BROOKLYN,Street Light Condition,2534
+2015,09,BROOKLYN,Water System,1446
+2015,09,STATEN ISLAND,Street Condition,884
+2015,09,STATEN ISLAND,General Construction/Plumbing,175
+2015,09,STATEN ISLAND,Traffic Signal Condition,145
+2015,09,BRONX,Traffic Signal Condition,448
+2015,09,BRONX,Noise - Residential,4088
+2015,09,BROOKLYN,Street Condition,2029
+2015,09,BRONX,Street Light Condition,1645
+2015,09,MANHATTAN,Noise - Residential,3734
+2015,09,BROOKLYN,Noise - Residential,6016
+2015,09,BRONX,Street Condition,707
+2015,09,QUEENS,Street Condition,1797
+2015,10,STATEN ISLAND,Street Condition,732
+2015,10,QUEENS,Noise - Residential,3131
+2015,10,Unspecified,Noise - Residential,4
+2015,10,MANHATTAN,Noise - Residential,4406
+2015,10,BRONX,Street Light Condition,1777
+2015,10,Unspecified,Traffic Signal Condition,31
+2015,10,QUEENS,Street Condition,1666
+2015,10,QUEENS,Street Light Condition,2747
+2015,10,BROOKLYN,Traffic Signal Condition,1132
+2015,10,MANHATTAN,Blocked Driveway,261
+2015,10,QUEENS,Traffic Signal Condition,898
+2015,10,BROOKLYN,General Construction/Plumbing,1766
+2015,10,QUEENS,General Construction/Plumbing,740
+2015,10,STATEN ISLAND,Street Light Condition,500
+2015,10,BRONX,Street Condition,716
+2015,10,BROOKLYN,Street Light Condition,2312
+2015,10,BRONX,Noise - Residential,4056
+2015,10,STATEN ISLAND,Blocked Driveway,239
+2015,10,BROOKLYN,Street Condition,1823
+2015,10,STATEN ISLAND,General Construction/Plumbing,140
+2015,10,MANHATTAN,Traffic Signal Condition,610
+2015,10,Unspecified,Street Light Condition,99
+2015,10,QUEENS,Water System,1503
+2015,10,BROOKLYN,Noise - Residential,4734
+2015,10,BRONX,Water System,516
+2015,10,MANHATTAN,General Construction/Plumbing,638
+2015,10,STATEN ISLAND,Water System,468
+2015,10,BRONX,General Construction/Plumbing,383
+2015,10,BROOKLYN,Blocked Driveway,3476
+2015,10,BRONX,Blocked Driveway,1577
+2015,10,STATEN ISLAND,Noise - Residential,402
+2015,10,QUEENS,Blocked Driveway,3849
+2015,10,STATEN ISLAND,Traffic Signal Condition,141
+2015,10,MANHATTAN,Street Light Condition,1096
+2015,10,BROOKLYN,Water System,1216
+2015,10,MANHATTAN,Water System,905
+2015,10,Unspecified,Blocked Driveway,5
+2015,10,BRONX,Traffic Signal Condition,420
+2015,10,MANHATTAN,Street Condition,1188
+2015,11,STATEN ISLAND,Blocked Driveway,267
+2015,11,BROOKLYN,Street Light Condition,2012
+2015,11,MANHATTAN,Noise - Residential,4048
+2015,11,STATEN ISLAND,Street Light Condition,467
+2015,11,BRONX,Street Condition,462
+2015,11,STATEN ISLAND,Water System,306
+2015,11,QUEENS,Water System,1366
+2015,11,BRONX,Water System,476
+2015,11,MANHATTAN,General Construction/Plumbing,708
+2015,11,MANHATTAN,Street Condition,1124
+2015,11,Unspecified,Noise - Residential,8
+2015,11,STATEN ISLAND,Noise - Residential,342
+2015,11,Unspecified,Street Light Condition,80
+2015,11,BROOKLYN,Blocked Driveway,3705
+2015,11,Unspecified,Blocked Driveway,1
+2015,11,BRONX,Traffic Signal Condition,363
+2015,11,BRONX,General Construction/Plumbing,379
+2015,11,QUEENS,Traffic Signal Condition,656
+2015,11,BROOKLYN,Street Condition,1284
+2015,11,QUEENS,Street Light Condition,2475
+2015,11,BRONX,Blocked Driveway,1597
+2015,11,Unspecified,Traffic Signal Condition,33
+2015,11,BROOKLYN,Noise - Residential,4692
+2015,11,BROOKLYN,Water System,1043
+2015,11,QUEENS,Blocked Driveway,3820
+2015,11,MANHATTAN,Street Light Condition,1138
+2015,11,MANHATTAN,Blocked Driveway,250
+2015,11,STATEN ISLAND,General Construction/Plumbing,121
+2015,11,STATEN ISLAND,Traffic Signal Condition,125
+2015,11,BROOKLYN,General Construction/Plumbing,1499
+2015,11,QUEENS,Noise - Residential,2765
+2015,11,STATEN ISLAND,Street Condition,626
+2015,11,BRONX,Noise - Residential,4252
+2015,11,QUEENS,Street Condition,1313
+2015,11,BROOKLYN,Traffic Signal Condition,806
+2015,11,BRONX,Street Light Condition,1248
+2015,11,QUEENS,General Construction/Plumbing,693
+2015,11,MANHATTAN,Traffic Signal Condition,587
+2015,11,MANHATTAN,Water System,767
+2015,12,STATEN ISLAND,Street Condition,660
+2015,12,BRONX,Traffic Signal Condition,376
+2015,12,Unspecified,Noise - Residential,2
+2015,12,BROOKLYN,Water System,1074
+2015,12,Unspecified,Traffic Signal Condition,49
+2015,12,BROOKLYN,General Construction/Plumbing,1542
+2015,12,QUEENS,Street Condition,2070
+2015,12,BROOKLYN,Street Condition,1501
+2015,12,BRONX,Street Condition,728
+2015,12,STATEN ISLAND,Traffic Signal Condition,123
+2015,12,BROOKLYN,Blocked Driveway,3596
+2015,12,BRONX,Water System,389
+2015,12,STATEN ISLAND,Water System,358
+2015,12,Unspecified,Blocked Driveway,9
+2015,12,QUEENS,Traffic Signal Condition,822
+2015,12,MANHATTAN,Blocked Driveway,232
+2015,12,STATEN ISLAND,Blocked Driveway,291
+2015,12,QUEENS,Street Light Condition,2761
+2015,12,QUEENS,General Construction/Plumbing,731
+2015,12,MANHATTAN,Traffic Signal Condition,534
+2015,12,BRONX,General Construction/Plumbing,321
+2015,12,MANHATTAN,General Construction/Plumbing,551
+2015,12,QUEENS,Noise - Residential,3172
+2015,12,STATEN ISLAND,General Construction/Plumbing,103
+2015,12,BROOKLYN,Street Light Condition,2283
+2015,12,BRONX,Noise - Residential,4400
+2015,12,BROOKLYN,Traffic Signal Condition,704
+2015,12,QUEENS,Blocked Driveway,3807
+2015,12,STATEN ISLAND,Street Light Condition,430
+2015,12,MANHATTAN,Street Condition,930
+2015,12,STATEN ISLAND,Noise - Residential,397
+2015,12,MANHATTAN,Water System,601
+2015,12,MANHATTAN,Noise - Residential,4357
+2015,12,QUEENS,Water System,1639
+2015,12,BROOKLYN,Noise - Residential,5070
+2015,12,Unspecified,Street Light Condition,130
+2015,12,BRONX,Street Light Condition,1602
+2015,12,MANHATTAN,Street Light Condition,1131
+2015,12,BRONX,Blocked Driveway,1589
+2016,01,STATEN ISLAND,General Construction/Plumbing,109
+2016,01,BROOKLYN,Street Condition,1538
+2016,01,Unspecified,Traffic Signal Condition,44
+2016,01,MANHATTAN,Street Light Condition,1038
+2016,01,BROOKLYN,General Construction/Plumbing,1296
+2016,01,BROOKLYN,Blocked Driveway,3516
+2016,01,Unspecified,Street Light Condition,161
+2016,01,STATEN ISLAND,Traffic Signal Condition,179
+2016,01,BRONX,Water System,540
+2016,01,QUEENS,Noise - Residential,2469
+2016,01,MANHATTAN,General Construction/Plumbing,515
+2016,01,BROOKLYN,Traffic Signal Condition,1302
+2016,01,MANHATTAN,Street Condition,1063
+2016,01,QUEENS,Traffic Signal Condition,1056
+2016,01,BRONX,Blocked Driveway,1804
+2016,01,Unspecified,Noise - Residential,18
+2016,01,BROOKLYN,Street Light Condition,1968
+2016,01,BROOKLYN,Water System,1403
+2016,01,STATEN ISLAND,Noise - Residential,336
+2016,01,QUEENS,Street Condition,2052
+2016,01,BRONX,Traffic Signal Condition,552
+2016,01,BRONX,Noise - Residential,4282
+2016,01,MANHATTAN,Noise - Residential,4382
+2016,01,STATEN ISLAND,Water System,355
+2016,01,BRONX,Street Light Condition,1643
+2016,01,MANHATTAN,Traffic Signal Condition,620
+2016,01,MANHATTAN,Blocked Driveway,233
+2016,01,MANHATTAN,Water System,2664
+2016,01,BRONX,Street Condition,907
+2016,01,Unspecified,Blocked Driveway,12
+2016,01,QUEENS,Water System,1467
+2016,01,QUEENS,Blocked Driveway,4253
+2016,01,QUEENS,Street Light Condition,2448
+2016,01,STATEN ISLAND,Blocked Driveway,285
+2016,01,BRONX,General Construction/Plumbing,286
+2016,01,QUEENS,General Construction/Plumbing,527
+2016,01,STATEN ISLAND,Street Light Condition,476
+2016,01,BROOKLYN,Noise - Residential,4459
+2016,01,STATEN ISLAND,Street Condition,667
+2016,02,BROOKLYN,Water System,1694
+2016,02,STATEN ISLAND,Street Condition,1242
+2016,02,Unspecified,Water System,1
+2016,02,BRONX,Street Condition,1152
+2016,02,Unspecified,Traffic Signal Condition,53
+2016,02,STATEN ISLAND,Blocked Driveway,220
+2016,02,MANHATTAN,Blocked Driveway,206
+2016,02,STATEN ISLAND,General Construction/Plumbing,126
+2016,02,MANHATTAN,Noise - Residential,3958
+2016,02,MANHATTAN,Street Light Condition,1062
+2016,02,Unspecified,Blocked Driveway,7
+2016,02,MANHATTAN,Street Condition,1546
+2016,02,BRONX,Water System,645
+2016,02,BRONX,Traffic Signal Condition,632
+2016,02,BRONX,Noise - Residential,3851
+2016,02,Unspecified,Noise - Residential,6
+2016,02,STATEN ISLAND,Street Light Condition,496
+2016,02,QUEENS,Blocked Driveway,3280
+2016,02,BRONX,Blocked Driveway,1414
+2016,02,BROOKLYN,Street Condition,2413
+2016,02,BRONX,General Construction/Plumbing,347
+2016,02,MANHATTAN,Traffic Signal Condition,684
+2016,02,QUEENS,Street Light Condition,2651
+2016,02,BROOKLYN,Noise - Residential,4017
+2016,02,STATEN ISLAND,Traffic Signal Condition,189
+2016,02,STATEN ISLAND,Water System,568
+2016,02,QUEENS,Street Condition,2977
+2016,02,QUEENS,Traffic Signal Condition,1394
+2016,02,QUEENS,General Construction/Plumbing,587
+2016,02,QUEENS,Water System,1790
+2016,02,MANHATTAN,Water System,891
+2016,02,STATEN ISLAND,Noise - Residential,323
+2016,02,BROOKLYN,General Construction/Plumbing,1574
+2016,02,BROOKLYN,Traffic Signal Condition,1700
+2016,02,BROOKLYN,Blocked Driveway,3062
+2016,02,Unspecified,Street Light Condition,141
+2016,02,BRONX,Street Light Condition,1574
+2016,02,BROOKLYN,Street Light Condition,2221
+2016,02,MANHATTAN,General Construction/Plumbing,566
+2016,02,QUEENS,Noise - Residential,2315
+2016,03,QUEENS,Traffic Signal Condition,894
+2016,03,BRONX,Blocked Driveway,1574
+2016,03,BRONX,Traffic Signal Condition,499
+2016,03,QUEENS,Noise - Residential,2851
+2016,03,MANHATTAN,Noise - Residential,4274
+2016,03,QUEENS,Street Condition,3613
+2016,03,STATEN ISLAND,Noise - Residential,383
+2016,03,MANHATTAN,Traffic Signal Condition,601
+2016,03,STATEN ISLAND,Water System,658
+2016,03,QUEENS,Water System,1782
+2016,03,BROOKLYN,Traffic Signal Condition,927
+2016,03,BROOKLYN,Noise - Residential,4474
+2016,03,BRONX,Water System,484
+2016,03,Unspecified,Traffic Signal Condition,37
+2016,03,MANHATTAN,Street Condition,1669
+2016,03,QUEENS,Blocked Driveway,3568
+2016,03,STATEN ISLAND,Blocked Driveway,228
+2016,03,STATEN ISLAND,General Construction/Plumbing,133
+2016,03,BRONX,Street Light Condition,1597
+2016,03,MANHATTAN,General Construction/Plumbing,625
+2016,03,BRONX,Street Condition,1466
+2016,03,QUEENS,Street Light Condition,2798
+2016,03,BROOKLYN,Street Light Condition,2331
+2016,03,MANHATTAN,Water System,1069
+2016,03,STATEN ISLAND,Street Light Condition,541
+2016,03,BROOKLYN,General Construction/Plumbing,1942
+2016,03,BROOKLYN,Blocked Driveway,3503
+2016,03,BROOKLYN,Street Condition,3022
+2016,03,QUEENS,General Construction/Plumbing,867
+2016,03,BRONX,Noise - Residential,4138
+2016,03,Unspecified,Blocked Driveway,24
+2016,03,BRONX,General Construction/Plumbing,411
+2016,03,MANHATTAN,Street Light Condition,1169
+2016,03,BROOKLYN,Water System,1559
+2016,03,STATEN ISLAND,Traffic Signal Condition,139
+2016,03,STATEN ISLAND,Street Condition,1668
+2016,03,Unspecified,Street Light Condition,111
+2016,03,MANHATTAN,Blocked Driveway,231
+2016,03,Unspecified,Noise - Residential,10
+2016,04,BROOKLYN,Noise - Residential,5439
+2016,04,QUEENS,Water System,1356
+2016,04,STATEN ISLAND,Noise - Residential,506
+2016,04,STATEN ISLAND,Water System,556
+2016,04,BROOKLYN,General Construction/Plumbing,1806
+2016,04,QUEENS,Traffic Signal Condition,942
+2016,04,MANHATTAN,Water System,774
+2016,04,STATEN ISLAND,Street Light Condition,482
+2016,04,BRONX,Blocked Driveway,1644
+2016,04,BRONX,General Construction/Plumbing,401
+2016,04,MANHATTAN,Street Light Condition,907
+2016,04,Unspecified,Street Light Condition,112
+2016,04,STATEN ISLAND,General Construction/Plumbing,147
+2016,04,BROOKLYN,Blocked Driveway,3255
+2016,04,BRONX,Street Condition,986
+2016,04,MANHATTAN,General Construction/Plumbing,592
+2016,04,QUEENS,General Construction/Plumbing,860
+2016,04,BROOKLYN,Street Condition,2391
+2016,04,QUEENS,Street Condition,3021
+2016,04,BROOKLYN,Traffic Signal Condition,893
+2016,04,QUEENS,Blocked Driveway,3513
+2016,04,QUEENS,Street Light Condition,2434
+2016,04,BRONX,Noise - Residential,4545
+2016,04,BRONX,Traffic Signal Condition,490
+2016,04,Unspecified,Blocked Driveway,7
+2016,04,STATEN ISLAND,Street Condition,1251
+2016,04,Unspecified,Noise - Residential,9
+2016,04,STATEN ISLAND,Traffic Signal Condition,183
+2016,04,MANHATTAN,Street Condition,1454
+2016,04,MANHATTAN,Traffic Signal Condition,554
+2016,04,Unspecified,Traffic Signal Condition,43
+2016,04,MANHATTAN,Noise - Residential,4982
+2016,04,BROOKLYN,Water System,1200
+2016,04,BRONX,Street Light Condition,993
+2016,04,BRONX,Water System,453
+2016,04,MANHATTAN,Blocked Driveway,231
+2016,04,STATEN ISLAND,Blocked Driveway,232
+2016,04,BROOKLYN,Street Light Condition,2316
+2016,04,QUEENS,Noise - Residential,3375
+2016,05,QUEENS,Street Light Condition,2420
+2016,05,STATEN ISLAND,Blocked Driveway,253
+2016,05,QUEENS,Water System,1466
+2016,05,BRONX,Blocked Driveway,1739
+2016,05,BROOKLYN,Blocked Driveway,3478
+2016,05,QUEENS,Traffic Signal Condition,928
+2016,05,QUEENS,Blocked Driveway,3778
+2016,05,BROOKLYN,Traffic Signal Condition,973
+2016,05,BROOKLYN,Noise - Residential,7398
+2016,05,BROOKLYN,Street Light Condition,2228
+2016,05,MANHATTAN,Blocked Driveway,228
+2016,05,BRONX,Street Condition,999
+2016,05,STATEN ISLAND,Traffic Signal Condition,120
+2016,05,STATEN ISLAND,Water System,449
+2016,05,Unspecified,Street Light Condition,92
+2016,05,STATEN ISLAND,General Construction/Plumbing,169
+2016,05,MANHATTAN,General Construction/Plumbing,672
+2016,05,BRONX,Traffic Signal Condition,430
+2016,05,BRONX,Noise - Residential,5192
+2016,05,BRONX,General Construction/Plumbing,454
+2016,05,MANHATTAN,Street Light Condition,1118
+2016,05,STATEN ISLAND,Noise - Residential,628
+2016,05,MANHATTAN,Water System,997
+2016,05,Unspecified,Traffic Signal Condition,20
+2016,05,MANHATTAN,Street Condition,1422
+2016,05,MANHATTAN,Traffic Signal Condition,587
+2016,05,MANHATTAN,Noise - Residential,4944
+2016,05,QUEENS,Street Condition,2960
+2016,05,STATEN ISLAND,Street Light Condition,489
+2016,05,QUEENS,Noise - Residential,4540
+2016,05,QUEENS,General Construction/Plumbing,730
+2016,05,Unspecified,Noise - Residential,11
+2016,05,Unspecified,Blocked Driveway,15
+2016,05,BRONX,Water System,775
+2016,05,BROOKLYN,General Construction/Plumbing,1984
+2016,05,BROOKLYN,Street Condition,2313
+2016,05,BROOKLYN,Water System,1293
+2016,05,BRONX,Street Light Condition,1589
+2016,05,STATEN ISLAND,Street Condition,968
+2016,06,MANHATTAN,Blocked Driveway,231
+2016,06,QUEENS,Water System,1487
+2016,06,MANHATTAN,General Construction/Plumbing,647
+2016,06,BROOKLYN,Blocked Driveway,3880
+2016,06,Unspecified,Noise - Residential,13
+2016,06,BRONX,Water System,1186
+2016,06,BRONX,Street Light Condition,1322
+2016,06,BROOKLYN,Street Light Condition,1986
+2016,06,Unspecified,Street Light Condition,86
+2016,06,QUEENS,Noise - Residential,4674
+2016,06,MANHATTAN,Water System,1035
+2016,06,MANHATTAN,Street Condition,1362
+2016,06,STATEN ISLAND,Noise - Residential,890
+2016,06,BRONX,General Construction/Plumbing,472
+2016,06,QUEENS,General Construction/Plumbing,917
+2016,06,STATEN ISLAND,Street Light Condition,443
+2016,06,BRONX,Traffic Signal Condition,481
+2016,06,STATEN ISLAND,Water System,659
+2016,06,BROOKLYN,Traffic Signal Condition,748
+2016,06,MANHATTAN,Traffic Signal Condition,526
+2016,06,BROOKLYN,Street Condition,2327
+2016,06,STATEN ISLAND,Street Condition,911
+2016,06,BRONX,Blocked Driveway,1807
+2016,06,MANHATTAN,Street Light Condition,1089
+2016,06,BROOKLYN,Water System,1156
+2016,06,STATEN ISLAND,General Construction/Plumbing,198
+2016,06,MANHATTAN,Noise - Residential,3833
+2016,06,QUEENS,Traffic Signal Condition,905
+2016,06,STATEN ISLAND,Blocked Driveway,292
+2016,06,QUEENS,Street Light Condition,2541
+2016,06,STATEN ISLAND,Traffic Signal Condition,126
+2016,06,QUEENS,Street Condition,2976
+2016,06,BROOKLYN,General Construction/Plumbing,1860
+2016,06,Unspecified,Blocked Driveway,22
+2016,06,Unspecified,Traffic Signal Condition,25
+2016,06,BRONX,Street Condition,1089
+2016,06,BROOKLYN,Noise - Residential,7072
+2016,06,BRONX,Noise - Residential,4395
+2016,06,QUEENS,Blocked Driveway,4149
+2016,07,QUEENS,Traffic Signal Condition,859
+2016,07,Unspecified,Noise - Residential,16
+2016,07,MANHATTAN,Water System,1690
+2016,07,STATEN ISLAND,General Construction/Plumbing,202
+2016,07,MANHATTAN,Noise - Residential,3386
+2016,07,BROOKLYN,Traffic Signal Condition,939
+2016,07,QUEENS,Blocked Driveway,4077
+2016,07,BROOKLYN,Street Condition,1800
+2016,07,STATEN ISLAND,Street Condition,662
+2016,07,QUEENS,Street Condition,1981
+2016,07,Unspecified,Blocked Driveway,17
+2016,07,STATEN ISLAND,Water System,477
+2016,07,MANHATTAN,Traffic Signal Condition,579
+2016,07,MANHATTAN,General Construction/Plumbing,555
+2016,07,BROOKLYN,General Construction/Plumbing,1754
+2016,07,QUEENS,Water System,1832
+2016,07,STATEN ISLAND,Traffic Signal Condition,190
+2016,07,MANHATTAN,Street Condition,1136
+2016,07,BRONX,Street Light Condition,1327
+2016,07,STATEN ISLAND,Noise - Residential,793
+2016,07,Unspecified,Traffic Signal Condition,50
+2016,07,QUEENS,Street Light Condition,2246
+2016,07,BROOKLYN,Water System,1938
+2016,07,MANHATTAN,Blocked Driveway,215
+2016,07,BROOKLYN,Street Light Condition,1821
+2016,07,QUEENS,Noise - Residential,4911
+2016,07,BRONX,Traffic Signal Condition,491
+2016,07,QUEENS,General Construction/Plumbing,976
+2016,07,BRONX,Street Condition,715
+2016,07,STATEN ISLAND,Street Light Condition,455
+2016,07,BRONX,General Construction/Plumbing,412
+2016,07,Unspecified,Street Light Condition,80
+2016,07,BROOKLYN,Noise - Residential,7453
+2016,07,BROOKLYN,Blocked Driveway,3211
+2016,07,MANHATTAN,Street Light Condition,898
+2016,07,BRONX,Water System,2108
+2016,07,BRONX,Blocked Driveway,1712
+2016,07,STATEN ISLAND,Blocked Driveway,246
+2016,07,BRONX,Noise - Residential,4510
+2016,08,BRONX,Water System,1716
+2016,08,Unspecified,Traffic Signal Condition,44
+2016,08,BROOKLYN,Blocked Driveway,3211
+2016,08,STATEN ISLAND,Noise - Residential,628
+2016,08,BRONX,Street Light Condition,1478
+2016,08,Unspecified,Blocked Driveway,23
+2016,08,MANHATTAN,Street Condition,1223
+2016,08,MANHATTAN,Blocked Driveway,235
+2016,08,STATEN ISLAND,Water System,563
+2016,08,STATEN ISLAND,General Construction/Plumbing,198
+2016,08,MANHATTAN,Traffic Signal Condition,538
+2016,08,BROOKLYN,Street Condition,2146
+2016,08,BRONX,Blocked Driveway,1634
+2016,08,BRONX,General Construction/Plumbing,508
+2016,08,STATEN ISLAND,Blocked Driveway,247
+2016,08,BROOKLYN,Street Light Condition,1831
+2016,08,BRONX,Street Condition,783
+2016,08,MANHATTAN,General Construction/Plumbing,555
+2016,08,BROOKLYN,Traffic Signal Condition,620
+2016,08,QUEENS,Street Condition,2090
+2016,08,QUEENS,Water System,1856
+2016,08,MANHATTAN,Water System,1552
+2016,08,Unspecified,Street Light Condition,57
+2016,08,QUEENS,General Construction/Plumbing,1076
+2016,08,MANHATTAN,Noise - Residential,3038
+2016,08,QUEENS,Noise - Residential,3867
+2016,08,QUEENS,Blocked Driveway,3886
+2016,08,BROOKLYN,Noise - Residential,5618
+2016,08,BROOKLYN,General Construction/Plumbing,1927
+2016,08,QUEENS,Street Light Condition,2636
+2016,08,BRONX,Noise - Residential,4101
+2016,08,STATEN ISLAND,Street Light Condition,435
+2016,08,Unspecified,Noise - Residential,7
+2016,08,MANHATTAN,Street Light Condition,956
+2016,08,BRONX,Traffic Signal Condition,386
+2016,08,QUEENS,Traffic Signal Condition,833
+2016,08,STATEN ISLAND,Street Condition,823
+2016,08,STATEN ISLAND,Traffic Signal Condition,193
+2016,08,BROOKLYN,Water System,2163
+2016,09,BROOKLYN,Water System,1381
+2016,09,QUEENS,Water System,1460
+2016,09,BRONX,Blocked Driveway,1737
+2016,09,MANHATTAN,Water System,1061
+2016,09,QUEENS,Traffic Signal Condition,731
+2016,09,MANHATTAN,Noise - Residential,3611
+2016,09,BROOKLYN,Noise - Residential,7672
+2016,09,BRONX,Water System,825
+2016,09,BROOKLYN,Blocked Driveway,4119
+2016,09,STATEN ISLAND,Traffic Signal Condition,121
+2016,09,QUEENS,Street Light Condition,2380
+2016,09,Unspecified,Traffic Signal Condition,25
+2016,09,BRONX,Noise - Residential,4441
+2016,09,STATEN ISLAND,Blocked Driveway,272
+2016,09,MANHATTAN,Blocked Driveway,294
+2016,09,MANHATTAN,Street Light Condition,827
+2016,09,BRONX,Street Condition,727
+2016,09,Unspecified,Street Light Condition,89
+2016,09,BRONX,Street Light Condition,1423
+2016,09,MANHATTAN,Street Condition,1017
+2016,09,STATEN ISLAND,Water System,383
+2016,09,BROOKLYN,Street Light Condition,1773
+2016,09,BROOKLYN,General Construction/Plumbing,1722
+2016,09,QUEENS,Street Condition,1701
+2016,09,QUEENS,General Construction/Plumbing,994
+2016,09,MANHATTAN,General Construction/Plumbing,598
+2016,09,STATEN ISLAND,Noise - Residential,590
+2016,09,STATEN ISLAND,Street Condition,582
+2016,09,STATEN ISLAND,General Construction/Plumbing,160
+2016,09,BROOKLYN,Street Condition,1641
+2016,09,BRONX,General Construction/Plumbing,414
+2016,09,BRONX,Traffic Signal Condition,298
+2016,09,QUEENS,Blocked Driveway,4356
+2016,09,MANHATTAN,Traffic Signal Condition,460
+2016,09,QUEENS,Noise - Residential,4473
+2016,09,STATEN ISLAND,Street Light Condition,521
+2016,09,Unspecified,Noise - Residential,26
+2016,09,BROOKLYN,Traffic Signal Condition,740
+2016,09,Unspecified,Blocked Driveway,17
+2016,10,MANHATTAN,Street Condition,1130
+2016,10,QUEENS,Blocked Driveway,4262
+2016,10,MANHATTAN,Water System,963
+2016,10,BROOKLYN,Street Light Condition,2018
+2016,10,QUEENS,Noise - Residential,3687
+2016,10,STATEN ISLAND,General Construction/Plumbing,160
+2016,10,BROOKLYN,Blocked Driveway,3853
+2016,10,STATEN ISLAND,Blocked Driveway,276
+2016,10,Unspecified,Blocked Driveway,10
+2016,10,BROOKLYN,Noise - Residential,5745
+2016,10,MANHATTAN,Noise - Residential,4618
+2016,10,BRONX,Blocked Driveway,1867
+2016,10,BRONX,General Construction/Plumbing,346
+2016,10,Unspecified,Traffic Signal Condition,36
+2016,10,STATEN ISLAND,Street Light Condition,599
+2016,10,STATEN ISLAND,Traffic Signal Condition,121
+2016,10,QUEENS,Traffic Signal Condition,681
+2016,10,MANHATTAN,Traffic Signal Condition,613
+2016,10,Unspecified,Noise - Residential,17
+2016,10,MANHATTAN,General Construction/Plumbing,572
+2016,10,QUEENS,Street Light Condition,2238
+2016,10,MANHATTAN,Street Light Condition,846
+2016,10,BROOKLYN,General Construction/Plumbing,1676
+2016,10,BROOKLYN,Traffic Signal Condition,827
+2016,10,BROOKLYN,Street Condition,1470
+2016,10,BROOKLYN,Water System,1488
+2016,10,Unspecified,Street Light Condition,133
+2016,10,QUEENS,General Construction/Plumbing,1070
+2016,10,MANHATTAN,Blocked Driveway,236
+2016,10,STATEN ISLAND,Water System,315
+2016,10,BRONX,Street Condition,749
+2016,10,QUEENS,Street Condition,1549
+2016,10,BRONX,Noise - Residential,4674
+2016,10,BRONX,Traffic Signal Condition,342
+2016,10,QUEENS,Water System,1268
+2016,10,STATEN ISLAND,Street Condition,567
+2016,10,BRONX,Water System,567
+2016,10,BRONX,Street Light Condition,1437
+2016,10,STATEN ISLAND,Noise - Residential,539
+2016,11,Unspecified,Noise - Residential,16
+2016,11,BRONX,Street Condition,787
+2016,11,BROOKLYN,Street Condition,1358
+2016,11,MANHATTAN,Water System,956
+2016,11,BRONX,General Construction/Plumbing,339
+2016,11,STATEN ISLAND,Water System,434
+2016,11,BROOKLYN,Water System,1276
+2016,11,BRONX,Water System,656
+2016,11,BRONX,Street Light Condition,1248
+2016,11,QUEENS,Water System,1135
+2016,11,STATEN ISLAND,Noise - Residential,440
+2016,11,BROOKLYN,General Construction/Plumbing,1464
+2016,11,BROOKLYN,Noise - Residential,4411
+2016,11,MANHATTAN,Blocked Driveway,299
+2016,11,MANHATTAN,Traffic Signal Condition,546
+2016,11,MANHATTAN,General Construction/Plumbing,476
+2016,11,BROOKLYN,Blocked Driveway,4099
+2016,11,QUEENS,Blocked Driveway,4489
+2016,11,STATEN ISLAND,Street Condition,519
+2016,11,QUEENS,Street Light Condition,2102
+2016,11,Unspecified,Street Light Condition,109
+2016,11,QUEENS,Street Condition,1513
+2016,11,MANHATTAN,Street Light Condition,708
+2016,11,QUEENS,Traffic Signal Condition,871
+2016,11,QUEENS,General Construction/Plumbing,713
+2016,11,MANHATTAN,Noise - Residential,4216
+2016,11,MANHATTAN,Street Condition,913
+2016,11,Unspecified,Blocked Driveway,16
+2016,11,BROOKLYN,Traffic Signal Condition,895
+2016,11,Unspecified,Traffic Signal Condition,33
+2016,11,STATEN ISLAND,General Construction/Plumbing,108
+2016,11,BRONX,Blocked Driveway,1961
+2016,11,STATEN ISLAND,Blocked Driveway,304
+2016,11,BRONX,Noise - Residential,4548
+2016,11,STATEN ISLAND,Traffic Signal Condition,141
+2016,11,BRONX,Traffic Signal Condition,322
+2016,11,BROOKLYN,Street Light Condition,1610
+2016,11,STATEN ISLAND,Street Light Condition,552
+2016,11,QUEENS,Noise - Residential,2727
+2016,12,MANHATTAN,Street Light Condition,928
+2016,12,STATEN ISLAND,Water System,449
+2016,12,QUEENS,Blocked Driveway,4672
+2016,12,Unspecified,Street Light Condition,134
+2016,12,Unspecified,Noise - Residential,15
+2016,12,MANHATTAN,Blocked Driveway,298
+2016,12,MANHATTAN,General Construction/Plumbing,440
+2016,12,STATEN ISLAND,Street Light Condition,570
+2016,12,BROOKLYN,General Construction/Plumbing,1466
+2016,12,QUEENS,Traffic Signal Condition,1098
+2016,12,BRONX,Noise - Residential,5163
+2016,12,MANHATTAN,Noise - Residential,4545
+2016,12,BRONX,Street Condition,923
+2016,12,BRONX,Traffic Signal Condition,368
+2016,12,QUEENS,Water System,1371
+2016,12,BRONX,Blocked Driveway,1953
+2016,12,Unspecified,Blocked Driveway,25
+2016,12,BRONX,General Construction/Plumbing,395
+2016,12,BROOKLYN,Traffic Signal Condition,1290
+2016,12,QUEENS,Noise - Residential,2803
+2016,12,BROOKLYN,Street Condition,1696
+2016,12,STATEN ISLAND,Street Condition,629
+2016,12,BROOKLYN,Blocked Driveway,4157
+2016,12,BROOKLYN,Noise - Residential,4603
+2016,12,BRONX,Water System,483
+2016,12,QUEENS,General Construction/Plumbing,660
+2016,12,MANHATTAN,Traffic Signal Condition,576
+2016,12,Unspecified,Traffic Signal Condition,43
+2016,12,QUEENS,Street Condition,1769
+2016,12,BRONX,Street Light Condition,1356
+2016,12,BROOKLYN,Water System,1108
+2016,12,STATEN ISLAND,Noise - Residential,424
+2016,12,STATEN ISLAND,Traffic Signal Condition,151
+2016,12,MANHATTAN,Water System,838
+2016,12,BROOKLYN,Street Light Condition,1782
+2016,12,QUEENS,Street Light Condition,2049
+2016,12,MANHATTAN,Street Condition,816
+2016,12,STATEN ISLAND,Blocked Driveway,336
+2016,12,STATEN ISLAND,General Construction/Plumbing,139
+2017,01,STATEN ISLAND,Street Condition,1054
+2017,01,QUEENS,Traffic Signal Condition,1112
+2017,01,QUEENS,Street Light Condition,2041
+2017,01,BROOKLYN,Noise - Residential,4628
+2017,01,BRONX,Traffic Signal Condition,462
+2017,01,STATEN ISLAND,Traffic Signal Condition,160
+2017,01,MANHATTAN,Water System,1087
+2017,01,BROOKLYN,Blocked Driveway,3771
+2017,01,MANHATTAN,Noise - Residential,4432
+2017,01,MANHATTAN,Blocked Driveway,245
+2017,01,BROOKLYN,Traffic Signal Condition,1180
+2017,01,MANHATTAN,General Construction/Plumbing,487
+2017,01,BRONX,Noise - Residential,5410
+2017,01,QUEENS,Noise - Residential,2820
+2017,01,BRONX,Street Condition,1379
+2017,01,STATEN ISLAND,Water System,404
+2017,01,BRONX,General Construction/Plumbing,307
+2017,01,STATEN ISLAND,General Construction/Plumbing,124
+2017,01,BRONX,Blocked Driveway,1941
+2017,01,STATEN ISLAND,Street Light Condition,559
+2017,01,Unspecified,Noise - Residential,130
+2017,01,QUEENS,Street Condition,2588
+2017,01,MANHATTAN,Street Light Condition,1031
+2017,01,MANHATTAN,Traffic Signal Condition,701
+2017,01,Unspecified,Street Light Condition,110
+2017,01,Unspecified,Traffic Signal Condition,33
+2017,01,BRONX,Water System,557
+2017,01,QUEENS,Blocked Driveway,4331
+2017,01,BROOKLYN,Street Light Condition,2094
+2017,01,BRONX,Street Light Condition,1242
+2017,01,BROOKLYN,General Construction/Plumbing,1452
+2017,01,BROOKLYN,Street Condition,1966
+2017,01,Unspecified,Blocked Driveway,220
+2017,01,QUEENS,General Construction/Plumbing,675
+2017,01,QUEENS,Water System,1322
+2017,01,BROOKLYN,Water System,2140
+2017,01,Unspecified,Street Condition,7
+2017,01,MANHATTAN,Street Condition,1245
+2017,01,STATEN ISLAND,Noise - Residential,488
+2017,01,STATEN ISLAND,Blocked Driveway,282
+2017,02,BRONX,Noise - Residential,4465
+2017,02,BRONX,Street Light Condition,1282
+2017,02,STATEN ISLAND,General Construction/Plumbing,138
+2017,02,MANHATTAN,Street Condition,1428
+2017,02,BRONX,Traffic Signal Condition,457
+2017,02,BRONX,Water System,391
+2017,02,QUEENS,Blocked Driveway,3695
+2017,02,Unspecified,Noise - Residential,4
+2017,02,MANHATTAN,Traffic Signal Condition,624
+2017,02,MANHATTAN,Street Light Condition,762
+2017,02,STATEN ISLAND,Street Condition,970
+2017,02,BROOKLYN,Street Light Condition,1709
+2017,02,BROOKLYN,General Construction/Plumbing,1406
+2017,02,BRONX,General Construction/Plumbing,326
+2017,02,QUEENS,Water System,1056
+2017,02,STATEN ISLAND,Street Light Condition,513
+2017,02,Unspecified,Street Light Condition,115
+2017,02,MANHATTAN,Blocked Driveway,198
+2017,02,STATEN ISLAND,Water System,458
+2017,02,STATEN ISLAND,Noise - Residential,425
+2017,02,QUEENS,Traffic Signal Condition,1043
+2017,02,BRONX,Street Condition,980
+2017,02,BROOKLYN,Street Condition,1997
+2017,02,STATEN ISLAND,Blocked Driveway,254
+2017,02,BROOKLYN,Traffic Signal Condition,1103
+2017,02,BRONX,Blocked Driveway,1711
+2017,02,QUEENS,General Construction/Plumbing,728
+2017,02,QUEENS,Noise - Residential,2457
+2017,02,QUEENS,Street Light Condition,1743
+2017,02,QUEENS,Street Condition,2363
+2017,02,STATEN ISLAND,Traffic Signal Condition,136
+2017,02,Unspecified,Traffic Signal Condition,23
+2017,02,BROOKLYN,Blocked Driveway,3483
+2017,02,BROOKLYN,Noise - Residential,4092
+2017,02,MANHATTAN,Water System,705
+2017,02,BROOKLYN,Water System,2298
+2017,02,MANHATTAN,General Construction/Plumbing,519
+2017,02,Unspecified,Blocked Driveway,12
+2017,02,MANHATTAN,Noise - Residential,4002
+2017,03,STATEN ISLAND,Traffic Signal Condition,189
+2017,03,STATEN ISLAND,Noise - Residential,401
+2017,03,BRONX,General Construction/Plumbing,366
+2017,03,Unspecified,Street Light Condition,134
+2017,03,STATEN ISLAND,Water System,282
+2017,03,STATEN ISLAND,Street Condition,977
+2017,03,MANHATTAN,Blocked Driveway,237
+2017,03,BROOKLYN,Street Condition,2586
+2017,03,QUEENS,Street Light Condition,2154
+2017,03,MANHATTAN,Street Light Condition,995
+2017,03,MANHATTAN,Noise - Residential,4351
+2017,03,BROOKLYN,Water System,1089
+2017,03,BROOKLYN,Blocked Driveway,4444
+2017,03,MANHATTAN,General Construction/Plumbing,556
+2017,03,STATEN ISLAND,General Construction/Plumbing,121
+2017,03,STATEN ISLAND,Street Light Condition,563
+2017,03,QUEENS,Street Condition,3330
+2017,03,Unspecified,Blocked Driveway,19
+2017,03,STATEN ISLAND,Blocked Driveway,364
+2017,03,BROOKLYN,General Construction/Plumbing,1457
+2017,03,QUEENS,Blocked Driveway,4908
+2017,03,QUEENS,General Construction/Plumbing,694
+2017,03,MANHATTAN,Street Condition,1337
+2017,03,BRONX,Traffic Signal Condition,513
+2017,03,QUEENS,Water System,1176
+2017,03,BROOKLYN,Street Light Condition,1811
+2017,03,QUEENS,Noise - Residential,2336
+2017,03,QUEENS,Traffic Signal Condition,1156
+2017,03,MANHATTAN,Traffic Signal Condition,681
+2017,03,BROOKLYN,Noise - Residential,4476
+2017,03,BRONX,Street Condition,1153
+2017,03,BRONX,Street Light Condition,1385
+2017,03,MANHATTAN,Water System,678
+2017,03,Unspecified,Noise - Residential,1
+2017,03,BROOKLYN,Traffic Signal Condition,1228
+2017,03,BRONX,Blocked Driveway,2169
+2017,03,BRONX,Water System,472
+2017,03,BRONX,Noise - Residential,4630
+2017,03,Unspecified,Traffic Signal Condition,60
+2017,04,MANHATTAN,Water System,638
+2017,04,MANHATTAN,Street Light Condition,970
+2017,04,BRONX,General Construction/Plumbing,408
+2017,04,QUEENS,Street Light Condition,2289
+2017,04,BROOKLYN,Street Condition,3011
+2017,04,BROOKLYN,Water System,1321
+2017,04,MANHATTAN,Blocked Driveway,228
+2017,04,MANHATTAN,Traffic Signal Condition,549
+2017,04,BROOKLYN,Street Light Condition,2182
+2017,04,STATEN ISLAND,General Construction/Plumbing,176
+2017,04,MANHATTAN,Noise - Residential,4979
+2017,04,QUEENS,Street Condition,4228
+2017,04,Unspecified,Street Light Condition,85
+2017,04,BROOKLYN,Noise - Residential,5834
+2017,04,BRONX,Traffic Signal Condition,466
+2017,04,MANHATTAN,Street Condition,2236
+2017,04,STATEN ISLAND,Noise - Residential,672
+2017,04,QUEENS,Noise - Residential,3821
+2017,04,QUEENS,Traffic Signal Condition,942
+2017,04,BRONX,Blocked Driveway,1871
+2017,04,BROOKLYN,Blocked Driveway,3633
+2017,04,BROOKLYN,General Construction/Plumbing,1497
+2017,04,BROOKLYN,Traffic Signal Condition,758
+2017,04,STATEN ISLAND,Street Light Condition,566
+2017,04,QUEENS,General Construction/Plumbing,819
+2017,04,STATEN ISLAND,Street Condition,1404
+2017,04,Unspecified,Blocked Driveway,18
+2017,04,STATEN ISLAND,Blocked Driveway,282
+2017,04,QUEENS,Blocked Driveway,3830
+2017,04,BRONX,Noise - Residential,5253
+2017,04,BRONX,Street Condition,1366
+2017,04,STATEN ISLAND,Traffic Signal Condition,160
+2017,04,Unspecified,Noise - Residential,9
+2017,04,STATEN ISLAND,Water System,558
+2017,04,QUEENS,Water System,1642
+2017,04,MANHATTAN,General Construction/Plumbing,556
+2017,04,BRONX,Water System,639
+2017,04,Unspecified,Traffic Signal Condition,34
+2017,04,BRONX,Street Light Condition,1646
+2017,05,Unspecified,Blocked Driveway,11
+2017,05,STATEN ISLAND,General Construction/Plumbing,175
+2017,05,MANHATTAN,Water System,875
+2017,05,MANHATTAN,Blocked Driveway,243
+2017,05,BROOKLYN,General Construction/Plumbing,1953
+2017,05,QUEENS,General Construction/Plumbing,871
+2017,05,BROOKLYN,Street Light Condition,2162
+2017,05,Unspecified,Noise - Residential,8
+2017,05,QUEENS,Street Condition,3090
+2017,05,BROOKLYN,Noise - Residential,6437
+2017,05,STATEN ISLAND,Noise - Residential,690
+2017,05,STATEN ISLAND,Street Light Condition,699
+2017,05,BROOKLYN,Street Condition,2951
+2017,05,BROOKLYN,Blocked Driveway,3968
+2017,05,BRONX,Street Condition,1136
+2017,05,STATEN ISLAND,Street Condition,922
+2017,05,QUEENS,Street Light Condition,2251
+2017,05,MANHATTAN,Traffic Signal Condition,526
+2017,05,BRONX,Water System,749
+2017,05,BRONX,Noise - Residential,4670
+2017,05,BRONX,Blocked Driveway,1982
+2017,05,QUEENS,Water System,1928
+2017,05,MANHATTAN,Street Condition,1602
+2017,05,STATEN ISLAND,Traffic Signal Condition,165
+2017,05,BRONX,Street Light Condition,1834
+2017,05,BROOKLYN,Water System,1546
+2017,05,Unspecified,Street Light Condition,104
+2017,05,MANHATTAN,General Construction/Plumbing,610
+2017,05,QUEENS,Blocked Driveway,4450
+2017,05,BROOKLYN,Traffic Signal Condition,797
+2017,05,MANHATTAN,Street Light Condition,1039
+2017,05,QUEENS,Traffic Signal Condition,945
+2017,05,STATEN ISLAND,Water System,531
+2017,05,BRONX,Traffic Signal Condition,413
+2017,05,MANHATTAN,Noise - Residential,4634
+2017,05,BRONX,General Construction/Plumbing,487
+2017,05,STATEN ISLAND,Blocked Driveway,291
+2017,05,Unspecified,Traffic Signal Condition,28
+2017,05,QUEENS,Noise - Residential,4509
+2017,06,STATEN ISLAND,General Construction/Plumbing,188
+2017,06,Unspecified,Noise - Residential,12
+2017,06,BROOKLYN,Water System,1657
+2017,06,Unspecified,Blocked Driveway,16
+2017,06,MANHATTAN,Traffic Signal Condition,622
+2017,06,BROOKLYN,Street Condition,2683
+2017,06,QUEENS,Blocked Driveway,4690
+2017,06,STATEN ISLAND,Blocked Driveway,341
+2017,06,MANHATTAN,Noise - Residential,4135
+2017,06,BRONX,Street Condition,1350
+2017,06,MANHATTAN,General Construction/Plumbing,630
+2017,06,Unspecified,Street Light Condition,66
+2017,06,BROOKLYN,Noise - Residential,6617
+2017,06,BROOKLYN,Street Light Condition,1774
+2017,06,QUEENS,Street Condition,3382
+2017,06,STATEN ISLAND,Traffic Signal Condition,175
+2017,06,QUEENS,General Construction/Plumbing,903
+2017,06,QUEENS,Water System,2279
+2017,06,MANHATTAN,Street Condition,1356
+2017,06,BRONX,General Construction/Plumbing,491
+2017,06,BRONX,Traffic Signal Condition,398
+2017,06,BRONX,Blocked Driveway,2112
+2017,06,MANHATTAN,Street Light Condition,815
+2017,06,QUEENS,Noise - Residential,5172
+2017,06,BROOKLYN,General Construction/Plumbing,1843
+2017,06,BROOKLYN,Traffic Signal Condition,802
+2017,06,BROOKLYN,Blocked Driveway,4409
+2017,06,BRONX,Noise - Residential,4879
+2017,06,QUEENS,Street Light Condition,1894
+2017,06,BRONX,Street Light Condition,1633
+2017,06,STATEN ISLAND,Street Condition,1036
+2017,06,STATEN ISLAND,Noise - Residential,775
+2017,06,STATEN ISLAND,Water System,390
+2017,06,MANHATTAN,Blocked Driveway,333
+2017,06,BRONX,Water System,1294
+2017,06,MANHATTAN,Water System,1039
+2017,06,Unspecified,Traffic Signal Condition,45
+2017,06,QUEENS,Traffic Signal Condition,1000
+2017,06,STATEN ISLAND,Street Light Condition,589
+2017,07,MANHATTAN,Noise - Residential,3292
+2017,07,BROOKLYN,General Construction/Plumbing,1841
+2017,07,BROOKLYN,Street Condition,2266
+2017,07,STATEN ISLAND,Noise - Residential,820
+2017,07,QUEENS,Street Condition,2424
+2017,07,BRONX,Noise - Residential,4665
+2017,07,MANHATTAN,Traffic Signal Condition,545
+2017,07,BRONX,Traffic Signal Condition,386
+2017,07,QUEENS,General Construction/Plumbing,938
+2017,07,MANHATTAN,Street Condition,945
+2017,07,Unspecified,Blocked Driveway,29
+2017,07,BROOKLYN,Water System,1880
+2017,07,MANHATTAN,Blocked Driveway,262
+2017,07,BRONX,Water System,1647
+2017,07,MANHATTAN,Street Light Condition,788
+2017,07,QUEENS,Traffic Signal Condition,916
+2017,07,QUEENS,Street Light Condition,1632
+2017,07,MANHATTAN,Water System,1259
+2017,07,Unspecified,Street Light Condition,101
+2017,07,MANHATTAN,General Construction/Plumbing,589
+2017,07,BROOKLYN,Traffic Signal Condition,621
+2017,07,QUEENS,Water System,1687
+2017,07,STATEN ISLAND,Street Light Condition,498
+2017,07,STATEN ISLAND,Water System,303
+2017,07,BROOKLYN,Blocked Driveway,3816
+2017,07,BRONX,General Construction/Plumbing,416
+2017,07,STATEN ISLAND,Traffic Signal Condition,180
+2017,07,QUEENS,Noise - Residential,5564
+2017,07,BROOKLYN,Noise - Residential,6916
+2017,07,STATEN ISLAND,Street Condition,682
+2017,07,Unspecified,Noise - Residential,27
+2017,07,BRONX,Street Condition,677
+2017,07,STATEN ISLAND,Blocked Driveway,336
+2017,07,STATEN ISLAND,General Construction/Plumbing,163
+2017,07,BRONX,Street Light Condition,1442
+2017,07,QUEENS,Blocked Driveway,4467
+2017,07,BROOKLYN,Street Light Condition,1555
+2017,07,Unspecified,Traffic Signal Condition,46
+2017,07,BRONX,Blocked Driveway,1979
+2017,08,BROOKLYN,Street Light Condition,2001
+2017,08,BRONX,General Construction/Plumbing,437
+2017,08,STATEN ISLAND,Water System,363
+2017,08,QUEENS,Street Light Condition,2273
+2017,08,STATEN ISLAND,Blocked Driveway,248
+2017,08,QUEENS,Traffic Signal Condition,849
+2017,08,MANHATTAN,Street Light Condition,914
+2017,08,BROOKLYN,Traffic Signal Condition,611
+2017,08,STATEN ISLAND,Street Condition,687
+2017,08,QUEENS,Street Condition,2132
+2017,08,BRONX,Street Light Condition,1661
+2017,08,BRONX,Street Condition,885
+2017,08,MANHATTAN,Street Condition,980
+2017,08,BROOKLYN,Blocked Driveway,3587
+2017,08,BROOKLYN,Noise - Residential,6253
+2017,08,MANHATTAN,General Construction/Plumbing,668
+2017,08,Unspecified,Blocked Driveway,19
+2017,08,QUEENS,Water System,1462
+2017,08,QUEENS,Noise - Residential,4715
+2017,08,BRONX,Water System,1012
+2017,08,MANHATTAN,Blocked Driveway,258
+2017,08,Unspecified,Street Light Condition,188
+2017,08,BRONX,Traffic Signal Condition,332
+2017,08,STATEN ISLAND,General Construction/Plumbing,221
+2017,08,STATEN ISLAND,Noise - Residential,786
+2017,08,Unspecified,Noise - Residential,18
+2017,08,Unspecified,Traffic Signal Condition,50
+2017,08,BROOKLYN,General Construction/Plumbing,1949
+2017,08,QUEENS,Blocked Driveway,4392
+2017,08,STATEN ISLAND,Street Light Condition,523
+2017,08,BROOKLYN,Water System,2010
+2017,08,STATEN ISLAND,Traffic Signal Condition,120
+2017,08,MANHATTAN,Traffic Signal Condition,577
+2017,08,MANHATTAN,Water System,921
+2017,08,BRONX,Noise - Residential,4551
+2017,08,BROOKLYN,Street Condition,1984
+2017,08,MANHATTAN,Noise - Residential,3507
+2017,08,BRONX,Blocked Driveway,1831
+2017,08,QUEENS,General Construction/Plumbing,980
+2017,09,QUEENS,Noise - Residential,5251
+2017,09,MANHATTAN,General Construction/Plumbing,563
+2017,09,BROOKLYN,Street Light Condition,1778
+2017,09,QUEENS,Traffic Signal Condition,748
+2017,09,BRONX,General Construction/Plumbing,416
+2017,09,QUEENS,Water System,1307
+2017,09,STATEN ISLAND,Water System,427
+2017,09,BRONX,Blocked Driveway,2111
+2017,09,QUEENS,General Construction/Plumbing,849
+2017,09,BRONX,Street Condition,630
+2017,09,QUEENS,Blocked Driveway,4629
+2017,09,QUEENS,Street Condition,1851
+2017,09,BROOKLYN,Street Condition,1550
+2017,09,MANHATTAN,Traffic Signal Condition,565
+2017,09,BROOKLYN,Traffic Signal Condition,636
+2017,09,BROOKLYN,Water System,1262
+2017,09,BRONX,Water System,679
+2017,09,BRONX,Street Light Condition,1725
+2017,09,STATEN ISLAND,Blocked Driveway,312
+2017,09,Unspecified,Blocked Driveway,32
+2017,09,BROOKLYN,Blocked Driveway,4445
+2017,09,BROOKLYN,Noise - Residential,6806
+2017,09,MANHATTAN,Blocked Driveway,329
+2017,09,STATEN ISLAND,Street Condition,637
+2017,09,BRONX,Traffic Signal Condition,397
+2017,09,STATEN ISLAND,Street Light Condition,520
+2017,09,Unspecified,Traffic Signal Condition,35
+2017,09,MANHATTAN,Water System,738
+2017,09,BROOKLYN,General Construction/Plumbing,1860
+2017,09,STATEN ISLAND,General Construction/Plumbing,151
+2017,09,Unspecified,Street Light Condition,107
+2017,09,MANHATTAN,Noise - Residential,4298
+2017,09,STATEN ISLAND,Noise - Residential,631
+2017,09,Unspecified,Noise - Residential,8
+2017,09,STATEN ISLAND,Traffic Signal Condition,119
+2017,09,MANHATTAN,Street Condition,970
+2017,09,BRONX,Noise - Residential,4579
+2017,09,MANHATTAN,Street Light Condition,852
+2017,09,QUEENS,Street Light Condition,1986
+2017,10,QUEENS,Street Light Condition,2225
+2017,10,BROOKLYN,Noise - Residential,6187
+2017,10,Unspecified,Blocked Driveway,3
+2017,10,STATEN ISLAND,Street Condition,523
+2017,10,STATEN ISLAND,Water System,481
+2017,10,STATEN ISLAND,Blocked Driveway,350
+2017,10,QUEENS,General Construction/Plumbing,924
+2017,10,STATEN ISLAND,Noise - Residential,582
+2017,10,BRONX,Noise - Residential,4812
+2017,10,MANHATTAN,General Construction/Plumbing,583
+2017,10,Unspecified,Noise - Residential,1
+2017,10,Unspecified,Traffic Signal Condition,33
+2017,10,MANHATTAN,Blocked Driveway,364
+2017,10,MANHATTAN,Street Light Condition,1017
+2017,10,STATEN ISLAND,Street Light Condition,548
+2017,10,BRONX,Street Condition,617
+2017,10,BRONX,Blocked Driveway,2187
+2017,10,MANHATTAN,Street Condition,954
+2017,10,BROOKLYN,Blocked Driveway,4461
+2017,10,BROOKLYN,Traffic Signal Condition,852
+2017,10,MANHATTAN,Water System,923
+2017,10,MANHATTAN,Traffic Signal Condition,660
+2017,10,BRONX,Traffic Signal Condition,401
+2017,10,MANHATTAN,Noise - Residential,4730
+2017,10,BRONX,Water System,538
+2017,10,BRONX,Street Light Condition,1836
+2017,10,STATEN ISLAND,Traffic Signal Condition,182
+2017,10,QUEENS,Water System,1391
+2017,10,BROOKLYN,Water System,1245
+2017,10,Unspecified,Street Light Condition,115
+2017,10,QUEENS,Street Condition,1868
+2017,10,STATEN ISLAND,General Construction/Plumbing,201
+2017,10,QUEENS,Noise - Residential,4154
+2017,10,BRONX,General Construction/Plumbing,444
+2017,10,BROOKLYN,Street Condition,1391
+2017,10,QUEENS,Traffic Signal Condition,893
+2017,10,BROOKLYN,Street Light Condition,1818
+2017,10,QUEENS,Blocked Driveway,5031
+2017,10,BROOKLYN,General Construction/Plumbing,1730
+2017,11,Unspecified,Blocked Driveway,22
+2017,11,STATEN ISLAND,General Construction/Plumbing,126
+2017,11,BROOKLYN,Street Condition,1092
+2017,11,MANHATTAN,General Construction/Plumbing,563
+2017,11,QUEENS,General Construction/Plumbing,735
+2017,11,BRONX,Street Condition,599
+2017,11,MANHATTAN,Street Condition,794
+2017,11,BROOKLYN,Traffic Signal Condition,765
+2017,11,MANHATTAN,Blocked Driveway,366
+2017,11,BROOKLYN,Blocked Driveway,4544
+2017,11,BROOKLYN,General Construction/Plumbing,1546
+2017,11,BRONX,Street Light Condition,1420
+2017,11,BROOKLYN,Water System,1166
+2017,11,Unspecified,Street Light Condition,140
+2017,11,BROOKLYN,Noise - Residential,4695
+2017,11,QUEENS,Blocked Driveway,4865
+2017,11,STATEN ISLAND,Traffic Signal Condition,141
+2017,11,STATEN ISLAND,Noise - Residential,394
+2017,11,BROOKLYN,Street Light Condition,1746
+2017,11,STATEN ISLAND,Water System,518
+2017,11,Unspecified,Noise - Residential,3
+2017,11,STATEN ISLAND,Street Condition,552
+2017,11,QUEENS,Traffic Signal Condition,734
+2017,11,BRONX,Water System,477
+2017,11,QUEENS,Street Condition,1405
+2017,11,MANHATTAN,Street Light Condition,878
+2017,11,BRONX,Noise - Residential,4558
+2017,11,Unspecified,Traffic Signal Condition,30
+2017,11,QUEENS,Street Light Condition,1872
+2017,11,QUEENS,Water System,1333
+2017,11,BRONX,Blocked Driveway,2275
+2017,11,BRONX,Traffic Signal Condition,340
+2017,11,STATEN ISLAND,Blocked Driveway,351
+2017,11,BRONX,General Construction/Plumbing,413
+2017,11,QUEENS,Noise - Residential,2712
+2017,11,MANHATTAN,Water System,627
+2017,11,STATEN ISLAND,Street Light Condition,447
+2017,11,MANHATTAN,Traffic Signal Condition,506
+2017,11,MANHATTAN,Noise - Residential,4081
+2017,12,BRONX,Street Condition,956
+2017,12,Unspecified,Street Light Condition,120
+2017,12,MANHATTAN,Blocked Driveway,364
+2017,12,STATEN ISLAND,Street Condition,583
+2017,12,BROOKLYN,Street Light Condition,1667
+2017,12,Unspecified,Traffic Signal Condition,33
+2017,12,BROOKLYN,Traffic Signal Condition,1077
+2017,12,Unspecified,Street Condition,36
+2017,12,STATEN ISLAND,Water System,596
+2017,12,QUEENS,Street Condition,1622
+2017,12,QUEENS,Noise - Residential,2825
+2017,12,STATEN ISLAND,Blocked Driveway,53
+2017,12,BROOKLYN,General Construction/Plumbing,1297
+2017,12,Unspecified,Noise - Residential,290
+2017,12,BROOKLYN,Blocked Driveway,4704
+2017,12,STATEN ISLAND,Noise - Residential,69
+2017,12,BRONX,General Construction/Plumbing,262
+2017,12,MANHATTAN,Traffic Signal Condition,532
+2017,12,Unspecified,Blocked Driveway,350
+2017,12,STATEN ISLAND,Street Light Condition,527
+2017,12,QUEENS,General Construction/Plumbing,573
+2017,12,QUEENS,Street Light Condition,1721
+2017,12,BROOKLYN,Water System,1433
+2017,12,BRONX,Street Light Condition,1270
+2017,12,QUEENS,Water System,1655
+2017,12,BRONX,Traffic Signal Condition,360
+2017,12,BRONX,Blocked Driveway,2372
+2017,12,STATEN ISLAND,General Construction/Plumbing,135
+2017,12,MANHATTAN,Street Light Condition,932
+2017,12,BRONX,Water System,591
+2017,12,STATEN ISLAND,Traffic Signal Condition,139
+2017,12,MANHATTAN,Noise - Residential,4555
+2017,12,MANHATTAN,Street Condition,763
+2017,12,QUEENS,Traffic Signal Condition,1081
+2017,12,BROOKLYN,Street Condition,1455
+2017,12,MANHATTAN,General Construction/Plumbing,478
+2017,12,BRONX,Noise - Residential,5133
+2017,12,MANHATTAN,Water System,600
+2017,12,BROOKLYN,Noise - Residential,4629
+2017,12,QUEENS,Blocked Driveway,4952
+2018,01,QUEENS,Water System,4162
+2018,01,QUEENS,Street Light Condition,1836
+2018,01,MANHATTAN,General Construction/Plumbing,513
+2018,01,STATEN ISLAND,Noise - Residential,91
+2018,01,BRONX,Blocked Driveway,1956
+2018,01,Unspecified,Street Light Condition,101
+2018,01,STATEN ISLAND,Street Condition,772
+2018,01,BRONX,Street Light Condition,1435
+2018,01,QUEENS,Street Condition,2221
+2018,01,QUEENS,Traffic Signal Condition,1795
+2018,01,BROOKLYN,Noise - Residential,4465
+2018,01,MANHATTAN,Traffic Signal Condition,800
+2018,01,MANHATTAN,Water System,1788
+2018,01,BROOKLYN,Water System,3691
+2018,01,BROOKLYN,Traffic Signal Condition,1464
+2018,01,BRONX,Traffic Signal Condition,638
+2018,01,MANHATTAN,Street Condition,1003
+2018,01,QUEENS,General Construction/Plumbing,678
+2018,01,MANHATTAN,Blocked Driveway,289
+2018,01,BROOKLYN,Street Condition,2065
+2018,01,Unspecified,Street Condition,203
+2018,01,Unspecified,Noise - Residential,280
+2018,01,QUEENS,Blocked Driveway,4792
+2018,01,BRONX,General Construction/Plumbing,338
+2018,01,STATEN ISLAND,General Construction/Plumbing,107
+2018,01,MANHATTAN,Street Light Condition,1011
+2018,01,Unspecified,Water System,6
+2018,01,STATEN ISLAND,Traffic Signal Condition,267
+2018,01,Unspecified,Blocked Driveway,363
+2018,01,MANHATTAN,Noise - Residential,4340
+2018,01,STATEN ISLAND,Blocked Driveway,88
+2018,01,BRONX,Water System,1403
+2018,01,BROOKLYN,General Construction/Plumbing,1082
+2018,01,BRONX,Street Condition,1011
+2018,01,Unspecified,Traffic Signal Condition,74
+2018,01,BROOKLYN,Blocked Driveway,4357
+2018,01,QUEENS,Noise - Residential,2568
+2018,01,STATEN ISLAND,Street Light Condition,544
+2018,01,BROOKLYN,Street Light Condition,1770
+2018,01,STATEN ISLAND,Water System,1107
+2018,01,BRONX,Noise - Residential,4908
+2018,02,BROOKLYN,Street Light Condition,1574
+2018,02,Unspecified,Street Condition,78
+2018,02,MANHATTAN,Street Condition,1855
+2018,02,Unspecified,Street Light Condition,142
+2018,02,Unspecified,Blocked Driveway,18
+2018,02,QUEENS,General Construction/Plumbing,745
+2018,02,MANHATTAN,Blocked Driveway,238
+2018,02,MANHATTAN,Water System,651
+2018,02,QUEENS,Noise - Residential,2279
+2018,02,BRONX,Noise - Residential,4473
+2018,02,BROOKLYN,Traffic Signal Condition,1295
+2018,02,QUEENS,Street Condition,4222
+2018,02,MANHATTAN,Traffic Signal Condition,742
+2018,02,Unspecified,Traffic Signal Condition,49
+2018,02,STATEN ISLAND,Noise - Residential,441
+2018,02,BROOKLYN,General Construction/Plumbing,1121
+2018,02,QUEENS,Traffic Signal Condition,1257
+2018,02,STATEN ISLAND,Street Light Condition,435
+2018,02,QUEENS,Street Light Condition,1692
+2018,02,STATEN ISLAND,Traffic Signal Condition,176
+2018,02,BRONX,General Construction/Plumbing,340
+2018,02,QUEENS,Blocked Driveway,3751
+2018,02,BRONX,Traffic Signal Condition,596
+2018,02,BROOKLYN,Blocked Driveway,3612
+2018,02,STATEN ISLAND,Blocked Driveway,254
+2018,02,STATEN ISLAND,Street Condition,1619
+2018,02,BRONX,Street Condition,1474
+2018,02,BROOKLYN,Water System,1414
+2018,02,MANHATTAN,General Construction/Plumbing,527
+2018,02,STATEN ISLAND,Water System,437
+2018,02,BRONX,Water System,502
+2018,02,BROOKLYN,Street Condition,3120
+2018,02,BROOKLYN,Noise - Residential,4239
+2018,02,STATEN ISLAND,General Construction/Plumbing,131
+2018,02,MANHATTAN,Street Light Condition,839
+2018,02,Unspecified,Noise - Residential,6
+2018,02,BRONX,Street Light Condition,1410
+2018,02,MANHATTAN,Noise - Residential,3875
+2018,02,QUEENS,Water System,1688
+2018,02,BRONX,Blocked Driveway,1643
+2018,03,BROOKLYN,Noise - Residential,4731
+2018,03,BRONX,Traffic Signal Condition,560
+2018,03,MANHATTAN,General Construction/Plumbing,540
+2018,03,BROOKLYN,Blocked Driveway,4132
+2018,03,MANHATTAN,Noise - Residential,4381
+2018,03,STATEN ISLAND,General Construction/Plumbing,131
+2018,03,QUEENS,Traffic Signal Condition,1392
+2018,03,Unspecified,Street Light Condition,105
+2018,03,STATEN ISLAND,Noise - Residential,453
+2018,03,STATEN ISLAND,Street Condition,1466
+2018,03,QUEENS,Noise - Residential,2593
+2018,03,QUEENS,Street Light Condition,1811
+2018,03,BROOKLYN,General Construction/Plumbing,1173
+2018,03,STATEN ISLAND,Street Light Condition,547
+2018,03,Unspecified,Blocked Driveway,32
+2018,03,BRONX,Water System,423
+2018,03,QUEENS,Street Condition,4168
+2018,03,QUEENS,Water System,1448
+2018,03,BROOKLYN,Street Light Condition,1475
+2018,03,MANHATTAN,Water System,678
+2018,03,QUEENS,Blocked Driveway,4427
+2018,03,STATEN ISLAND,Blocked Driveway,317
+2018,03,QUEENS,General Construction/Plumbing,826
+2018,03,BRONX,Street Condition,1794
+2018,03,BROOKLYN,Water System,1185
+2018,03,BRONX,General Construction/Plumbing,449
+2018,03,STATEN ISLAND,Traffic Signal Condition,178
+2018,03,BRONX,Noise - Residential,4904
+2018,03,BROOKLYN,Traffic Signal Condition,1236
+2018,03,Unspecified,Noise - Residential,2
+2018,03,Unspecified,Traffic Signal Condition,46
+2018,03,STATEN ISLAND,Water System,316
+2018,03,MANHATTAN,Blocked Driveway,305
+2018,03,BRONX,Blocked Driveway,2098
+2018,03,BRONX,Street Light Condition,1459
+2018,03,MANHATTAN,Street Light Condition,829
+2018,03,MANHATTAN,Traffic Signal Condition,577
+2018,03,MANHATTAN,Street Condition,2011
+2018,03,BROOKLYN,Street Condition,3264
+2018,03,Unspecified,Street Condition,86
+2018,04,MANHATTAN,Traffic Signal Condition,600
+2018,04,Unspecified,Street Light Condition,146
+2018,04,BRONX,Street Light Condition,1485
+2018,04,QUEENS,Noise - Residential,3170
+2018,04,STATEN ISLAND,Street Light Condition,578
+2018,04,BRONX,Noise - Residential,4817
+2018,04,QUEENS,Water System,1453
+2018,04,QUEENS,Street Condition,3225
+2018,04,Unspecified,Blocked Driveway,81
+2018,04,BRONX,Street Condition,1216
+2018,04,QUEENS,Blocked Driveway,4272
+2018,04,BROOKLYN,Blocked Driveway,3878
+2018,04,BROOKLYN,Street Condition,2406
+2018,04,BRONX,Traffic Signal Condition,518
+2018,04,STATEN ISLAND,Noise - Residential,478
+2018,04,QUEENS,Traffic Signal Condition,908
+2018,04,BROOKLYN,Noise - Residential,4957
+2018,04,BROOKLYN,Street Light Condition,1581
+2018,04,MANHATTAN,Street Condition,1877
+2018,04,MANHATTAN,Street Light Condition,759
+2018,04,MANHATTAN,Noise - Residential,4536
+2018,04,QUEENS,Street Light Condition,1829
+2018,04,BRONX,General Construction/Plumbing,459
+2018,04,MANHATTAN,Blocked Driveway,253
+2018,04,STATEN ISLAND,General Construction/Plumbing,170
+2018,04,QUEENS,General Construction/Plumbing,902
+2018,04,BRONX,Blocked Driveway,2003
+2018,04,MANHATTAN,Water System,712
+2018,04,STATEN ISLAND,Traffic Signal Condition,154
+2018,04,Unspecified,Noise - Residential,66
+2018,04,BROOKLYN,Water System,1288
+2018,04,BROOKLYN,Traffic Signal Condition,886
+2018,04,STATEN ISLAND,Street Condition,1482
+2018,04,STATEN ISLAND,Blocked Driveway,322
+2018,04,MANHATTAN,General Construction/Plumbing,645
+2018,04,BRONX,Water System,509
+2018,04,STATEN ISLAND,Water System,391
+2018,04,BROOKLYN,General Construction/Plumbing,1095
+2018,04,Unspecified,Traffic Signal Condition,28
+2018,04,Unspecified,Street Condition,84
+2018,05,BROOKLYN,Noise - Residential,6151
+2018,05,Unspecified,Street Condition,84
+2018,05,Unspecified,Street Light Condition,140
+2018,05,MANHATTAN,Street Condition,1704
+2018,05,BROOKLYN,Water System,1496
+2018,05,Unspecified,Traffic Signal Condition,38
+2018,05,BRONX,Water System,889
+2018,05,BRONX,General Construction/Plumbing,494
+2018,05,BROOKLYN,General Construction/Plumbing,1362
+2018,05,QUEENS,General Construction/Plumbing,987
+2018,05,Unspecified,Water System,1
+2018,05,BRONX,Street Light Condition,1618
+2018,05,BRONX,Street Condition,1054
+2018,05,STATEN ISLAND,Street Light Condition,562
+2018,05,MANHATTAN,Noise - Residential,4512
+2018,05,STATEN ISLAND,Traffic Signal Condition,156
+2018,05,BRONX,Noise - Residential,4818
+2018,05,STATEN ISLAND,Water System,524
+2018,05,QUEENS,Blocked Driveway,4621
+2018,05,BROOKLYN,Blocked Driveway,4054
+2018,05,BROOKLYN,Street Condition,3091
+2018,05,QUEENS,Street Light Condition,1788
+2018,05,MANHATTAN,Blocked Driveway,275
+2018,05,STATEN ISLAND,General Construction/Plumbing,201
+2018,05,MANHATTAN,General Construction/Plumbing,654
+2018,05,QUEENS,Street Condition,3446
+2018,05,MANHATTAN,Street Light Condition,813
+2018,05,STATEN ISLAND,Noise - Residential,708
+2018,05,BROOKLYN,Street Light Condition,1517
+2018,05,BRONX,Blocked Driveway,2058
+2018,05,MANHATTAN,Traffic Signal Condition,563
+2018,05,QUEENS,Water System,1729
+2018,05,STATEN ISLAND,Blocked Driveway,365
+2018,05,BRONX,Traffic Signal Condition,425
+2018,05,BROOKLYN,Traffic Signal Condition,760
+2018,05,Unspecified,Blocked Driveway,32
+2018,05,Unspecified,Noise - Residential,11
+2018,05,QUEENS,Noise - Residential,4625
+2018,05,STATEN ISLAND,Street Condition,1436
+2018,05,QUEENS,Traffic Signal Condition,881
+2018,05,MANHATTAN,Water System,924
+2018,06,BROOKLYN,General Construction/Plumbing,1162
+2018,06,BRONX,General Construction/Plumbing,486
+2018,06,MANHATTAN,Street Condition,1243
+2018,06,QUEENS,Traffic Signal Condition,845
+2018,06,Unspecified,Street Light Condition,98
+2018,06,Unspecified,Traffic Signal Condition,29
+2018,06,Unspecified,Blocked Driveway,15
+2018,06,BROOKLYN,Street Condition,2524
+2018,06,STATEN ISLAND,Water System,477
+2018,06,BRONX,Street Condition,1063
+2018,06,Unspecified,Noise - Residential,13
+2018,06,MANHATTAN,Street Light Condition,749
+2018,06,MANHATTAN,Blocked Driveway,301
+2018,06,BROOKLYN,Street Light Condition,1565
+2018,06,QUEENS,Blocked Driveway,4952
+2018,06,QUEENS,Water System,1633
+2018,06,STATEN ISLAND,Traffic Signal Condition,116
+2018,06,QUEENS,Street Condition,2937
+2018,06,STATEN ISLAND,General Construction/Plumbing,204
+2018,06,QUEENS,Noise - Residential,5049
+2018,06,STATEN ISLAND,Street Light Condition,559
+2018,06,STATEN ISLAND,Noise - Residential,879
+2018,06,BRONX,Noise - Residential,5042
+2018,06,BRONX,Street Light Condition,1461
+2018,06,BROOKLYN,Blocked Driveway,4222
+2018,06,BRONX,Traffic Signal Condition,368
+2018,06,STATEN ISLAND,Blocked Driveway,395
+2018,06,BROOKLYN,Water System,1640
+2018,06,BRONX,Blocked Driveway,2073
+2018,06,BROOKLYN,Traffic Signal Condition,741
+2018,06,Unspecified,Street Condition,69
+2018,06,QUEENS,Street Light Condition,1617
+2018,06,BRONX,Water System,1343
+2018,06,MANHATTAN,General Construction/Plumbing,636
+2018,06,MANHATTAN,Water System,1017
+2018,06,MANHATTAN,Traffic Signal Condition,528
+2018,06,QUEENS,General Construction/Plumbing,937
+2018,06,BROOKLYN,Noise - Residential,6565
+2018,06,STATEN ISLAND,Street Condition,1101
+2018,06,MANHATTAN,Noise - Residential,3812
+2018,07,Unspecified,Noise - Residential,17
+2018,07,MANHATTAN,Street Condition,1202
+2018,07,BROOKLYN,General Construction/Plumbing,1385
+2018,07,MANHATTAN,Street Light Condition,853
+2018,07,BRONX,Traffic Signal Condition,449
+2018,07,QUEENS,Blocked Driveway,4531
+2018,07,BROOKLYN,Blocked Driveway,3646
+2018,07,QUEENS,Water System,1779
+2018,07,BRONX,Water System,1801
+2018,07,Unspecified,Blocked Driveway,15
+2018,07,STATEN ISLAND,Noise - Residential,821
+2018,07,QUEENS,Street Condition,2564
+2018,07,QUEENS,General Construction/Plumbing,863
+2018,07,BRONX,Street Condition,933
+2018,07,BROOKLYN,Street Condition,2207
+2018,07,MANHATTAN,Blocked Driveway,227
+2018,07,Unspecified,Water System,13
+2018,07,BROOKLYN,Water System,1986
+2018,07,MANHATTAN,General Construction/Plumbing,664
+2018,07,STATEN ISLAND,General Construction/Plumbing,182
+2018,07,MANHATTAN,Water System,1433
+2018,07,Unspecified,Street Condition,67
+2018,07,STATEN ISLAND,Traffic Signal Condition,198
+2018,07,BRONX,General Construction/Plumbing,500
+2018,07,Unspecified,Traffic Signal Condition,47
+2018,07,QUEENS,Street Light Condition,1577
+2018,07,BRONX,Noise - Residential,4634
+2018,07,BROOKLYN,Traffic Signal Condition,970
+2018,07,STATEN ISLAND,Blocked Driveway,353
+2018,07,Unspecified,Street Light Condition,96
+2018,07,QUEENS,Noise - Residential,4903
+2018,07,MANHATTAN,Traffic Signal Condition,644
+2018,07,BRONX,Blocked Driveway,1930
+2018,07,MANHATTAN,Noise - Residential,2966
+2018,07,STATEN ISLAND,Water System,354
+2018,07,STATEN ISLAND,Street Condition,686
+2018,07,STATEN ISLAND,Street Light Condition,609
+2018,07,BROOKLYN,Street Light Condition,1499
+2018,07,QUEENS,Traffic Signal Condition,981
+2018,07,BROOKLYN,Noise - Residential,5842
+2018,07,BRONX,Street Light Condition,1376
+2018,08,BROOKLYN,Water System,1613
+2018,08,STATEN ISLAND,Blocked Driveway,329
+2018,08,BROOKLYN,Street Light Condition,1742
+2018,08,BROOKLYN,Blocked Driveway,3690
+2018,08,BRONX,Street Condition,721
+2018,08,STATEN ISLAND,Water System,410
+2018,08,QUEENS,Noise - Residential,3875
+2018,08,BROOKLYN,Traffic Signal Condition,1590
+2018,08,STATEN ISLAND,Street Condition,729
+2018,08,MANHATTAN,Street Condition,1201
+2018,08,BRONX,Noise - Residential,4334
+2018,08,BRONX,General Construction/Plumbing,494
+2018,08,STATEN ISLAND,General Construction/Plumbing,194
+2018,08,QUEENS,Blocked Driveway,4680
+2018,08,MANHATTAN,General Construction/Plumbing,684
+2018,08,Unspecified,Traffic Signal Condition,51
+2018,08,STATEN ISLAND,Traffic Signal Condition,189
+2018,08,MANHATTAN,Water System,1290
+2018,08,QUEENS,Street Light Condition,1783
+2018,08,STATEN ISLAND,Street Light Condition,839
+2018,08,BROOKLYN,Noise - Residential,5024
+2018,08,BROOKLYN,General Construction/Plumbing,1543
+2018,08,BRONX,Water System,1437
+2018,08,Unspecified,Noise - Residential,18
+2018,08,BRONX,Street Light Condition,1232
+2018,08,BROOKLYN,Street Condition,2524
+2018,08,QUEENS,Street Condition,2547
+2018,08,Unspecified,Water System,4
+2018,08,STATEN ISLAND,Noise - Residential,669
+2018,08,MANHATTAN,Street Light Condition,760
+2018,08,MANHATTAN,Traffic Signal Condition,1457
+2018,08,Unspecified,Blocked Driveway,3
+2018,08,Unspecified,Street Light Condition,141
+2018,08,MANHATTAN,Blocked Driveway,227
+2018,08,MANHATTAN,Noise - Residential,2600
+2018,08,QUEENS,General Construction/Plumbing,891
+2018,08,BRONX,Blocked Driveway,1942
+2018,08,BRONX,Traffic Signal Condition,615
+2018,08,QUEENS,Traffic Signal Condition,1311
+2018,08,Unspecified,Street Condition,70
+2018,08,QUEENS,Water System,1376
+2018,09,QUEENS,Noise - Residential,5292
+2018,09,Unspecified,Street Light Condition,77
+2018,09,MANHATTAN,Street Condition,1107
+2018,09,QUEENS,Traffic Signal Condition,1024
+2018,09,MANHATTAN,Street Light Condition,807
+2018,09,STATEN ISLAND,Water System,312
+2018,09,MANHATTAN,Traffic Signal Condition,530
+2018,09,BRONX,General Construction/Plumbing,442
+2018,09,BRONX,Blocked Driveway,2011
+2018,09,STATEN ISLAND,Noise - Residential,838
+2018,09,QUEENS,Street Light Condition,1837
+2018,09,BRONX,Traffic Signal Condition,407
+2018,09,STATEN ISLAND,Street Condition,646
+2018,09,BROOKLYN,Street Condition,1714
+2018,09,QUEENS,Street Condition,1911
+2018,09,QUEENS,General Construction/Plumbing,886
+2018,09,STATEN ISLAND,General Construction/Plumbing,199
+2018,09,QUEENS,Blocked Driveway,4855
+2018,09,BRONX,Street Light Condition,1330
+2018,09,BROOKLYN,Noise - Residential,6347
+2018,09,QUEENS,Water System,1285
+2018,09,BRONX,Noise - Residential,4557
+2018,09,BROOKLYN,Blocked Driveway,4314
+2018,09,BROOKLYN,Traffic Signal Condition,922
+2018,09,BROOKLYN,Street Light Condition,1693
+2018,09,STATEN ISLAND,Street Light Condition,617
+2018,09,BROOKLYN,Water System,1124
+2018,09,Unspecified,Street Condition,69
+2018,09,MANHATTAN,Blocked Driveway,303
+2018,09,BRONX,Street Condition,745
+2018,09,BRONX,Water System,795
+2018,09,MANHATTAN,Noise - Residential,3899
+2018,09,Unspecified,Blocked Driveway,1
+2018,09,Unspecified,Noise - Residential,13
+2018,09,STATEN ISLAND,Traffic Signal Condition,118
+2018,09,MANHATTAN,Water System,723
+2018,09,STATEN ISLAND,Blocked Driveway,349
+2018,09,MANHATTAN,General Construction/Plumbing,697
+2018,09,BROOKLYN,General Construction/Plumbing,1212
+2018,09,Unspecified,Traffic Signal Condition,52
+2018,10,MANHATTAN,Street Condition,1331
+2018,10,BRONX,Blocked Driveway,2117
+2018,10,STATEN ISLAND,Noise - Residential,570
+2018,10,Unspecified,Blocked Driveway,2
+2018,10,BRONX,General Construction/Plumbing,495
+2018,10,BROOKLYN,Noise - Residential,5014
+2018,10,STATEN ISLAND,Street Condition,616
+2018,10,MANHATTAN,Noise - Residential,4305
+2018,10,QUEENS,General Construction/Plumbing,1036
+2018,10,QUEENS,Street Light Condition,1990
+2018,10,BRONX,Water System,636
+2018,10,QUEENS,Blocked Driveway,4640
+2018,10,QUEENS,Street Condition,1842
+2018,10,QUEENS,Water System,1315
+2018,10,STATEN ISLAND,General Construction/Plumbing,185
+2018,10,BROOKLYN,Traffic Signal Condition,1003
+2018,10,STATEN ISLAND,Blocked Driveway,382
+2018,10,MANHATTAN,General Construction/Plumbing,857
+2018,10,Unspecified,Noise - Residential,9
+2018,10,MANHATTAN,Blocked Driveway,355
+2018,10,STATEN ISLAND,Water System,344
+2018,10,BRONX,Street Light Condition,1321
+2018,10,BRONX,Street Condition,618
+2018,10,QUEENS,Noise - Residential,3485
+2018,10,BRONX,Noise - Residential,4255
+2018,10,BRONX,Traffic Signal Condition,448
+2018,10,BROOKLYN,Street Condition,2019
+2018,10,BROOKLYN,Street Light Condition,1962
+2018,10,MANHATTAN,Traffic Signal Condition,644
+2018,10,Unspecified,Street Condition,75
+2018,10,STATEN ISLAND,Street Light Condition,685
+2018,10,BROOKLYN,Water System,1284
+2018,10,Unspecified,Street Light Condition,97
+2018,10,Unspecified,Traffic Signal Condition,43
+2018,10,MANHATTAN,Street Light Condition,873
+2018,10,BROOKLYN,General Construction/Plumbing,1610
+2018,10,MANHATTAN,Water System,742
+2018,10,STATEN ISLAND,Traffic Signal Condition,140
+2018,10,BROOKLYN,Blocked Driveway,4509
+2018,10,QUEENS,Traffic Signal Condition,888
+2018,11,Unspecified,Traffic Signal Condition,27
+2018,11,STATEN ISLAND,Noise - Residential,507
+2018,11,BROOKLYN,Traffic Signal Condition,1175
+2018,11,QUEENS,General Construction/Plumbing,1021
+2018,11,BROOKLYN,Noise - Residential,4284
+2018,11,BRONX,Traffic Signal Condition,381
+2018,11,BROOKLYN,Blocked Driveway,4442
+2018,11,QUEENS,Traffic Signal Condition,802
+2018,11,MANHATTAN,Traffic Signal Condition,546
+2018,11,QUEENS,Street Condition,1472
+2018,11,STATEN ISLAND,Water System,356
+2018,11,MANHATTAN,General Construction/Plumbing,828
+2018,11,BRONX,Water System,441
+2018,11,STATEN ISLAND,General Construction/Plumbing,156
+2018,11,Unspecified,Noise - Residential,3
+2018,11,MANHATTAN,Street Condition,1009
+2018,11,BRONX,Noise - Residential,4625
+2018,11,MANHATTAN,Noise - Residential,4012
+2018,11,MANHATTAN,Water System,608
+2018,11,BRONX,Street Light Condition,1006
+2018,11,MANHATTAN,Street Light Condition,792
+2018,11,BROOKLYN,Street Light Condition,1598
+2018,11,BROOKLYN,General Construction/Plumbing,1516
+2018,11,QUEENS,Water System,1504
+2018,11,Unspecified,Blocked Driveway,1
+2018,11,MANHATTAN,Blocked Driveway,333
+2018,11,QUEENS,Street Light Condition,1620
+2018,11,BRONX,General Construction/Plumbing,462
+2018,11,BRONX,Street Condition,512
+2018,11,STATEN ISLAND,Traffic Signal Condition,137
+2018,11,STATEN ISLAND,Street Condition,525
+2018,11,BRONX,Blocked Driveway,2243
+2018,11,Unspecified,Street Light Condition,77
+2018,11,BROOKLYN,Water System,1042
+2018,11,STATEN ISLAND,Street Light Condition,399
+2018,11,STATEN ISLAND,Blocked Driveway,402
+2018,11,Unspecified,Street Condition,39
+2018,11,QUEENS,Blocked Driveway,4822
+2018,11,QUEENS,Noise - Residential,2837
+2018,11,BROOKLYN,Street Condition,1492
+2018,12,QUEENS,Traffic Signal Condition,1049
+2018,12,MANHATTAN,General Construction/Plumbing,754
+2018,12,STATEN ISLAND,Traffic Signal Condition,139
+2018,12,MANHATTAN,Water System,573
+2018,12,Unspecified,Water System,1
+2018,12,Unspecified,Blocked Driveway,4
+2018,12,BROOKLYN,Water System,1528
+2018,12,MANHATTAN,Noise - Residential,4674
+2018,12,BRONX,Traffic Signal Condition,385
+2018,12,BRONX,General Construction/Plumbing,319
+2018,12,Unspecified,Street Condition,65
+2018,12,BRONX,Water System,529
+2018,12,QUEENS,Noise - Residential,3074
+2018,12,Unspecified,Street Light Condition,84
+2018,12,STATEN ISLAND,Street Condition,759
+2018,12,MANHATTAN,Traffic Signal Condition,497
+2018,12,BROOKLYN,Traffic Signal Condition,1118
+2018,12,BROOKLYN,Street Light Condition,1597
+2018,12,STATEN ISLAND,Street Light Condition,503
+2018,12,BROOKLYN,Noise - Residential,4692
+2018,12,BRONX,Noise - Residential,5003
+2018,12,BRONX,Street Light Condition,925
+2018,12,Unspecified,Traffic Signal Condition,32
+2018,12,MANHATTAN,Blocked Driveway,328
+2018,12,MANHATTAN,Street Light Condition,838
+2018,12,BROOKLYN,General Construction/Plumbing,1343
+2018,12,BRONX,Street Condition,885
+2018,12,BROOKLYN,Blocked Driveway,4599
+2018,12,STATEN ISLAND,General Construction/Plumbing,152
+2018,12,STATEN ISLAND,Noise - Residential,464
+2018,12,QUEENS,Water System,1396
+2018,12,STATEN ISLAND,Blocked Driveway,387
+2018,12,STATEN ISLAND,Water System,1183
+2018,12,BROOKLYN,Street Condition,1538
+2018,12,QUEENS,Street Condition,2032
+2018,12,QUEENS,General Construction/Plumbing,859
+2018,12,Unspecified,Noise - Residential,3
+2018,12,QUEENS,Street Light Condition,1835
+2018,12,QUEENS,Blocked Driveway,4985
+2018,12,BRONX,Blocked Driveway,2210
+2018,12,MANHATTAN,Street Condition,948
+2019,01,STATEN ISLAND,Street Light Condition,398
+2019,01,Unspecified,Traffic Signal Condition,49
+2019,01,MANHATTAN,General Construction/Plumbing,792
+2019,01,QUEENS,Street Condition,2031
+2019,01,MANHATTAN,Noise - Residential,4109
+2019,01,QUEENS,Traffic Signal Condition,1007
+2019,01,BROOKLYN,Noise - Residential,4187
+2019,01,BROOKLYN,Water System,1784
+2019,01,BROOKLYN,General Construction/Plumbing,1385
+2019,01,Unspecified,Street Light Condition,62
+2019,01,STATEN ISLAND,Noise - Residential,399
+2019,01,MANHATTAN,Water System,810
+2019,01,BRONX,General Construction/Plumbing,358
+2019,01,BROOKLYN,Traffic Signal Condition,1467
+2019,01,MANHATTAN,Street Light Condition,860
+2019,01,Unspecified,General Construction/Plumbing,1
+2019,01,STATEN ISLAND,Street Condition,1093
+2019,01,Unspecified,Noise - Residential,2
+2019,01,STATEN ISLAND,Water System,807
+2019,01,MANHATTAN,Blocked Driveway,246
+2019,01,STATEN ISLAND,General Construction/Plumbing,184
+2019,01,BROOKLYN,Street Light Condition,1703
+2019,01,BROOKLYN,Blocked Driveway,4150
+2019,01,BRONX,Noise - Residential,4864
+2019,01,BRONX,Street Light Condition,1309
+2019,01,BRONX,Street Condition,981
+2019,01,QUEENS,Blocked Driveway,4543
+2019,01,BRONX,Water System,707
+2019,01,BROOKLYN,Street Condition,1917
+2019,01,Unspecified,Street Condition,52
+2019,01,STATEN ISLAND,Blocked Driveway,348
+2019,01,QUEENS,General Construction/Plumbing,869
+2019,01,BRONX,Traffic Signal Condition,419
+2019,01,MANHATTAN,Traffic Signal Condition,578
+2019,01,QUEENS,Noise - Residential,2611
+2019,01,Unspecified,Blocked Driveway,5
+2019,01,QUEENS,Water System,1947
+2019,01,QUEENS,Street Light Condition,1581
+2019,01,STATEN ISLAND,Traffic Signal Condition,155
+2019,01,BRONX,Blocked Driveway,2101
+2019,01,MANHATTAN,Street Condition,1174
+2019,02,QUEENS,Street Light Condition,1361
+2019,02,Unspecified,Noise - Residential,2
+2019,02,STATEN ISLAND,Traffic Signal Condition,146
+2019,02,STATEN ISLAND,Noise - Residential,327
+2019,02,MANHATTAN,Traffic Signal Condition,462
+2019,02,BROOKLYN,Traffic Signal Condition,1306
+2019,02,MANHATTAN,Water System,635
+2019,02,BRONX,Street Light Condition,1050
+2019,02,BROOKLYN,General Construction/Plumbing,785
+2019,02,QUEENS,Street Condition,2043
+2019,02,BROOKLYN,Water System,1481
+2019,02,MANHATTAN,General Construction/Plumbing,528
+2019,02,QUEENS,Noise - Residential,2418
+2019,02,BRONX,General Construction/Plumbing,243
+2019,02,BRONX,Blocked Driveway,1754
+2019,02,MANHATTAN,Blocked Driveway,253
+2019,02,STATEN ISLAND,General Construction/Plumbing,105
+2019,02,BRONX,Traffic Signal Condition,365
+2019,02,Unspecified,Blocked Driveway,1
+2019,02,MANHATTAN,Street Condition,1136
+2019,02,BROOKLYN,Street Condition,1634
+2019,02,STATEN ISLAND,Street Condition,974
+2019,02,STATEN ISLAND,Water System,503
+2019,02,MANHATTAN,Street Light Condition,712
+2019,02,BROOKLYN,Noise - Residential,3844
+2019,02,QUEENS,Water System,1425
+2019,02,Unspecified,Traffic Signal Condition,32
+2019,02,QUEENS,Blocked Driveway,3943
+2019,02,BRONX,Street Condition,988
+2019,02,MANHATTAN,Noise - Residential,3904
+2019,02,Unspecified,Street Light Condition,61
+2019,02,BROOKLYN,Street Light Condition,1598
+2019,02,QUEENS,General Construction/Plumbing,506
+2019,02,BROOKLYN,Blocked Driveway,3666
+2019,02,BRONX,Noise - Residential,4438
+2019,02,Unspecified,Water System,6
+2019,02,STATEN ISLAND,Blocked Driveway,288
+2019,02,QUEENS,Traffic Signal Condition,998
+2019,02,STATEN ISLAND,Street Light Condition,367
+2019,02,Unspecified,Street Condition,62
+2019,02,BRONX,Water System,513
+2019,03,QUEENS,General Construction/Plumbing,510
+2019,03,Unspecified,Blocked Driveway,1
+2019,03,Unspecified,Street Condition,68
+2019,03,STATEN ISLAND,Noise - Residential,481
+2019,03,QUEENS,Street Condition,3494
+2019,03,MANHATTAN,Noise - Residential,4453
+2019,03,BRONX,Traffic Signal Condition,408
+2019,03,Unspecified,Traffic Signal Condition,46
+2019,03,STATEN ISLAND,Blocked Driveway,343
+2019,03,BRONX,Water System,368
+2019,03,QUEENS,Traffic Signal Condition,1073
+2019,03,BROOKLYN,Noise - Residential,4850
+2019,03,QUEENS,Street Light Condition,1172
+2019,03,MANHATTAN,General Construction/Plumbing,554
+2019,03,QUEENS,Blocked Driveway,4634
+2019,03,BRONX,General Construction/Plumbing,258
+2019,03,MANHATTAN,Traffic Signal Condition,635
+2019,03,STATEN ISLAND,Water System,350
+2019,03,STATEN ISLAND,General Construction/Plumbing,118
+2019,03,QUEENS,Noise - Residential,3313
+2019,03,BRONX,Street Condition,1098
+2019,03,BROOKLYN,Street Light Condition,1386
+2019,03,BROOKLYN,Street Condition,2760
+2019,03,BRONX,Street Light Condition,847
+2019,03,MANHATTAN,Water System,458
+2019,03,STATEN ISLAND,Street Condition,1332
+2019,03,STATEN ISLAND,Traffic Signal Condition,154
+2019,03,BRONX,Blocked Driveway,2088
+2019,03,BRONX,Noise - Residential,4883
+2019,03,BROOKLYN,Blocked Driveway,4242
+2019,03,BROOKLYN,Traffic Signal Condition,1308
+2019,03,MANHATTAN,Blocked Driveway,272
+2019,03,QUEENS,Water System,1247
+2019,03,BROOKLYN,Water System,1055
+2019,03,BROOKLYN,General Construction/Plumbing,936
+2019,03,MANHATTAN,Street Light Condition,607
+2019,03,Unspecified,Noise - Residential,3
+2019,03,MANHATTAN,Street Condition,1479
+2019,03,Unspecified,Street Light Condition,66
+2019,03,STATEN ISLAND,Street Light Condition,435
+2019,04,STATEN ISLAND,Water System,143
+2019,04,BRONX,Traffic Signal Condition,210
+2019,04,BRONX,Blocked Driveway,986
+2019,04,MANHATTAN,Noise - Residential,2334
+2019,04,Unspecified,Blocked Driveway,1
+2019,04,QUEENS,Traffic Signal Condition,499
+2019,04,BRONX,General Construction/Plumbing,145
+2019,04,MANHATTAN,Water System,293
+2019,04,Unspecified,Noise - Residential,12
+2019,04,BROOKLYN,Traffic Signal Condition,580
+2019,04,MANHATTAN,Blocked Driveway,153
+2019,04,STATEN ISLAND,Street Light Condition,99
+2019,04,STATEN ISLAND,General Construction/Plumbing,76
+2019,04,BRONX,Water System,252
+2019,04,BRONX,Street Condition,281
+2019,04,STATEN ISLAND,Street Condition,432
+2019,04,MANHATTAN,General Construction/Plumbing,302
+2019,04,QUEENS,Noise - Residential,2289
+2019,04,BRONX,Noise - Residential,2431
+2019,04,STATEN ISLAND,Traffic Signal Condition,68
+2019,04,MANHATTAN,Street Light Condition,525
+2019,04,Unspecified,Street Light Condition,12
+2019,04,STATEN ISLAND,Noise - Residential,279
+2019,04,Unspecified,Traffic Signal Condition,21
+2019,04,BROOKLYN,Street Condition,916
+2019,04,QUEENS,General Construction/Plumbing,339
+2019,04,Unspecified,Street Condition,28
+2019,04,MANHATTAN,Street Condition,661
+2019,04,BRONX,Street Light Condition,856
+2019,04,BROOKLYN,General Construction/Plumbing,540
+2019,04,MANHATTAN,Traffic Signal Condition,417
+2019,04,BROOKLYN,Noise - Residential,2806
+2019,04,BROOKLYN,Water System,579
+2019,04,BROOKLYN,Street Light Condition,926
+2019,04,STATEN ISLAND,Blocked Driveway,168
+2019,04,BROOKLYN,Blocked Driveway,2323
+2019,04,QUEENS,Street Light Condition,823
+2019,04,QUEENS,Water System,572
+2019,04,QUEENS,Blocked Driveway,2275
+2019,04,QUEENS,Street Condition,1112
