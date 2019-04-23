@@ -242,7 +242,7 @@ class Analysis:
 def main():
     self = Analysis()
     # self.read_data()
-    # self.create_time_series_data()
+    # self.create_time_series_data_monthly()
     # self.time_series_analysis()
     # self.plot_service_data()
     # self.gioheatmap()

@@ -2,14 +2,16 @@ __author__ = 'bobo'
 import pandas as pd
 import numpy as np
 from geopy.geocoders import Nominatim
+from constants import Constants
 import json
 
 class Processor:
     def __init__(self):
+        self.const = Constants()
         self.f_raw_requests_per_month = 'data/RequestsPerMonth.csv'
         self.f_parsed_requests_per_month = 'data/ParsedRequestsPerMonth.csv'
 
-    def create_time_series_data(self):
+    def create_time_series_data_monthly(self):
         fin_raw_time_series_data = self.f_raw_requests_per_month
         fout_parsed_time_series_data = self.f_parsed_requests_per_month
 
@@ -63,7 +65,35 @@ class Processor:
                         # print("{}-{},{}".format(year, month, d_date[year][month]))
                         # print("{}-{},{}".format(year, month, d_date[year][month]), file=fout)
 
-        # TODO: convert the daily file ...
+    def create_time_series_data_daily(self):
+        # d Da,Cr,at,1
+        fin_raw_time_series_data = self.f_raw_requests_per_month
+        fout_parsed_time_series_data = self.f_parsed_requests_per_month
+
+        d_date = {}
+        min_year, max_year = 2020, 2000
+        for line in open(self.const.f_raw_time_series_daily, 'r'):
+            data = line.strip().split(',')
+            year, month, day, requests = int(data[0]), int(data[1]), int(data[2]), int(data[3])
+            # data = load(line.strip())
+            if year not in d_date:
+                d_date[year] = {month: {day: requests}}
+            else:
+                if month not in d_date[year]:
+                    d_date[year][month] = {day: requests}
+                else:
+                    d_date[year][month][day] = requests
+            min_year, max_year = min(min_year, year), max(max_year, year)
+
+        fout = open(self.const.f_parsed_time_series_daily, 'w')
+        for year in range(min_year, max_year, 1):
+            for month in range(1, 13, 1):
+                for day in range(1, 32, 1):
+                    if year in d_date and month in d_date[year] and day in d_date[year][month]:
+                        # print("{},{},{},{}".format(year, month, day, d_date[year][month][day]))
+                        # print("{},{},{},{}".format(year, month, day, d_date[year][month][day]), file=fout)
+                        print("{}-{}-{},{}".format(year, month, day, d_date[year][month][day]))
+                        print("{}-{}-{},{}".format(year, month, day, d_date[year][month][day]), file=fout)
 
     def geo_retriever(self):
         geolocator = Nominatim()
@@ -135,7 +165,8 @@ class Processor:
         # df.to_csv('data/RegressionData.csv', index=False)
 
         # Join daily data
-        df_weather = pd.read_csv('data/WeatherBoroughsFull.csv', delimiter=',')
+        # df_weather = pd.read_csv('data/WeatherBoroughsFull.csv', delimiter=',')
+        df_weather = pd.read_csv('data/Weather5BoroughsData.csv', delimiter=',')
         df_requests = pd.read_csv('data/RequestsPerBoroughPerDay.csv', delimiter=',')
         df_requests['Month'] = df_requests['Month'].astype(int)
         df = pd.merge(df_requests, df_weather, on=['Year', 'Month', 'Day', 'Borough'], how='inner')
@@ -144,24 +175,28 @@ class Processor:
         idx_features = ['MeanTemp','MinTemp','MaxTemp','DewPoint',
                         'Percipitation','WindSpeed','MaxSustainedWind','Gust','Rain',
                         'SnowDepth','SnowIce','Year','Month','Day', 'requests', 'Borough']
+
         for feature in idx_features:
             idx = [feature]
             misses = np.where(pd.isnull(df[idx]))
             print(feature, 1.0*len(misses[0])/df.shape[0])
+            if len(misses[0]) > 0:
+                df[idx] = df[idx].fillna(0)
 
-        df = df[idx_features].drop(columns=['DewPoint', 'Gust'])
-        # fill missing values
-        df['Percipitation'] = df['Percipitation'].fillna(0)
-        df['WindSpeed'] = df['WindSpeed'].fillna(0)
-        df['MaxSustainedWind'] = df['MaxSustainedWind'].fillna(0)
-        df['SnowDepth'] = df['SnowDepth'].fillna(0)
+        # # fill missing values
+        # df['Percipitation'] = df['Percipitation'].fillna(0)
+        # df['WindSpeed'] = df['WindSpeed'].fillna(0)
+        # df['SnowDepth'] = df['SnowDepth'].fillna(0)
+
+        # df['MaxSustainedWind'] = df['MaxSustainedWind'].fillna(0)
+
 
         # encode categorical feature
         df_borough = pd.get_dummies(df.Borough.astype('category'))
         df = df.drop(columns=['Borough', 'Year'])
         df = pd.concat([df, df_borough], axis=1)
 
-        df.to_csv('data/RegressionDailyData.csv', index=False)
+        df.to_csv('data/RegressionDailyData5BoroughsData.csv', index=False)
 
     def insert_col(self):
         df = pd.read_csv('data/manhattan.csv', delimiter=',')
@@ -190,7 +225,8 @@ def main():
     # self.geo_convert()
     # self.join_weather_requests()
     # self.geo_retriever()
-    self.insert_col()
+    # self.insert_col()
+    self.create_time_series_data_daily()
 
 
 if __name__ == '__main__':
