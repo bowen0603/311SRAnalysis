@@ -1,6 +1,8 @@
 __author__ = 'bobo'
 import pandas as pd
 import numpy as np
+from geopy.geocoders import Nominatim
+import json
 
 class Processor:
     def __init__(self):
@@ -63,11 +65,30 @@ class Processor:
 
         # TODO: convert the daily file ...
 
+    def geo_retriever(self):
+        geolocator = Nominatim()
+        file = 'data/weather_NY_2010_2018Nov.csv'
+
+        d_coor_addr = {}
+        for line in open(file, 'r'):
+            data = line.strip().split(',')
+            lat, long = data[4], data[5]
+            coor = "{}, {}".format(lat, long)
+            if coor not in d_coor_addr:
+                addr = str(geolocator.reverse(coor))
+                d_coor_addr[coor] = addr
+                print('{}, {}'.format(coor, addr))
+
+        fout = open('data/LatitudeLongitudeToAddress.json', 'w')
+        for coor in d_coor_addr.keys():
+            d_out = {'lat_long': coor, 'address': d_coor_addr[coor]}
+            print(json.dumps(d_out), file=fout)
+
+
     @staticmethod
     def geo_convert():
         file = 'data/weatherPerMonthLatLon.csv'
         # Latitude,Longitude,Year,Month,MeanTemp,WindSpeed,rain
-        from geopy.geocoders import Nominatim
         geolocator = Nominatim()
 
         fout = open('data/ParsedWeatherPerMonthLatLon.csv', 'w')
@@ -99,29 +120,77 @@ class Processor:
 
     def join_weather_requests(self):
         # Join monthly data ...
-        df_requests = pd.read_csv('data/RequestsPerBoroughOverTime.csv', delimiter=',')
+        # df_requests = pd.read_csv('data/RequestsPerBoroughOverTime.csv', delimiter=',')
+        # df_requests['Month'] = df_requests['Month'].astype(int)
+        # df_weather = pd.read_csv('data/ParsedWeatherPerMonthLatLon.csv', delimiter=',')
+        #
+        # df = pd.merge(df_requests, df_weather, on=['Borough', 'Year', 'Month'], how='inner')
+        # print(df.head(10))
+        #
+        # idx_X = ['Month', 'MANHATTAN', 'QUEENS', 'STATEN ISLAND', 'f1', 'f2', 'f3']
+        # misses = np.where(pd.isnull(df[idx_X]))
+        # df['f2'] = df['f2'].fillna(0)
+        #
+        # print(df_requests.shape, df_weather.shape, df.shape)
+        # df.to_csv('data/RegressionData.csv', index=False)
+
+        # Join daily data
+        df_weather = pd.read_csv('data/WeatherBoroughsFull.csv', delimiter=',')
+        df_requests = pd.read_csv('data/RequestsPerBoroughPerDay.csv', delimiter=',')
         df_requests['Month'] = df_requests['Month'].astype(int)
-        df_weather = pd.read_csv('data/ParsedWeatherPerMonthLatLon.csv', delimiter=',')
+        df = pd.merge(df_requests, df_weather, on=['Year', 'Month', 'Day', 'Borough'], how='inner')
+        # df.to_csv('data/RegressionDailyData.csv', index=False)  # 7390
 
-        df = pd.merge(df_requests, df_weather, on=['Borough', 'Year', 'Month'], how='inner')
-        print(df.head(10))
+        idx_features = ['MeanTemp','MinTemp','MaxTemp','DewPoint',
+                        'Percipitation','WindSpeed','MaxSustainedWind','Gust','Rain',
+                        'SnowDepth','SnowIce','Year','Month','Day', 'requests', 'Borough']
+        for feature in idx_features:
+            idx = [feature]
+            misses = np.where(pd.isnull(df[idx]))
+            print(feature, 1.0*len(misses[0])/df.shape[0])
 
-        # todo: missing values for each column ..
-        idx_X = ['Month', 'MANHATTAN', 'QUEENS', 'STATEN ISLAND', 'f1', 'f2', 'f3']
-        misses = np.where(pd.isnull(df[idx_X]))
-        # filling missing values for a particular column ..
-        df['f2'] = df['f2'].fillna(0)
+        df = df[idx_features].drop(columns=['DewPoint', 'Gust'])
+        # fill missing values
+        df['Percipitation'] = df['Percipitation'].fillna(0)
+        df['WindSpeed'] = df['WindSpeed'].fillna(0)
+        df['MaxSustainedWind'] = df['MaxSustainedWind'].fillna(0)
+        df['SnowDepth'] = df['SnowDepth'].fillna(0)
 
-        print(df_requests.shape, df_weather.shape, df.shape)
-        df.to_csv('data/RegressionData.csv', index=False)
+        # encode categorical feature
+        df_borough = pd.get_dummies(df.Borough.astype('category'))
+        df = df.drop(columns=['Borough', 'Year'])
+        df = pd.concat([df, df_borough], axis=1)
 
-        # TODO: Join daily data
+        df.to_csv('data/RegressionDailyData.csv', index=False)
+
+    def insert_col(self):
+        df = pd.read_csv('data/manhattan.csv', delimiter=',')
+        df['Borough'] = 'MANHATTAN'
+        df.to_csv('data/manhattan_full.csv', index=False)
+
+        df = pd.read_csv('data/staten island.csv', delimiter=',')
+        df['Borough'] = 'STATEN ISLAND'
+        df.to_csv('data/staten_island_full.csv', index=False)
+
+        df = pd.read_csv('data/queens.csv', delimiter=',')
+        df['Borough'] = 'QUEENS'
+        df.to_csv('data/queens_full.csv', index=False)
+
+        df = pd.read_csv('data/brooklyn.csv', delimiter=',')
+        df['Borough'] = 'BROOKLYN'
+        df.to_csv('data/brooklyn_full.csv', index=False)
+
+        df = pd.read_csv('data/bronx.csv', delimiter=',')
+        df['Borough'] = 'BRONX'
+        df.to_csv('data/bronx_full.csv', index=False)
 
 
 def main():
     self = Processor()
     # self.geo_convert()
-    self.join_weather_requests()
+    # self.join_weather_requests()
+    # self.geo_retriever()
+    self.insert_col()
 
 
 if __name__ == '__main__':

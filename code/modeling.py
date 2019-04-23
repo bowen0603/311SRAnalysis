@@ -11,49 +11,46 @@ from pandas import DataFrame
 from sklearn.metrics import mean_squared_error
 from sklearn import cross_validation as cv
 from sklearn.model_selection import cross_val_score
+from sklearn.metrics import make_scorer
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import LinearRegression
 
 class Modeling:
     def __init__(self):
-        self.n_folds = 3
+        self.n_folds = 5
         self.f_parsed_requests_per_month = 'data/ParsedRequestsOverTime.csv'
 
-    # TODO: regression model to predict monthly/daily requests
-    # data scaling, feature selection, PCA, etc (with full dataset)
+    # TODO: data scaling, feature selection, PCA, etc
     def regression_analysis(self):
-        # year info is not needed,
         # convert month & day to categorical
-        df = pd.read_csv('data/RegressionData.csv', delimiter=',')
+        df = pd.read_csv('data/RegressionDailyData.csv', delimiter=',')
+        df = df.drop(columns=['MinTemp', 'MaxTemp', 'MaxSustainedWind'])
         df['Month'] = df.Month.astype('category')
-        df_borough = pd.get_dummies(df.Borough.astype('category'))
-        df = pd.concat([df, df_borough], axis=1)
-
-        # todo: double check for the other two borough ... to create a dictionary ..
-        idx_X = ['Month', 'MANHATTAN', 'QUEENS', 'STATEN ISLAND', 'f1', 'f2', 'f3']
-        idx_y = ['requests']
-
-        df['f2'] = df['f2'].fillna(0)
+        df['Day'] = df.Day.astype('category')
 
         regressor = LinearRegression()
-        eva = cross_val_score(regressor, df[idx_X], df[idx_y], cv=5)  # R^2
+        eva = cross_val_score(regressor, df.loc[:, df.columns != 'requests'], df.loc[:, df.columns == 'requests'],
+                              cv=5)  # R^2
         print(eva)
+        mse = make_scorer(mean_squared_error)
+        eva = cross_val_score(regressor, df.loc[:, df.columns != 'requests'], df.loc[:, df.columns == 'requests'],
+                              cv=5, scoring=mse)
+        print(eva)
+        # R^2 [0.67927329 0.68152598 0.70665882 0.69121535 0.68096461]
+        # MSE: [89406.04691581 89661.77389583 80106.25388333 87323.91620207 86910.77663342]
 
         # todo: DT need some tuning ..
         regressor = DecisionTreeRegressor(random_state=0)
-        eva = cross_val_score(regressor, df[idx_X], df[idx_y], cv=5)  # R^2
+        eva = cross_val_score(regressor, df.loc[:, df.columns != 'requests'], df.loc[:, df.columns == 'requests'],
+                              cv=5)  # R^2
         print(eva)
+        eva = cross_val_score(regressor, df.loc[:, df.columns != 'requests'], df.loc[:, df.columns == 'requests'],
+                              cv=5, scoring=mse)
+        print(eva)
+        # R^2 [0.29121242 0.39687124 0.38564635 0.44500327 0.39355215]
+        # MSE: [197582.22209066 169802.21786198 167769.04533153 156952.3849797 165206.91813261]
 
-
-        # print(df[idx_X].head(5))
-        # print(df[idx_y].head(5))
-        # # cross validation
-        # for idx_train, idx_test in cv.KFold(df.shape[0], n_folds=self.n_folds):
-        #     X_train, X_test = df[idx_X].iloc[idx_train], df[idx_X].iloc[idx_test]
-        #     y_train, y_test = df[idx_y].iloc[idx_train], df[idx_y].iloc[idx_test]
-        #
-        #     print(X_train.head(5))
-
+    # TODO: borough level time series on day
     def time_series_analysis(self):
         series = read_csv(self.f_parsed_requests_per_month, header=0, parse_dates=[0], index_col=0, squeeze=True)
         # # # Overall trend

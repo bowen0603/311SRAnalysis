@@ -195,15 +195,47 @@ class Analysis:
             sns.heatmap(df, cmap=cmap,
                     square=True,
                     linewidth=.5, cbar_kws={"shrink": .5}, ax=ax)
+        plt.xticks(rotation=45)
+        plt.show()
+
+    @staticmethod
+    def missing_values():
+        df = pd.read_csv('data/weather_NY_2010_2018Nov.csv', delimiter=',')
+        for feature in df.columns:
+            idx = [feature]
+            misses = np.where(pd.isnull(df[idx]))
+            print(feature, 1.0 * len(misses[0]) / df.shape[0])
+
+    @staticmethod
+    def plot_histogram():
+        df = pd.read_csv('data/weather_NY_2010_2018Nov.csv', delimiter=',')
+        feature = ['Day', 'Month', 'Year', 'WindSpeed', 'SnowDepth', 'SnowIce', 'MaxSustainedWind',
+                   'Rain', 'MeanTemp', 'MinTemp', 'MaxTemp', 'Percipitation', 'Gust', 'DewPoint']
+        df_hist = df[feature]
+        df_hist.hist(figsize=(16, 20), bins=50, xlabelsize=8, ylabelsize=8)
+        plt.show()
+
+    @staticmethod
+    def visual_outliers():
+        df = pd.read_csv('data/RegressionDailyData.csv', delimiter=',')
+
+        features = ['Day', 'Month', 'WindSpeed', 'SnowDepth', 'SnowIce', 'Rain', 'MeanTemp', 'Percipitation', 'requests']
+        df = df[features]
+        for i in range(0, len(df.columns), 4):
+            print(i, i+4)
+            sns.pairplot(data=df,
+                         x_vars=df.columns[i:i + 4],
+                         y_vars=['requests'])
         plt.show()
 
     def correlation_analysis(self):
-        df_raw = pd.read_csv('data/RegressionData.csv', delimiter=',')
-        print(df_raw.head(5))
-        idx_cols = ['requests', 'f1', 'f2', 'f3', 'f4']
-        df = df_raw[idx_cols]
+        # df = pd.read_csv('data/RegressionDailyData.csv', delimiter=',')
+        df = pd.read_csv('data/weather_NY_2010_2018Nov.csv', delimiter=',')
         print(df.head(5))
-        self.corr_mtx(df, False)
+
+        feature = ['Day', 'Month', 'Year', 'WindSpeed', 'SnowDepth', 'SnowIce', 'MaxSustainedWind',
+                   'Rain', 'MeanTemp', 'MinTemp', 'MaxTemp', 'Percipitation', 'Gust', 'DewPoint']
+        self.corr_mtx(df[feature], True)
 
 
 
@@ -216,6 +248,8 @@ def main():
     # self.gioheatmap()
     # self.stats()
     self.correlation_analysis()
+    # self.visual_outliers()
+    # self.plot_histogram()
 
 
 if __name__ == '__main__':
