@@ -27,8 +27,8 @@ class Analysis:
         print("finished reading ... ")
         print(self.df_sr.groupby(['Location Type']).count())
 
-    def plot_service_data(self):
-
+    @staticmethod
+    def service_requests_analysis():
         ##########################################################################################
         print("One dimensional analysis")
         # # Request over time
@@ -69,31 +69,31 @@ class Analysis:
         # over complaint type over year
         # over complaint type over months
 
-        # # Requests per Complaint Type Over Years
-        # df = pd.read_csv('data/RequestsOverTimeOverAreaOverType.csv', delimiter=',')
-        # df_year = df.groupby(['Year', 'ComplaintType']).sum().reset_index()
-        # df_year.pivot(index='Year', columns='ComplaintType', values='requests').plot()
-        # plt.legend(loc='best')
-        # # plt.title(title='Requests Over Years', loc='center')
-        # plt.xlabel('Year')
-        # df_year.plot()
-        # plt.show()
-        #
-        # # Requests per Borough Over Months
-        # df_month = df.groupby(['Month', 'ComplaintType']).sum().reset_index()
-        # df_month.pivot(index='Month', columns='ComplaintType', values='requests').plot()
-        # plt.legend(loc='best')
-        # # plt.title(title='Requests Over Months', loc='center')
-        # plt.xlabel('Month')
-        # plt.show()
+        # Requests per Complaint Type Over Years
+        df = pd.read_csv('data/RequestsOverTimeOverAreaOverType.csv', delimiter=',')
+        df_year = df.groupby(['Year', 'ComplaintType']).sum().reset_index()
+        df_year.pivot(index='Year', columns='ComplaintType', values='requests').plot()
+        plt.legend(loc='best')
+        # plt.title(title='Requests Over Years', loc='center')
+        plt.xlabel('Year')
+        df_year.plot()
+        plt.show()
 
-        # # Requests per Borough per Complaint Type
-        # df = pd.read_csv('data/RequestsOverTimeOverAreaOverType.csv', delimiter=',')
-        # df_borough = df.groupby(['Borough', 'ComplaintType']).sum().reset_index()
-        # df_borough.pivot("Borough", "ComplaintType", "requests").plot(kind='bar')
-        # plt.legend(loc='best')
-        # plt.xticks(rotation=45)
-        # plt.show()
+        # Requests per Borough Over Months
+        df_month = df.groupby(['Month', 'ComplaintType']).sum().reset_index()
+        df_month.pivot(index='Month', columns='ComplaintType', values='requests').plot()
+        plt.legend(loc='best')
+        # plt.title(title='Requests Over Months', loc='center')
+        plt.xlabel('Month')
+        plt.show()
+
+        # Requests per Borough per Complaint Type
+        df = pd.read_csv('data/RequestsOverTimeOverAreaOverType.csv', delimiter=',')
+        df_borough = df.groupby(['Borough', 'ComplaintType']).sum().reset_index()
+        df_borough.pivot("Borough", "ComplaintType", "requests").plot(kind='bar')
+        plt.legend(loc='best')
+        plt.xticks(rotation=45)
+        plt.show()
 
         # # # Requests per Borough Over Time
         # df_time = pd.read_csv('data/RequestsPerBoroughOverTimeParsed.csv', delimiter=',')
@@ -244,10 +244,10 @@ def main():
     # self.read_data()
     # self.create_time_series_data_monthly()
     # self.time_series_analysis()
-    # self.plot_service_data()
+    self.service_requests_analysis()
     # self.gioheatmap()
     # self.stats()
-    self.correlation_analysis()
+    # self.correlation_analysis()
     # self.visual_outliers()
     # self.plot_histogram()
 

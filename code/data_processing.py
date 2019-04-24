@@ -11,7 +11,7 @@ class Processor:
         self.f_raw_requests_per_month = 'data/RequestsPerMonth.csv'
         self.f_parsed_requests_per_month = 'data/ParsedRequestsPerMonth.csv'
 
-    def create_time_series_data_monthly(self):
+    def create_time_series_data(self):
         fin_raw_time_series_data = self.f_raw_requests_per_month
         fout_parsed_time_series_data = self.f_parsed_requests_per_month
 
@@ -67,8 +67,6 @@ class Processor:
 
     def create_time_series_data_daily(self):
         # d Da,Cr,at,1
-        fin_raw_time_series_data = self.f_raw_requests_per_month
-        fout_parsed_time_series_data = self.f_parsed_requests_per_month
 
         d_date = {}
         min_year, max_year = 2020, 2000
@@ -90,10 +88,28 @@ class Processor:
             for month in range(1, 13, 1):
                 for day in range(1, 32, 1):
                     if year in d_date and month in d_date[year] and day in d_date[year][month]:
-                        # print("{},{},{},{}".format(year, month, day, d_date[year][month][day]))
-                        # print("{},{},{},{}".format(year, month, day, d_date[year][month][day]), file=fout)
                         print("{}-{}-{},{}".format(year, month, day, d_date[year][month][day]))
                         print("{}-{}-{},{}".format(year, month, day, d_date[year][month][day]), file=fout)
+
+    def create_time_series_data_monthly(self):
+        d_date = {}
+        min_year, max_year = 2020, 2000
+        for line in open(self.const.f_raw_time_series_monthly, 'r'):
+            data = line.strip().split(',')
+            year, month, requests = int(data[0]), int(data[1]), int(data[2])
+            # data = load(line.strip())
+            if year not in d_date:
+                d_date[year] = {month: requests}
+            else:
+                d_date[year][month] = requests
+            min_year, max_year = min(min_year, year), max(max_year, year)
+
+        fout = open(self.const.f_parsed_time_series_monthly, 'w')
+        for year in range(min_year, max_year, 1):
+            for month in range(1, 13, 1):
+                if year in d_date and month in d_date[year]:
+                    print("{}-{},{}".format(year, month, d_date[year][month]))
+                    print("{}-{},{}".format(year, month, d_date[year][month]), file=fout)
 
     def geo_retriever(self):
         geolocator = Nominatim()
@@ -226,6 +242,7 @@ def main():
     # self.join_weather_requests()
     # self.geo_retriever()
     # self.insert_col()
+    # self.create_time_series_data_monthly()
     self.create_time_series_data_daily()
 
 
