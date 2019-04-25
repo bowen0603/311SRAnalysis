@@ -15,30 +15,32 @@ class Processor:
         fin_raw_time_series_data = self.f_raw_requests_per_month
         fout_parsed_time_series_data = self.f_parsed_requests_per_month
 
-        # d_date = {}
-        # min_year, max_year = 2020, 2000
-        # for line in open(fin_raw_time_series_data, 'r'):
-        #     data = line.strip().split(',')
-        #     year, month, requests = int(data[0]), int(data[1]), int(data[2])
-        #     # data = load(line.strip())
-        #     if year not in d_date:
-        #         d_date[year] = {month: requests}
-        #     else:
-        #         d_date[year][month] = requests
-        #     min_year, max_year = min(min_year, year), max(max_year, year)
-        #
-        # fout = open(fout_parsed_time_series_data, 'w')
-        # for year in range(min_year, max_year, 1):
-        #     for month in range(1, 13, 1):
-        #         if year in d_date and month in d_date[year]:
-        #             print("{},{},{}".format(year, month, d_date[year][month]))
-        #             print("{},{},{}".format(year, month, d_date[year][month]), file=fout)
-        #             # print("{}-{},{}".format(year, month, d_date[year][month]))
-        #             # print("{}-{},{}".format(year, month, d_date[year][month]), file=fout)
+        # Requests per month
+        d_date = {}
+        min_year, max_year = 2020, 2000
+        for line in open(fin_raw_time_series_data, 'r'):
+            data = line.strip().split(',')
+            year, month, requests = int(data[0]), int(data[1]), int(data[2])
+            # data = load(line.strip())
+            if year not in d_date:
+                d_date[year] = {month: requests}
+            else:
+                d_date[year][month] = requests
+            min_year, max_year = min(min_year, year), max(max_year, year)
+
+        fout = open(fout_parsed_time_series_data, 'w')
+        for year in range(min_year, max_year, 1):
+            for month in range(1, 13, 1):
+                if year in d_date and month in d_date[year]:
+                    print("{},{},{}".format(year, month, d_date[year][month]))
+                    print("{},{},{}".format(year, month, d_date[year][month]), file=fout)
+                    # print("{}-{},{}".format(year, month, d_date[year][month]))
+                    # print("{}-{},{}".format(year, month, d_date[year][month]), file=fout)
 
         fin_raw_time_series_data = 'data/RequestsPerBoroughOverTime.csv'
         fout_parsed_time_series_data = 'data/RequestsPerBoroughOverTimeParsed.csv'
 
+        # Requests per month per borough
         d_date = {}
         min_year, max_year = 2020, 2000
         for line in open(fin_raw_time_series_data, 'r'):
@@ -113,10 +115,9 @@ class Processor:
 
     def geo_retriever(self):
         geolocator = Nominatim()
-        file = 'data/weather_NY_2010_2018Nov.csv'
 
         d_coor_addr = {}
-        for line in open(file, 'r'):
+        for line in open(self.const.f_data_weather, 'r'):
             data = line.strip().split(',')
             lat, long = data[4], data[5]
             coor = "{}, {}".format(lat, long)
@@ -166,19 +167,19 @@ class Processor:
 
     def join_weather_requests(self):
         # Join monthly data ...
-        # df_requests = pd.read_csv('data/RequestsPerBoroughOverTime.csv', delimiter=',')
-        # df_requests['Month'] = df_requests['Month'].astype(int)
-        # df_weather = pd.read_csv('data/ParsedWeatherPerMonthLatLon.csv', delimiter=',')
-        #
-        # df = pd.merge(df_requests, df_weather, on=['Borough', 'Year', 'Month'], how='inner')
-        # print(df.head(10))
-        #
-        # idx_X = ['Month', 'MANHATTAN', 'QUEENS', 'STATEN ISLAND', 'f1', 'f2', 'f3']
-        # misses = np.where(pd.isnull(df[idx_X]))
-        # df['f2'] = df['f2'].fillna(0)
-        #
-        # print(df_requests.shape, df_weather.shape, df.shape)
-        # df.to_csv('data/RegressionData.csv', index=False)
+        df_requests = pd.read_csv('data/RequestsPerBoroughOverTime.csv', delimiter=',')
+        df_requests['Month'] = df_requests['Month'].astype(int)
+        df_weather = pd.read_csv('data/ParsedWeatherPerMonthLatLon.csv', delimiter=',')
+
+        df = pd.merge(df_requests, df_weather, on=['Borough', 'Year', 'Month'], how='inner')
+        print(df.head(10))
+
+        idx_X = ['Month', 'MANHATTAN', 'QUEENS', 'STATEN ISLAND', 'f1', 'f2', 'f3']
+        misses = np.where(pd.isnull(df[idx_X]))
+        df['f2'] = df['f2'].fillna(0)
+
+        print(df_requests.shape, df_weather.shape, df.shape)
+        df.to_csv('data/RegressionData.csv', index=False)
 
         # Join daily data
         # df_weather = pd.read_csv('data/WeatherBoroughsFull.csv', delimiter=',')
@@ -186,7 +187,6 @@ class Processor:
         df_requests = pd.read_csv('data/RequestsPerBoroughPerDay.csv', delimiter=',')
         df_requests['Month'] = df_requests['Month'].astype(int)
         df = pd.merge(df_requests, df_weather, on=['Year', 'Month', 'Day', 'Borough'], how='inner')
-        # df.to_csv('data/RegressionDailyData.csv', index=False)  # 7390
 
         idx_features = ['MeanTemp','MinTemp','MaxTemp','DewPoint',
                         'Percipitation','WindSpeed','MaxSustainedWind','Gust','Rain',
@@ -205,14 +205,12 @@ class Processor:
         # df['SnowDepth'] = df['SnowDepth'].fillna(0)
 
         # df['MaxSustainedWind'] = df['MaxSustainedWind'].fillna(0)
-
-
         # encode categorical feature
         df_borough = pd.get_dummies(df.Borough.astype('category'))
         df = df.drop(columns=['Borough', 'Year'])
         df = pd.concat([df, df_borough], axis=1)
 
-        df.to_csv('data/RegressionDailyData5BoroughsData.csv', index=False)
+        df.to_csv(self.const.f_regression_data, index=False)
 
     def insert_col(self):
         df = pd.read_csv('data/manhattan.csv', delimiter=',')
@@ -238,11 +236,11 @@ class Processor:
 
 def main():
     self = Processor()
-    # self.geo_convert()
-    # self.join_weather_requests()
-    # self.geo_retriever()
-    # self.insert_col()
-    # self.create_time_series_data_monthly()
+    self.geo_convert()
+    self.join_weather_requests()
+    self.geo_retriever()
+    self.insert_col()
+    self.create_time_series_data_monthly()
     self.create_time_series_data_daily()
 
 

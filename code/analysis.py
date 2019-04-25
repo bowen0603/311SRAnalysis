@@ -1,80 +1,70 @@
 __author__ = 'bobo'
 
 import numpy as np
-import pandas as pd
-
-from pandas import read_csv
-from matplotlib import pyplot
 import matplotlib.pyplot as plt
-from pandas import DataFrame
 import seaborn as sns
+import pandas as pd
+import folium
+from folium.plugins import HeatMap
+import geopandas as gpd
+from constants import Constants
+
 
 class Analysis:
     def __init__(self):
-        self.file_sr = 'data/311_Service_Requests_from_2010_to_Present.csv'
-        self.file_weather = 'data/weather_NY_2010_2018Nov.csv'
+
+        self.const = Constants()
+
         self.f_raw_requests_per_day = 'data/RequestsPerDay.csv'
         self.f_parsed_requests_per_day = 'data/ParsedRequestsPerDay.csv'
         self.f_raw_requests_per_month = 'data/RequestsPerMonth.csv'
         self.f_parsed_requests_per_month = 'data/ParsedRequestsPerMonth.csv'
         self.f_parsed_requests_per_month = 'data/ParsedRequestsOverTime.csv'
-        self.df_sr = None
-        self.df_weather = None
 
-    def read_data(self):
-        self.df_sr = pd.read_csv(self.file_sr, delimiter=',')
-        # self.df_weather = pd.read_csv(self.file_weather, delimiter = ',')
-        print("finished reading ... ")
-        print(self.df_sr.groupby(['Location Type']).count())
-
-    @staticmethod
-    def service_requests_analysis():
+    def service_requests_analysis(self):
         ##########################################################################################
         print("One dimensional analysis")
-        # # Request over time
-        # df = pd.read_csv(self.f_parsed_requests_per_month, delimiter=',')
-        # df.plot.line(x='date', y='requests', title='Service Requests over Time', marker='o')
-        # plt.show()
+        # Request over time
+        df = pd.read_csv(self.f_parsed_requests_per_month, delimiter=',')
+        df.plot.line(x='date', y='requests', title='Service Requests over Time', marker='o')
+        plt.show()
 
-        # # Complaint type bar chart => Probably better to just use list and categorization
-        # df = pd.read_csv('data/complainTypeSort.csv', delimiter=',')
-        # topN = 20
-        # df = df.head(topN)
-        # df.plot.bar(x='ComplaintType', y='requests', title='Top {} Complaint Type Distribution'.format(topN), rot=0)
-        # plt.xticks(rotation=45)
-        # plt.show()
+        # Complaint type bar chart => Probably better to just use list and categorization
+        df = pd.read_csv('data/complainTypeSort.csv', delimiter=',')
+        topN = 20
+        df = df.head(topN)
+        df.plot.bar(x='ComplaintType', y='requests', title='Top {} Complaint Type Distribution'.format(topN), rot=0)
+        plt.xticks(rotation=45)
+        plt.show()
 
         # location/Borough bar chart
-        # df = pd.read_csv('data/RequestsPerBorough.csv', delimiter=',')
-        # df.set_index('Borough')
-        # df.plot.pie(y='requests', autopct='%.2f', labels=df['Borough'])
-        # plt.legend(loc='best')
-        # plt.show()
+        df = pd.read_csv('data/RequestsPerBorough.csv', delimiter=',')
+        df.set_index('Borough')
+        df.plot.pie(y='requests', autopct='%.2f', labels=df['Borough'])
+        plt.legend(loc='best')
+        plt.show()
 
-        # # over year bar chart
-        # df = pd.read_csv(self.f_parsed_requests_per_month, delimiter=',')
-        # df_year = df.groupby('year').sum()
-        # df_year.reset_index().plot.line(x=df_year.index, y='requests', title='Requests Over Years', marker='o')
-        # plt.xlabel('year')
-        # plt.show()
-        #
-        # # over month bar chart
-        # df_month = df.groupby('month').sum()
-        # df_month.reset_index().plot.line(x=df_month.index, y='requests', title='Requests Over Months', marker='o')
-        # plt.xlabel('month')
-        # plt.show()
+        # over year bar chart
+        df = pd.read_csv(self.f_parsed_requests_per_month, delimiter=',')
+        df_year = df.groupby('year').sum()
+        df_year.reset_index().plot.line(x=df_year.index, y='requests', title='Requests Over Years', marker='o')
+        plt.xlabel('year')
+        plt.show()
+
+        # over month bar chart
+        df_month = df.groupby('month').sum()
+        df_month.reset_index().plot.line(x=df_month.index, y='requests', title='Requests Over Months', marker='o')
+        plt.xlabel('month')
+        plt.show()
 
         ##########################################################################################
         print("Two dimensional analysis")
-        # over complaint type over year
-        # over complaint type over months
 
         # Requests per Complaint Type Over Years
         df = pd.read_csv('data/RequestsOverTimeOverAreaOverType.csv', delimiter=',')
         df_year = df.groupby(['Year', 'ComplaintType']).sum().reset_index()
         df_year.pivot(index='Year', columns='ComplaintType', values='requests').plot()
         plt.legend(loc='best')
-        # plt.title(title='Requests Over Years', loc='center')
         plt.xlabel('Year')
         df_year.plot()
         plt.show()
@@ -83,7 +73,6 @@ class Analysis:
         df_month = df.groupby(['Month', 'ComplaintType']).sum().reset_index()
         df_month.pivot(index='Month', columns='ComplaintType', values='requests').plot()
         plt.legend(loc='best')
-        # plt.title(title='Requests Over Months', loc='center')
         plt.xlabel('Month')
         plt.show()
 
@@ -95,54 +84,49 @@ class Analysis:
         plt.xticks(rotation=45)
         plt.show()
 
-        # # # Requests per Borough Over Time
-        # df_time = pd.read_csv('data/RequestsPerBoroughOverTimeParsed.csv', delimiter=',')
-        # df_time.pivot(index='Time', columns='Borough', values='requests').plot()
-        # plt.legend(loc='best')
-        # plt.xlabel('Time')
-        # plt.show()
+        # # Requests per Borough Over Time
+        df_time = pd.read_csv('data/RequestsPerBoroughOverTimeParsed.csv', delimiter=',')
+        df_time.pivot(index='Time', columns='Borough', values='requests').plot()
+        plt.legend(loc='best')
+        plt.xlabel('Time')
+        plt.show()
 
-        # # Requests per Borough Over Years
-        # df = pd.read_csv('data/RequestsPerBoroughOverTime.csv', delimiter=',')
-        # df_year = df.groupby(['Year', 'Borough']).sum().reset_index()
-        # df_year.reset_index().plot.line(x=df_year.index, y='requests', title='Requests Over Years')
-        # df_year.pivot(index='Year', columns='Borough', values='requests').plot()
-        # plt.legend(loc='best')
-        # plt.xlabel('Year')
-        # df_year.plot()
-        # plt.show()
+        # Requests per Borough Over Years
+        df = pd.read_csv('data/RequestsPerBoroughOverTime.csv', delimiter=',')
+        df_year = df.groupby(['Year', 'Borough']).sum().reset_index()
+        df_year.reset_index().plot.line(x=df_year.index, y='requests', title='Requests Over Years')
+        df_year.pivot(index='Year', columns='Borough', values='requests').plot()
+        plt.legend(loc='best')
+        plt.xlabel('Year')
+        df_year.plot()
+        plt.show()
 
-        # # Requests per Borough Over Months
-        # df_month = df.groupby(['Month', 'Borough']).sum().reset_index()
-        # df_month.pivot(index='Month', columns='Borough', values='requests').plot()
-        # plt.legend(loc='best')
-        # plt.xlabel('Month')
-        # plt.show()
-
-        # TODO: 3D
-        ##########################################################################################
-        print("Two dimensional analysis")
-        # complaint tyoe in location over time (gif)
+        # Requests per Borough Over Months
+        df_month = df.groupby(['Month', 'Borough']).sum().reset_index()
+        df_month.pivot(index='Month', columns='Borough', values='requests').plot()
+        plt.legend(loc='best')
+        plt.xlabel('Month')
+        plt.show()
 
     def gioheatmap(self):
-        from ipyleaflet import Map, Heatmap
-        from random import uniform
-        m = Map(center=(0, 0), zoom=2)
+        congr_districts = gpd.read_file('zip://' + 'cb_2015_us_cd114_20m.zip')
+        congr_districts.crs = {'datum': 'NAD83', 'ellps': 'GRS80', 'proj': 'longlat', 'no_defs': True}
 
-        heatmap = Heatmap(
-            locations=[[uniform(-80, 80), uniform(-180, 180), uniform(0, 1000)] for i in range(1000)],
-            radius=20
-        )
+        district23 = congr_districts[congr_districts.GEOID == '3623']  # 36 = NY, 23 = District
+        # convert it to the projection of our folium openstreetmap
+        district23 = district23.to_crs({'init': 'epsg:3857'})
 
-        m.add_layer(heatmap)
-        print(type(m))
-        m
+        for_map = pd.read_csv('data/blockDriveWay.csv', delimiter=',').dropna()
+        max_amount = float(for_map['requests'].max())
 
-    def plot_weather_data(self):
-        # TODO
-        # changes over time
-        # correlation among each attributes
-        pass
+        hmap = folium.Map(location=[40.7308268, -73.9995207], zoom_start=7)
+
+        hm_wide = HeatMap(list(zip(for_map.Latitude.values, for_map.Longitude.values, for_map.requests.values)),
+                          min_opacity=0.2, max_val=max_amount, radius=17, blur=15,max_zoom=1)
+
+        folium.GeoJson(district23).add_to(hmap)
+        hmap.add_child(hm_wide)
+        hmap.save('heatmap.html')
 
     def stats(self):
         df = pd.read_csv('data/ResolutionDescriptionCounts.csv', delimiter=',')
@@ -151,25 +135,6 @@ class Analysis:
     def corr_mtx(self, df, dropDuplicates=True):
 
         # Compute the correlation matrix
-        # corr = df.corr()
-
-        # # Generate a mask for the upper triangle
-        # mask = np.zeros_like(corr, dtype=np.bool)
-        # mask[np.triu_indices_from(mask)] = True
-        #
-        # # Set up the matplotlib figure
-        # f, ax = plt.subplots(figsize=(11, 9))
-        #
-        # # Generate a custom diverging colormap
-        # cmap = sns.diverging_palette(220, 10, as_cmap=True)
-        #
-        # # Draw the heatmap with the mask and correct aspect ratio
-        # sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
-        #             square=True, linewidths=.5, cbar_kws={"shrink": .5})
-
-        # Your dataset is already a correlation matrix.
-        # If you have a dateset where you need to include the calculation
-        # of a correlation matrix, just uncomment the line below:
         df = df.corr()
 
         # Exclude duplicate correlations by masking uper right values
@@ -188,27 +153,21 @@ class Analysis:
 
         # Draw correlation plot with or without duplicates
         if dropDuplicates:
-            sns.heatmap(df, mask=mask, cmap=cmap,
-                    square=True,
-                    linewidth=.5, cbar_kws={"shrink": .5}, ax=ax)
+            sns.heatmap(df, mask=mask, cmap=cmap, square=True, linewidth=.5, cbar_kws={"shrink": .5}, ax=ax)
         else:
-            sns.heatmap(df, cmap=cmap,
-                    square=True,
-                    linewidth=.5, cbar_kws={"shrink": .5}, ax=ax)
+            sns.heatmap(df, cmap=cmap, square=True, linewidth=.5, cbar_kws={"shrink": .5}, ax=ax)
         plt.xticks(rotation=45)
         plt.show()
 
-    @staticmethod
-    def missing_values():
-        df = pd.read_csv('data/weather_NY_2010_2018Nov.csv', delimiter=',')
+    def missing_values(self):
+        df = pd.read_csv(self.const.f_data_weather, delimiter=',')
         for feature in df.columns:
             idx = [feature]
             misses = np.where(pd.isnull(df[idx]))
             print(feature, 1.0 * len(misses[0]) / df.shape[0])
 
-    @staticmethod
-    def plot_histogram():
-        df = pd.read_csv('data/weather_NY_2010_2018Nov.csv', delimiter=',')
+    def plot_histogram(self):
+        df = pd.read_csv(self.const.f_data_weather, delimiter=',')
         feature = ['Day', 'Month', 'Year', 'WindSpeed', 'SnowDepth', 'SnowIce', 'MaxSustainedWind',
                    'Rain', 'MeanTemp', 'MinTemp', 'MaxTemp', 'Percipitation', 'Gust', 'DewPoint']
         df_hist = df[feature]
@@ -219,7 +178,7 @@ class Analysis:
     def visual_outliers():
         df = pd.read_csv('data/RegressionDailyData.csv', delimiter=',')
 
-        features = ['Day', 'Month', 'WindSpeed', 'SnowDepth', 'SnowIce', 'Rain', 'MeanTemp', 'Percipitation', 'requests']
+        features = ['Day', 'Month', 'WindSpeed', 'SnowIce', 'Rain', 'MeanTemp', 'Percipitation', 'requests']
         df = df[features]
         for i in range(0, len(df.columns), 4):
             print(i, i+4)
@@ -229,27 +188,22 @@ class Analysis:
         plt.show()
 
     def correlation_analysis(self):
-        # df = pd.read_csv('data/RegressionDailyData.csv', delimiter=',')
-        df = pd.read_csv('data/weather_NY_2010_2018Nov.csv', delimiter=',')
+        df = pd.read_csv(self.const.f_data_regression, delimiter=',')
         print(df.head(5))
 
-        feature = ['Day', 'Month', 'Year', 'WindSpeed', 'SnowDepth', 'SnowIce', 'MaxSustainedWind',
-                   'Rain', 'MeanTemp', 'MinTemp', 'MaxTemp', 'Percipitation', 'Gust', 'DewPoint']
+        feature = ['Day', 'Month', 'WindSpeed', 'SnowIce', 'Rain', 'MeanTemp',
+                    'Percipitation', 'BRONX', 'BROOKLYN', 'MANHATTAN', 'QUEENS', 'STATEN ISLAND', 'requests']
         self.corr_mtx(df[feature], True)
-
 
 
 def main():
     self = Analysis()
-    # self.read_data()
-    # self.create_time_series_data_monthly()
-    # self.time_series_analysis()
     self.service_requests_analysis()
-    # self.gioheatmap()
-    # self.stats()
-    # self.correlation_analysis()
-    # self.visual_outliers()
-    # self.plot_histogram()
+    self.gioheatmap()
+    self.stats()
+    self.correlation_analysis()
+    self.visual_outliers()
+    self.plot_histogram()
 
 
 if __name__ == '__main__':
