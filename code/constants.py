@@ -5,7 +5,7 @@ class Constants:
     def __init__(self):
 
         self.f_data_weather = 'data/weather_NY_2010_2018Nov.csv'
-        self.f_data_regression = 'data/RegressionDailyData5BoroughsData.csv'
+        self.f_regression_data = 'data/RegressionDailyData5BoroughsData.csv'
 
         self.f_raw_time_series_daily = 'data/RequestsPerDay.csv'
         self.f_parsed_time_series_daily = 'data/ParsedRequestsPerDay.csv'
